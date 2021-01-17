@@ -1,0 +1,7 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.header {
+  font-family: $font-family--primary;
+  font-size: space(12);
+}
