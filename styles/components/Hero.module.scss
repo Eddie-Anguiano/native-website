@@ -1,0 +1,15 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.Hero {
+  height: rem(700px);
+  background-color: $color--light-gray;
+}
+
+.header {
+  padding: space(15) 0 space(4) 0;
+}
+
+.content {
+  width: space(50);
+}
