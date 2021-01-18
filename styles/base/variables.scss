@@ -28,6 +28,9 @@ $word-spacing--base: 3px;
 
 $color--white: #fff;
 $color--black: rgb(44, 44, 44);
+$color--dark-gray: #80828a;
+$color--gray: #c4c6cc;
+$color--light-gray: #d9dbe1;
 
 /*-------------------------------*/
 /* IMAGE PATH */
@@ -39,16 +42,7 @@ $img-path: "../images";
 /* BORDER RADIUS */
 /*-------------------------------*/
 
-// $border-radius--small: 4px;
-
-/*-------------------------------*/
-/* SPACING */
-/*-------------------------------*/
-
-// $spacing--xtra-small: 15px;
-// $spacing--small: 25px;
-// $spacing--large: 80px;
-// $spacing--cta-btn: 15px 25px;
+$border-radius--small: 4px;
 
 /*-------------------------------*/
 /* Z-INDEX */

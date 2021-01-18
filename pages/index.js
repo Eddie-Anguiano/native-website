@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/pages/Home.module.scss";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className={styles.header}>header</h1>
+      <Header />
     </div>
   );
 }
