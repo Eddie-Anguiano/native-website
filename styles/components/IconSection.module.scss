@@ -1,0 +1,19 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.IconSection {
+  background-color: $color--dark-gray;
+  padding: space(8);
+  margin-top: space(-15);
+  height: 600px;
+  border-radius: $border-radius--small;
+  color: $color--white;
+}
+
+.content {
+  max-width: space(50);
+  padding: space(2) 0 space(4) 0;
+}
+
+.cards__container {
+}
