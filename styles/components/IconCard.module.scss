@@ -1,0 +1,20 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.IconCard {
+  background-color: $color--gray;
+  border-radius: $border-radius--small;
+  padding: space(4);
+  text-align: center;
+}
+
+.icon {
+  height: 53px;
+  width: 53px;
+  margin-bottom: space(2);
+}
+
+.content {
+  font-family: $font-family--primary;
+  font-weight: bold;
+}

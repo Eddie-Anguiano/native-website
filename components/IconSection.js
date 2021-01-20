@@ -1,6 +1,7 @@
-import React from "react";
 import Wrapper from "./Wrapper";
 import styles from "../styles/components/IconSection.module.scss";
+import Image from "next/image";
+import IconCard from "./IconCard";
 
 export default function IconSection() {
   return (
@@ -13,7 +14,20 @@ export default function IconSection() {
           the Los Cerritos Wetlands Restoration and Oil Consolidation Project.
         </p>
         <h3>What we fight for...</h3>
-        <div className={styles.cards__container}></div>
+        <div className={styles.cards__container}>
+          <IconCard
+            icon="/icons/oil-icon.svg"
+            content="An end to Los Cerritos Wetland Oil Drilling"
+          />
+          <IconCard
+            icon="/icons/bird-icon.svg"
+            content="Preserve local land, waters, and wildlife"
+          />
+          <IconCard
+            icon="/icons/native-icon.svg"
+            content="Protect tribal cultural landscape"
+          />
+        </div>
       </div>
     </Wrapper>
   );
