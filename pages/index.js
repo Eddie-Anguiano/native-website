@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import IconSection from "../components/IconSection";
 import InfoSection from "../components/InfoSection";
+import Wrapper from "../components/Wrapper";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+
       <section className={styles.mud}>
         <IconSection />
         <InfoSection
@@ -24,6 +26,7 @@ export default function Home() {
           image="/images/placeholder.jpg"
         />
       </section>
+
       <section className={styles.nativeSection}>
         <InfoSection
           header="Tongva coastal communities of Puvunga and Motuucheyngna"
@@ -33,6 +36,7 @@ export default function Home() {
           image="/images/placeholder.jpg"
         />
       </section>
+
       <section className={styles.oilSection}>
         <InfoSection
           header="So what exactly is the Los Cerritos Wetlands Restoration and Oil Consolidation Project?"
@@ -41,21 +45,28 @@ export default function Home() {
           contentOrder="-1"
         />
       </section>
+
       <section className={styles.actionSection}>
-        <h2 className={styles.actionSection__header}>
-          By taking action you can make a difference!
-        </h2>
-        <p className={styles.actionSection__content}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          sociis mi tincidunt sed. Mi laoreet morbi senectus eget tortor congue
-          aliquet cursus neque. Etiam pulvinar et integer eget purus. Nisl
-          aliquet ultricies sed pharetra turpis consectetur curabitur ac
-          scelerisque.
-        </p>
-        <div className={styles.actionSection__buttonContainer}>
-          <div className={styles.actionSection__learnButton}>Learn More</div>
-          <div className={styles.actionSection__donateButton}>Donate</div>
-        </div>
+        <Wrapper>
+          <div className={styles.actionSection__container}>
+            <h2 className={styles.actionSection__header}>
+              By taking action you can make a difference!
+            </h2>
+            <p className={styles.actionSection__content}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              sociis mi tincidunt sed. Mi laoreet morbi senectus eget tortor
+              congue aliquet cursus neque. Etiam pulvinar et integer eget purus.
+              Nisl aliquet ultricies sed pharetra turpis consectetur curabitur
+              ac scelerisque.
+            </p>
+            <div className={styles.actionSection__buttonContainer}>
+              <div className={styles.actionSection__learnButton}>
+                Learn More
+              </div>
+              <div className={styles.actionSection__donateButton}>Donate</div>
+            </div>
+          </div>
+        </Wrapper>
       </section>
     </div>
   );
