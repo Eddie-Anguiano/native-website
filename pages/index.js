@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <div className={styles.mud}>
+      <section className={styles.mud}>
         <IconSection />
         <InfoSection
           header="Conserving the lands and waters on which life depends"
@@ -23,8 +23,8 @@ export default function Home() {
           contentOrder="-1"
           image="/images/placeholder.jpg"
         />
-      </div>
-      <div className={styles.nativeSection}>
+      </section>
+      <section className={styles.nativeSection}>
         <InfoSection
           header="Tongva coastal communities of Puvunga and Motuucheyngna"
           subheader="Stewards of the land"
@@ -32,15 +32,31 @@ export default function Home() {
           contentOrder="2"
           image="/images/placeholder.jpg"
         />
-      </div>
-      <div className={styles.oilSection}>
+      </section>
+      <section className={styles.oilSection}>
         <InfoSection
           header="So what exactly is the Los Cerritos Wetlands Restoration and Oil Consolidation Project?"
           subheader="Big Oil"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
           contentOrder="-1"
         />
-      </div>
+      </section>
+      <section className={styles.actionSection}>
+        <h2 className={styles.actionSection__header}>
+          By taking action you can make a difference!
+        </h2>
+        <p className={styles.actionSection__content}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          sociis mi tincidunt sed. Mi laoreet morbi senectus eget tortor congue
+          aliquet cursus neque. Etiam pulvinar et integer eget purus. Nisl
+          aliquet ultricies sed pharetra turpis consectetur curabitur ac
+          scelerisque.
+        </p>
+        <div className={styles.actionSection__buttonContainer}>
+          <div className={styles.actionSection__learnButton}>Learn More</div>
+          <div className={styles.actionSection__donateButton}>Donate</div>
+        </div>
+      </section>
     </div>
   );
 }
