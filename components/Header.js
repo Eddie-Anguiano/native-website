@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "./Wrapper.js";
 import styles from "../styles/components/Header.module.scss";
 

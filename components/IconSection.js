@@ -1,6 +1,5 @@
 import Wrapper from "./Wrapper";
 import styles from "../styles/components/IconSection.module.scss";
-import Image from "next/image";
 import IconCard from "./IconCard";
 
 export default function IconSection() {

@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import IconSection from "../components/IconSection";
 import InfoSection from "../components/InfoSection";
 import Wrapper from "../components/Wrapper";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -68,6 +69,8 @@ export default function Home() {
           </div>
         </Wrapper>
       </section>
+
+      <Footer />
     </div>
   );
 }

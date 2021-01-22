@@ -1,0 +1,30 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.Footer {
+  background-color: $color--black;
+  color: $color--white;
+  padding: space(16) 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header {
+  font-family: $font-family--primary;
+  font-weight: bold;
+  margin-bottom: space(1);
+}
+
+.linkSection {
+  justify-self: center;
+}
+
+.list > li {
+  font-family: $font-family--primary;
+  font-size: rem(16px);
+  list-style-type: disc;
+  margin-left: space(2);
+}
