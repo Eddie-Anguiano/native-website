@@ -10,7 +10,9 @@ export default function Footer() {
             <div className={styles.header}>
               Puvugna Wetlands Protectors &#169;
             </div>
-            <div>facebook</div>
+            <div className={styles.social}>
+              <img src="/icons/facebook.svg" alt="" />
+            </div>
           </div>
           <div className={styles.linkSection}>
             <div className={styles.header}>Links</div>

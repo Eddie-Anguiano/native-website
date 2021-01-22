@@ -18,6 +18,16 @@
   margin-bottom: space(1);
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: rem(50px);
+  width: rem(50px);
+  background-color: $color--gray;
+  border-radius: 100px;
+}
+
 .linkSection {
   justify-self: center;
 }
