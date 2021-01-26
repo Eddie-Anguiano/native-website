@@ -2,11 +2,12 @@
 @import "../base/helpers.scss";
 
 .IconCard {
-  background-color: $color--gray;
   border-radius: $border-radius--small;
   padding: space(4);
   text-align: center;
   border-radius: $border-radius--small;
+  background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
+  box-shadow: 0px 8px 12px -2px rgba(0, 0, 0, 0.25);
 }
 
 .icon {
@@ -18,4 +19,5 @@
 .content {
   font-family: $font-family--primary;
   font-weight: bold;
+  color: $color--white;
 }
