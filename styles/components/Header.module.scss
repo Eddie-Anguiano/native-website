@@ -15,10 +15,10 @@
 }
 
 .logo {
-  height: 20px;
-  width: 20px;
-  background-color: blue;
+  height: 50px;
+  width: 50px;
   border-radius: 100px;
+  border: 2px solid white;
 }
 
 .nav {
@@ -38,6 +38,6 @@
     font-weight: bold;
     background-color: $color--dark-gray;
     border-radius: $border-radius--small;
-    background: blue;
+    background: linear-gradient(85.06deg, #e0a840 0%, #d18534 100%);
   }
 }

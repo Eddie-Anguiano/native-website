@@ -19,7 +19,8 @@
   flex-direction: column;
   align-items: center;
   padding: space(16) 0;
-  background-color: $color--white;
+  background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
+  color: $color--white;
 
   &__container {
     display: flex;
@@ -36,6 +37,8 @@
     max-width: rem(640px);
     margin-bottom: space(8);
     text-align: center;
+    font-family: $font-family--primary;
+    font-weight: bold;
   }
 
   &__buttonContainer {
@@ -55,14 +58,14 @@
   }
 
   &__learnButton {
-    border: 4px solid black;
+    border: 4px solid $color--white;
     margin-right: space(1);
   }
 
   &__donateButton {
     margin-left: space(1);
-    border: 4px solid $color--gray;
-    background-color: $color--gray;
-    color: $color--white;
+    border: 4px solid $color--white;
+    background-color: $color--white;
+    color: #5b7187;
   }
 }

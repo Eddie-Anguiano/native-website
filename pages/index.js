@@ -25,6 +25,7 @@ export default function Home() {
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
           contentOrder="-1"
           image="/images/placeholder.jpg"
+          alt="wetlands"
         />
       </section>
 
@@ -34,7 +35,8 @@ export default function Home() {
           subheader="Stewards of the land"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
           contentOrder="2"
-          image="/images/placeholder.jpg"
+          image="/images/tonga.jpg"
+          alt="tongva portrait"
         />
       </section>
 
@@ -44,6 +46,8 @@ export default function Home() {
           subheader="Big Oil"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
           contentOrder="-1"
+          image="/images/oil.jpg"
+          alt="oil rig"
         />
       </section>
 

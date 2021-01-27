@@ -7,6 +7,7 @@ export default function InfoSection({
   content,
   contentOrder,
   image,
+  alt,
 }) {
   return (
     <Wrapper>
@@ -18,9 +19,7 @@ export default function InfoSection({
           <button className={styles.link}>Learn More</button>
         </div>
         <div className={styles.imgContainer}>
-          {image ? (
-            <img src={image} alt="place" className={styles.img} />
-          ) : null}
+          {image ? <img src={image} alt={alt} className={styles.img} /> : null}
         </div>
       </div>
     </Wrapper>
