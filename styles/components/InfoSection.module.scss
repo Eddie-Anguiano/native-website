@@ -4,7 +4,7 @@
 .InfoSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  grid-template-rows: rem(360px);
+  grid-template-rows: minmax(rem(360px, 600px));
   gap: space(8);
   padding: space(16) 0;
   color: $color--black;
