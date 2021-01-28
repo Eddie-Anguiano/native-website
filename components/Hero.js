@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <div className={styles.Hero}>
       <div
-        className={styles.test}
+        className={styles.backgroundFull}
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}></div>
       <img
         src="/images/background-part.png"

@@ -38,22 +38,16 @@
   font-weight: bold;
 }
 
-.backgroundFull {
-  position: absolute;
-  bottom: 0;
-  object-fit: cover;
-  width: 100vw;
-}
-
 .parallax {
   position: absolute;
   bottom: rem(-50px);
+  right: 0;
   width: 100%;
   min-width: 1266px;
   z-index: 1;
 }
 
-.test {
+.backgroundFull {
   position: absolute;
   width: 100%;
   height: 100%;
