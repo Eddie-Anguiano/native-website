@@ -6,11 +6,12 @@ export default function Header() {
     <div className={styles.Header}>
       <Wrapper>
         <div className={styles.container}>
-          <img
+          {/* <img
             src="/images/logo-wetlands.png"
             alt="home"
             className={styles.logo}
-          />
+          /> */}
+          <div className={styles.logo}></div>
           <nav className={styles.nav}>
             <div className={styles.nav__contact}>Contact</div>
             <div className={styles.nav__donate}>Donate</div>

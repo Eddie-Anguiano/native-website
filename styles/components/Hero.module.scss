@@ -2,21 +2,40 @@
 @import "../base/helpers.scss";
 
 .Hero {
-  height: 85vh;
+  position: relative;
+  height: 90vh;
   margin-top: -90px;
   color: $color--white;
-  background: linear-gradient(rgba(25, 41, 82, 0.5), rgba(25, 41, 82, 0.5)),
-    url("../../public/images/background-part.png") left 50% / cover no-repeat,
+  background: linear-gradient(rgba(25, 41, 82, 0.6), rgba(25, 41, 82, 0.6)),
     url("../../public/images/background-full.jpg") left top / cover no-repeat;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.container {
+  transform: translateY(70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 10px solid $color--white;
+  padding: space(4);
 }
 
 .header {
-  padding: space(25) 0 space(4) 0;
-  font-size: rem(65px);
+  position: relative;
+  padding: 0 0 space(2) 0;
+  font-size: space(6);
+  line-height: 1;
+  z-index: -1;
+
+  @media screen and (max-width: 800px) {
+    font-size: space(5);
+  }
 }
 
 .content {
-  width: space(50);
+  max-width: space(50);
   font-family: $font-family--primary;
   font-weight: bold;
 }
@@ -26,4 +45,12 @@
   bottom: 0;
   object-fit: cover;
   width: 100vw;
+}
+
+.parallax {
+  position: absolute;
+  bottom: rem(-50px);
+  width: 100%;
+  min-width: 1266px;
+  z-index: 1;
 }
