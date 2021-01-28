@@ -24,7 +24,7 @@ export default function Home() {
           subheader="The Los Cerritos Wetlands"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
           contentOrder="-1"
-          image="/images/placeholder.jpg"
+          image="/images/ecosystem.jpg"
           alt="wetlands"
         />
       </section>
