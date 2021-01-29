@@ -1,13 +1,13 @@
-import styles from "../styles/pages/contact.module.scss";
+import styles from "../styles/pages/ecosystem.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export default function contact() {
+export default function ecosystem() {
   return (
     <div>
       <Header />
-      contact
+      ecosystem
       <Footer />
     </div>
   );

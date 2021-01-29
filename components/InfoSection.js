@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/components/InfoSection.module.scss";
 import Wrapper from "./Wrapper";
 
@@ -8,6 +9,7 @@ export default function InfoSection({
   contentOrder,
   image,
   alt,
+  url,
 }) {
   return (
     <Wrapper>
@@ -16,7 +18,9 @@ export default function InfoSection({
           <div className={styles.subheader}>{subheader}</div>
           <h2 className={styles.header}>{header}</h2>
           <div className={styles.content}>{content}</div>
-          <button className={styles.link}>Learn More</button>
+          <Link href={url}>
+            <a className={styles.link}>Learn More</a>
+          </Link>
         </div>
         <div className={styles.imgContainer}>
           {image ? <img src={image} alt={alt} className={styles.img} /> : null}

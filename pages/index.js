@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../styles/pages/Home.module.scss";
+import styles from "../styles/pages/home.module.scss";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import IconSection from "../components/IconSection";
@@ -27,6 +27,7 @@ export default function Home() {
           contentOrder="-1"
           image="/images/ecosystem.jpg"
           alt="wetlands"
+          url="/ecosystem"
         />
       </section>
 
@@ -38,6 +39,7 @@ export default function Home() {
           contentOrder="2"
           image="/images/tonga.jpg"
           alt="tongva portrait"
+          url="/native"
         />
       </section>
 
@@ -49,6 +51,7 @@ export default function Home() {
           contentOrder="-1"
           image="/images/oil.jpg"
           alt="oil rig"
+          url="/oil"
         />
       </section>
 
