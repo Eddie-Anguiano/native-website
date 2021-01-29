@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/pages/Home.module.scss";
 import Header from "../components/Header";

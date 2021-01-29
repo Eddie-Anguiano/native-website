@@ -30,6 +30,8 @@
     padding: space(1);
     font-family: $font-family--primary;
     font-weight: bold;
+    color: $color--white;
+    text-decoration: none;
   }
 
   &__donate {
@@ -39,5 +41,7 @@
     background-color: $color--dark-gray;
     border-radius: $border-radius--small;
     background: linear-gradient(85.06deg, #e0a840 0%, #d18534 100%);
+    color: $color--white;
+    text-decoration: none;
   }
 }
