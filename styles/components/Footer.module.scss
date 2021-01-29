@@ -13,9 +13,12 @@
 }
 
 .header {
+  display: block;
   font-family: $font-family--primary;
   font-weight: bold;
-  margin-bottom: space(1);
+  margin-bottom: space(2);
+  color: $color--white;
+  text-decoration: none;
 }
 
 .social {
@@ -26,6 +29,7 @@
   width: rem(50px);
   background-color: #5b7187;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .linkSection {
@@ -37,4 +41,5 @@
   font-size: rem(16px);
   list-style-type: disc;
   margin-left: space(2);
+  cursor: pointer;
 }
