@@ -69,10 +69,12 @@ export default function Home() {
               ac scelerisque.
             </p>
             <div className={styles.actionSection__buttonContainer}>
-              <div className={styles.actionSection__learnButton}>
-                Learn More
-              </div>
-              <div className={styles.actionSection__donateButton}>Donate</div>
+              <Link href="/lawsuit">
+                <a className={styles.actionSection__learnButton}>Learn More</a>
+              </Link>
+              <Link href="https://www.google.com">
+                <a className={styles.actionSection__donateButton}>Donate</a>
+              </Link>
             </div>
           </div>
         </Wrapper>

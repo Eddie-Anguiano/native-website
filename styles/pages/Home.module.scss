@@ -61,6 +61,8 @@
   &__learnButton {
     border: 4px solid $color--white;
     margin-right: space(1);
+    color: $color--white;
+    text-decoration: none;
   }
 
   &__donateButton {
@@ -68,5 +70,6 @@
     border: 4px solid $color--white;
     background-color: $color--white;
     color: #5b7187;
+    text-decoration: none;
   }
 }
