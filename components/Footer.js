@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Link href="#">
               <a className={styles.header}>
-                Puvugna Wetlands Protectors &#169;
+                Puvunga Wetlands Protectors &#169;
               </a>
             </Link>
 
