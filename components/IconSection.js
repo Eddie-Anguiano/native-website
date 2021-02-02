@@ -8,9 +8,12 @@ export default function IconSection() {
       <div className={styles.IconSection}>
         <h3 className={styles.subheader}>Who we are...</h3>
         <p className={styles.content}>
-          Puvugna Wetland Protectors is a coalition of tribal enviornmental ,
-          and social justice organizations and concerned citizens saying NO to
-          the Los Cerritos Wetlands Restoration and Oil Consolidation Project.
+          Puvunga Wetlands Protectors is a 501(c)(3) non-profit organization,
+          formed to defend the Puvungna/Los Cerritos Wetlands from expanding oil
+          and gas operations and to preserve the wetlands ecosystem and tribal
+          sites from destruction. We take direction from Tongva and Acjachemen
+          culture keepers working to preserve sacred sites and ensure the
+          survival of all our relations.
         </p>
         <h3>What we fight for...</h3>
         <div className={styles.cards__container}>

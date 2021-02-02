@@ -27,14 +27,12 @@ export default function Hero() {
         <div
           className={styles.container}
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
-          <h1 className={styles.header}>
-            Puvugna Wetland
-            <br /> Protectors
-          </h1>
+          <h1 className={styles.header}>Puvunga Wetlands Protectors</h1>
           <p className={styles.content}>
-            Stop the extradition of 200 million barrels of oil from beneath the
-            Los Cerritos / Long Beach Wetlands and neighboring communities,
-            putting them at risk.
+            Stop the extraction of 200 million barrels of oil from beneath the
+            Los Cerritos Wetlands and neighboring communities, putting them at
+            risk. Preserve the existing wetlands ecosystem and Tribal
+            Traditional Landscape of Puvunga.
           </p>
         </div>
       </Wrapper>

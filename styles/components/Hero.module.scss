@@ -16,14 +16,13 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 10px solid $color--white;
   padding: space(4);
 }
 
 .header {
   position: relative;
   padding: 0 0 space(2) 0;
-  font-size: space(6);
+  font-size: space(8);
   line-height: 1;
   z-index: -1;
 
@@ -33,7 +32,7 @@
 }
 
 .content {
-  max-width: space(50);
+  max-width: space(70);
   font-family: $font-family--primary;
   font-weight: bold;
 }
