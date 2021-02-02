@@ -8,7 +8,7 @@ export default function Footer() {
       <Wrapper>
         <div className={styles.container}>
           <div>
-            <Link href="#">
+            <Link href="/">
               <a className={styles.header}>
                 Puvunga Wetlands Protectors &#169;
               </a>
