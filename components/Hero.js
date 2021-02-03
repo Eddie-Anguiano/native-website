@@ -1,6 +1,27 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/components/Hero.module.scss";
 import Wrapper from "./Wrapper";
+import { motion } from "framer-motion";
+
+const parentVar = {
+  animate: {
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 1,
+    },
+  },
+};
+
+const childVar = {
+  initial: {
+    y: "30px",
+    opacity: 0,
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+  },
+};
 
 export default function Hero() {
   const [offsetY, setOffset] = useState(0);
@@ -24,17 +45,22 @@ export default function Hero() {
         className={styles.parallax}
       />
       <Wrapper>
-        <div
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={parentVar}
           className={styles.container}
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
-          <h1 className={styles.header}>Puvunga Wetlands Protectors</h1>
-          <p className={styles.content}>
+          <motion.h1 variants={childVar} className={styles.header}>
+            Puvunga Wetlands Protectors
+          </motion.h1>
+          <motion.p variants={childVar} className={styles.content}>
             Stop the extraction of 200 million barrels of oil from beneath the
             Los Cerritos Wetlands and neighboring communities, putting them at
             risk. Preserve the existing wetlands ecosystem and Tribal
             Traditional Landscape of Puvunga.
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
       </Wrapper>
     </div>
   );
