@@ -30,3 +30,17 @@ export const fadeUpIn = {
     },
   },
 };
+
+export const fadeLeftIn = {
+  initial: {
+    x: "30px",
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      ease: "easeOut",
+    },
+  },
+};

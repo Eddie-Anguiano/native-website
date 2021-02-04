@@ -1,3 +1,8 @@
+import { useEffect } from "react";
+import { parentStagger, fadeUpIn, fadeLeftIn } from "../utils/animations";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+// Components
 import Link from "next/link";
 import styles from "../styles/components/InfoSection.module.scss";
 import Wrapper from "./Wrapper";
@@ -11,20 +16,66 @@ export default function InfoSection({
   alt,
   url,
 }) {
+  // Intersection Observer for text
+  const controlText = useAnimation();
+  const [textRef, textInView] = useInView({
+    rootMargin: "-300px",
+    triggerOnce: true,
+  });
+
+  // Intersection Observer for Image
+  const controlImage = useAnimation();
+  const [imageRef, imageInView] = useInView({
+    rootMargin: "-300px",
+    triggerOnce: true,
+  });
+
+  // Image controller
+  useEffect(() => {
+    if (imageInView) {
+      controlImage.start("animate");
+    }
+  }, [controlImage, imageInView]);
+
+  // Text controller
+  useEffect(() => {
+    if (textInView) {
+      controlText.start("animate");
+    }
+  }, [controlText, textInView]);
   return (
     <Wrapper>
       <div className={styles.InfoSection}>
-        <div className={styles.contentSection} style={{ order: contentOrder }}>
-          <div className={styles.subheader}>{subheader}</div>
-          <h2 className={styles.header}>{header}</h2>
-          <div className={styles.content}>{content}</div>
+        <motion.div
+          ref={textRef}
+          animate={controlText}
+          initial="initial"
+          variants={parentStagger}
+          className={styles.contentSection}
+          style={{ order: contentOrder }}>
+          <motion.div variants={fadeUpIn} className={styles.subheader}>
+            {subheader}
+          </motion.div>
+          <motion.h2 variants={fadeUpIn} className={styles.header}>
+            {header}
+          </motion.h2>
+          <motion.div variants={fadeUpIn} className={styles.content}>
+            {content}
+          </motion.div>
           <Link href={url}>
-            <a className={styles.link}>Learn More</a>
+            <motion.a variants={fadeUpIn} className={styles.link}>
+              Learn More
+            </motion.a>
           </Link>
-        </div>
-        <div className={styles.imgContainer}>
+        </motion.div>
+        <motion.div
+          ref={imageRef}
+          animate={controlImage}
+          initial="initial"
+          variants={fadeLeftIn}
+          className={styles.imgContainer}>
           {image ? <img src={image} alt={alt} className={styles.img} /> : null}
-        </div>
+        </motion.div>
       </div>
     </Wrapper>
   );
