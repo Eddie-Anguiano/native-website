@@ -11,14 +11,14 @@ export default function IconSection() {
   // Intersection Observer for text
   const controlText = useAnimation();
   const [textRef, textInView] = useInView({
-    rootMargin: "-100px",
+    rootMargin: "-100px 0px 0px 0px",
     triggerOnce: true,
   });
 
   // Intersection Observer for Icons
   const controlIcons = useAnimation();
   const [iconsRef, iconsInView] = useInView({
-    rootMargin: "-200px",
+    rootMargin: "-200px 0px 0px 0px",
     triggerOnce: true,
   });
 
