@@ -1,3 +1,8 @@
+import { useEffect } from "react";
+import { parentStagger, fadeUpIn } from "../utils/animations";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+//components
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/pages/Home.module.scss";
@@ -9,6 +14,20 @@ import Wrapper from "../components/Wrapper";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  // Intersection Observer for text
+  const controlText = useAnimation();
+  const [textRef, textInView] = useInView({
+    rootMargin: "-300px",
+    triggerOnce: true,
+  });
+
+  // Text controller
+  useEffect(() => {
+    if (textInView) {
+      controlText.start("animate");
+    }
+  }, [controlText, textInView]);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -57,26 +76,37 @@ export default function Home() {
 
       <section className={styles.actionSection}>
         <Wrapper>
-          <div className={styles.actionSection__container}>
-            <h2 className={styles.actionSection__header}>
+          <motion.div
+            ref={textRef}
+            animate={controlText}
+            initial="initial"
+            variants={parentStagger}
+            className={styles.actionSection__container}>
+            <motion.h2
+              variants={fadeUpIn}
+              className={styles.actionSection__header}>
               By taking action you can make a difference!
-            </h2>
-            <p className={styles.actionSection__content}>
+            </motion.h2>
+            <motion.p
+              variants={fadeUpIn}
+              className={styles.actionSection__content}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               sociis mi tincidunt sed. Mi laoreet morbi senectus eget tortor
               congue aliquet cursus neque. Etiam pulvinar et integer eget purus.
               Nisl aliquet ultricies sed pharetra turpis consectetur curabitur
               ac scelerisque.
-            </p>
-            <div className={styles.actionSection__buttonContainer}>
+            </motion.p>
+            <motion.div
+              variants={fadeUpIn}
+              className={styles.actionSection__buttonContainer}>
               <Link href="/lawsuit">
                 <a className={styles.actionSection__learnButton}>Learn More</a>
               </Link>
               <Link href="https://www.google.com">
                 <a className={styles.actionSection__donateButton}>Donate</a>
               </Link>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </Wrapper>
       </section>
 

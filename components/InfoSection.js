@@ -43,6 +43,7 @@ export default function InfoSection({
       controlText.start("animate");
     }
   }, [controlText, textInView]);
+
   return (
     <Wrapper>
       <div className={styles.InfoSection}>
