@@ -69,10 +69,7 @@
   background-color: $color--dark-blue;
   padding: space(1.5) space(4);
   border-radius: $border-radius--small;
-  color: white;
-}
-
-.buttonText {
   font-family: $font-family--secondary;
   font-size: space(2);
+  color: $color--white;
 }

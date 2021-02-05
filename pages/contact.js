@@ -23,6 +23,7 @@ export default function contact() {
               name="contact"
               method="POST"
               data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <div className={styles.nameContainer}>
                 <div className={styles.firstName}>
                   <label htmlFor="first_name" className={styles.label}>
@@ -66,7 +67,7 @@ export default function contact() {
                 id="message"
                 type="text"
                 className={styles.textarea}
-                name="text_area"
+                name="message"
               />
 
               <button type="submit" className={styles.button}>
