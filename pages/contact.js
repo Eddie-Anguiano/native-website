@@ -70,7 +70,7 @@ export default function contact() {
               />
 
               <button type="submit" className={styles.button}>
-                <span className={styles.buttonText}>Submit</span>
+                Submit
               </button>
             </form>
           </div>
