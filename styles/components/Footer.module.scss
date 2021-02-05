@@ -2,7 +2,7 @@
 @import "../base/helpers.scss";
 
 .Footer {
-  background-color: #3e4d5c;
+  background-color: $color--dark-blue;
   color: $color--white;
   padding: space(16) 0;
 }
@@ -27,7 +27,7 @@
   align-items: center;
   height: rem(50px);
   width: rem(50px);
-  background-color: #5b7187;
+  background-color: $color--blue;
   border-radius: 100px;
   cursor: pointer;
 }
