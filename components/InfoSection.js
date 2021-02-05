@@ -19,14 +19,14 @@ export default function InfoSection({
   // Intersection Observer for text
   const controlText = useAnimation();
   const [textRef, textInView] = useInView({
-    rootMargin: "-300px 0px 0px 0px",
+    threshold: 0.5,
     triggerOnce: true,
   });
 
   // Intersection Observer for Image
   const controlImage = useAnimation();
   const [imageRef, imageInView] = useInView({
-    rootMargin: "-300px 0px 0px 0px",
+    threshold: 0.5,
     triggerOnce: true,
   });
 

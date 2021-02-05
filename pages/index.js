@@ -17,7 +17,7 @@ export default function Home() {
   // Intersection Observer for text
   const controlText = useAnimation();
   const [textRef, textInView] = useInView({
-    rootMargin: "-300px 0px 0px 0px",
+    threshold: 0.5,
     triggerOnce: true,
   });
 

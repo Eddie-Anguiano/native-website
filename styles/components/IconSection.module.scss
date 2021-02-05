@@ -19,6 +19,7 @@
 .cards__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: space(8);
+  column-gap: space(8);
   padding-top: space(2);
+  row-gap: space(2);
 }
