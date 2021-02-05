@@ -2,6 +2,7 @@
 @import "../base/helpers.scss";
 
 .InfoSection {
+  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-template-rows: minmax(rem(360px, 600px));
