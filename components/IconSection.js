@@ -18,7 +18,7 @@ export default function IconSection() {
   // Intersection Observer for Icons
   const controlIcons = useAnimation();
   const [iconsRef, iconsInView] = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
     triggerOnce: true,
   });
 

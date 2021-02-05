@@ -29,6 +29,14 @@
   @media screen and (max-width: 800px) {
     font-size: space(5);
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: space(4);
+  }
+
+  @media screen and (max-width: 380px) {
+    font-size: space(3);
+  }
 }
 
 .content {
