@@ -1,3 +1,5 @@
+// Parent Variants
+
 export const parentStagger = {
   animate: {
     transition: {
@@ -16,6 +18,8 @@ export const parentStaggerDelay = {
     },
   },
 };
+
+// enter variants
 
 export const fadeUpIn = {
   initial: {
@@ -41,6 +45,38 @@ export const fadeLeftIn = {
     opacity: 1,
     transition: {
       ease: "easeOut",
+    },
+  },
+};
+
+// Hamburger Variant
+
+export const hamburgerTop = {
+  open: {
+    rotate: 135,
+    y: 11,
+    transition: {
+      ease: "easeIn",
+    },
+  },
+};
+
+export const hamburgerMiddle = {
+  open: {
+    x: "100%",
+    transition: {
+      ease: "easeIn",
+    },
+  },
+};
+
+export const hamburgerBottom = {
+  closed: {},
+  open: {
+    rotate: -135,
+    y: -12,
+    transition: {
+      ease: "easeIn",
     },
   },
 };

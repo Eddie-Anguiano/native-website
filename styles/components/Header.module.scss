@@ -2,8 +2,8 @@
 @import "../base/helpers.scss";
 
 .Header {
-  position: relative;
-  z-index: 100;
+  // position: relative;
+  // z-index: 100;
   padding: space(2) 0;
   color: $color--white;
 }
@@ -24,6 +24,10 @@
 .nav {
   display: flex;
   align-items: center;
+
+  @media (max-width: 645px) {
+    display: none;
+  }
 
   &__contact {
     margin-right: space(3);
@@ -47,5 +51,34 @@
     );
     color: $color--white;
     text-decoration: none;
+  }
+}
+
+.hamburger {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+
+  @media (min-width: 646px) {
+    display: none;
+  }
+}
+
+.line {
+  &__top,
+  &__middle,
+  &__bottom {
+    height: 2px;
+    background-color: white;
+  }
+
+  &__middle {
+    width: 75%;
+    align-self: flex-end;
   }
 }
