@@ -40,7 +40,8 @@ export default function Footer() {
               </Link>
             </ul>
           </div>
-          <div></div>
+          {/* Waiting for client approval */}
+          {/* <div></div> */}
         </div>
       </Wrapper>
     </div>
