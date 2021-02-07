@@ -19,6 +19,7 @@ export default function contact() {
             </div>
 
             <form
+              action="/success"
               className={styles.form}
               name="contact"
               method="POST"

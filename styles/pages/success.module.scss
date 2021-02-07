@@ -1,0 +1,42 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.success {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $color--dark-blue;
+}
+
+.main {
+  flex: 1 0 auto;
+  background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
+  padding: space(16) 0;
+
+  & + div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  color: $color--white;
+  padding-bottom: space(4);
+  vertical-align: middle;
+}
+
+.homeBtn {
+  font-family: $font-family--primary;
+  font-size: space(2);
+  font-weight: bold;
+  padding: space(1) space(4);
+  border-radius: $border-radius--small;
+  background-color: $color--dark-blue;
+  color: $color--white;
+}
