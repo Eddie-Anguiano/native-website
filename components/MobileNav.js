@@ -1,4 +1,5 @@
 import styles from "../styles/components/MobileNav.module.scss";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function mobileNav() {
@@ -16,7 +17,28 @@ export default function mobileNav() {
         animate={{ x: 0 }}
         exit={{ x: "100%" }}
         transition={{ duration: 0.1, stiffness: 100, type: "tween" }}
-        className={styles.nav}></motion.div>
+        className={styles.nav}>
+        <ul className={styles.list}>
+          <Link href="/">
+            <li className={styles.item}>Home</li>
+          </Link>
+          <Link href="/ecosystem">
+            <li className={styles.item}>Ecosystem</li>
+          </Link>
+          <Link href="/native">
+            <li className={styles.item}>Native Cultures</li>
+          </Link>
+          <Link href="/oil">
+            <li className={styles.item}>Big Oil</li>
+          </Link>
+          <Link href="/lawsuit">
+            <li className={styles.item}>Lawsuit</li>
+          </Link>
+          <Link href="/contact">
+            <li className={styles.item}>Contact</li>
+          </Link>
+        </ul>
+      </motion.div>
     </>
   );
 }

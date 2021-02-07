@@ -9,9 +9,26 @@
 }
 
 .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   right: 0;
   height: 100vh;
   width: 75%;
   background-color: $color--dark-blue;
+}
+
+.list {
+  padding: space(8);
+}
+
+.item {
+  display: block;
+  padding: space(4);
+  font-family: $font-family--primary;
+  color: $color--white;
+  text-decoration: none;
+  font-size: space(2);
 }
