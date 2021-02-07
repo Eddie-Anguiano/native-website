@@ -14,7 +14,7 @@ export default function contact() {
             <div className={styles.info}>
               <div className={styles.socialContainer}>
                 <p className={styles.header}>Contact Us!</p>
-                <div className={styles.email}>placeholder@gmail.com</div>
+                {/* <div className={styles.email}>placeholder@gmail.com</div> */}
               </div>
             </div>
 

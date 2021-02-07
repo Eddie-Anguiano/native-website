@@ -19,19 +19,20 @@
 }
 
 .header {
+  padding-bottom: space(4);
   font-family: $font-family--secondary;
   font-size: space(4);
   font-weight: bold;
   color: $color--white;
 }
 
-.email {
-  font-family: $font-family--primary;
-  font-weight: bold;
-  color: $color--dark-blue;
-  padding-top: space(1);
-  padding-left: rem(3px);
-}
+// .email {
+//   font-family: $font-family--primary;
+//   font-weight: bold;
+//   color: $color--dark-blue;
+//   padding-top: space(1);
+//   padding-left: rem(3px);
+// }
 
 .nameContainer {
   display: grid;
