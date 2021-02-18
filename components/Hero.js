@@ -36,10 +36,9 @@ export default function Hero() {
             Puvunga Wetlands Protectors
           </motion.h1>
           <motion.p variants={fadeUpIn} className={styles.content}>
-            Stop the extraction of 200 million barrels of oil from beneath the
-            Los Cerritos Wetlands and neighboring communities, putting them at
-            risk. Preserve the existing wetlands ecosystem and Tribal
-            Traditional Landscape of Puvunga.
+            Prevent the extraction of 200 million barrels of oil from beneath
+            the Los Cerritos Wetlands! Preserve the Traditional Tribal Landscape
+            and Sacred Site of Puvungna.
           </motion.p>
         </motion.div>
       </Wrapper>

@@ -62,15 +62,15 @@ export default function IconSection() {
           className={styles.cards__container}>
           <IconCard
             icon="/icons/oil-icon.svg"
-            content="An end to Los Cerritos Wetland Oil Drilling"
+            content="An end to Los Cerritos Wetlands Oil Drilling"
           />
           <IconCard
             icon="/icons/bird-icon.svg"
-            content="Preserve local land, waters, and wildlife"
+            content="Preservation of local land, waters, and wildlife"
           />
           <IconCard
             icon="/icons/native-icon.svg"
-            content="Protect tribal cultural landscape"
+            content="Protection of Tribal Cultural Landscape"
           />
         </motion.div>
       </div>
