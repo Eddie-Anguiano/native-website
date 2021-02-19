@@ -67,7 +67,7 @@ export default function Home() {
         <InfoSection
           header="Puvunga and Motuucheyngna, sacred then and now"
           subheader="Stewards of the land"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit cras laoreet nec nam habitant habitant. Cursus blandit quam adipiscing lectus magna purus ac eget. Turpis nunc nunc mauris metus. Id scelerisque quis metus elit consectetur purus consequat blandit netus."
+          content="For 10,000 years a ​vast wetlands sustained the coastal communities of ​Puvungna and Motuucheyngna​, central to the spiritual traditions of the Tongva, Acjachemen, and numerous other Southern California Tribes. ​2000 acres of the original wetlands are now lost, assaulting these last 500 is a cruel choice to erase this rare surviving connection to homelands, ancestors and culture. ​Harming the ecosystem by drilling, digging, bulldozing and building on the remaining wetlands violates basic​ Native American tribal values which understand all life to be related and deserving of respect. Tribal culture keepers oppose plans by Beach Oil Minerals and the LCWA to “mitigate” the erasure of this Tribal Traditional Landscape by relocating tribal burials and preserving tribal “artifacts” for research or exhibition."
           contentOrder="2"
           image="/images/tonga.jpg"
           alt="tongva portrait"

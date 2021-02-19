@@ -1,0 +1,59 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.header {
+  padding-bottom: space(4);
+}
+
+.figureLeft {
+  float: left;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 0 space(2) space(2) 0;
+  margin-bottom: space(1);
+}
+
+.figureRight {
+  float: right;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 0 0 space(2) space(2);
+}
+
+.caption {
+  font-style: italic;
+  font-size: rem(14px);
+}
+
+.paragraph {
+  line-height: 1.5;
+  margin-bottom: space(2);
+}
+
+.imgOil {
+  width: 100%;
+}
+
+.imgWater {
+  width: 100%;
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: space(8) space(2) space(4) space(2);
+
+  @media screen and (max-width: 1060px) and (min-width: 450px) {
+    padding: 0 space(4);
+  }
+}
+
+.resources {
+  font-family: $font-family--primary;
+  padding-top: space(1);
+
+  &__item {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
