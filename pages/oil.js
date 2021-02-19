@@ -2,7 +2,6 @@ import styles from "../styles/pages/oil.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Wrapper from "../components/Wrapper";
 
 export default function oil() {
   return (
@@ -79,6 +78,15 @@ export default function oil() {
           environmentalists, Native Americans, and the community have been
           ignored, is criminal.
         </p>
+
+        <h4>Additional Resources</h4>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>resource1</li>
+          <li className={styles.resources__item} resources-item>
+            resource2
+          </li>
+          <li className={styles.resources__item}>resource3</li>
+        </ul>
       </main>
 
       <Footer />

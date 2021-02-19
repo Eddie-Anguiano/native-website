@@ -52,3 +52,13 @@
     padding: 0 space(4);
   }
 }
+
+.resources {
+  font-family: $font-family--primary;
+  padding-top: space(1);
+
+  &__item {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
