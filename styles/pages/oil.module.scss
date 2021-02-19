@@ -2,12 +2,32 @@
 @import "../base/helpers.scss";
 
 .oil {
-  background-color: $color--dark-blue;
-  color: $color--white;
+  background-color: $color--gray;
+  color: $color--black;
 }
 
 .header {
   padding-bottom: space(4);
+}
+
+.figureLeft {
+  float: left;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 0 space(2) space(2) 0;
+  margin-bottom: space(1);
+}
+
+.figureRight {
+  float: right;
+  max-width: 50%;
+  flex-direction: column;
+  margin: 0 0 space(2) space(2);
+}
+
+.caption {
+  font-style: italic;
+  font-size: rem(14px);
 }
 
 .paragraph {
@@ -16,17 +36,11 @@
 }
 
 .imgOil {
-  max-width: 50%;
-  float: left;
-  margin: 0 space(2) space(2) 0;
-  margin-bottom: space(1);
+  width: 100%;
 }
 
 .imgWater {
-  max-width: 50%;
-  float: right;
-  margin-right: 0 0 space(2) space(2);
-  margin-bottom: space(1);
+  width: 100%;
 }
 
 .main {

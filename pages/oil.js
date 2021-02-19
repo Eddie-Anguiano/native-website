@@ -7,15 +7,18 @@ import Wrapper from "../components/Wrapper";
 export default function oil() {
   return (
     <div className={styles.oil}>
-      <Header />
+      <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Big Oil</h2>
         <p className={styles.paragraph}>
-          <img
-            src="/images/big-oil/oil-fire.png"
-            alt="oil fire"
-            className={styles.imgOil}
-          />
+          <figure className={styles.figureLeft}>
+            <img
+              className={styles.imgOil}
+              src="/images/big-oil/oil-fire.png"
+              alt="oil fire"
+            />
+            <figcaption className={styles.caption}>caption</figcaption>
+          </figure>
           The Los Cerritos Wetlands Restoration and Oil Consolidation Project
           will put us at greater risk for oil spills and a “worst case scenario”
           seismic event, pollute local air and water and add to global warming,
@@ -50,11 +53,14 @@ export default function oil() {
           at the expense of wetlands and wildlife.
         </p>
         <p className={styles.paragraph}>
-          <img
-            className={styles.imgWater}
-            src="/images/big-oil/oil-water.png"
-            alt="oil in water"
-          />
+          <figure className={styles.figureRight}>
+            <img
+              className={styles.imgWater}
+              src="/images/big-oil/oil-water.png"
+              alt="oil in water"
+            />
+            <figcaption className={styles.caption}>caption</figcaption>
+          </figure>
           The Los Cerritos Wetlands Authority has four members: the California
           Coastal Conservancy, the Rivers and Mountains Conservancy, and the
           cities of Long Beach and Seal Beach. It is empowered to acquire

@@ -12,7 +12,7 @@ import Wrapper from "./Wrapper";
 import styles from "../styles/components/Header.module.scss";
 import MobileNav from "./MobileNav";
 
-export default function Header() {
+export default function Header({ color }) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function Header() {
     <>
       <AnimatePresence>{isOpen && <MobileNav />}</AnimatePresence>
 
-      <div className={styles.Header}>
+      <div className={styles.Header} style={{ backgroundColor: color }}>
         <Wrapper>
           <div className={styles.container}>
             <Link href="/">
