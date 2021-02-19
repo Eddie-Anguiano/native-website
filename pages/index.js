@@ -37,7 +37,7 @@ export default function Home() {
       <Header />
       <Hero />
 
-      <section className={styles.mud}>
+      <section className={styles.iconSection}>
         <IconSection />
         <InfoSection
           header="Our lawsuit to stop the Los Cerritos Wetlands Restoration and Oil Consolidation Project"
@@ -50,7 +50,7 @@ export default function Home() {
         />
       </section>
 
-      <section className={styles.nativeSection}>
+      <section className={styles.oilSection}>
         <InfoSection
           header="Conserving the lands and waters on which life depends"
           subheader="The Los Cerritos Wetlands"
@@ -63,7 +63,8 @@ export default function Home() {
         />
       </section>
 
-      <section className={styles.oilSection}>
+      <section className={styles.nativeSection}>
+        <Wrapper>quote</Wrapper>
         <InfoSection
           header="Puvunga and Motuucheyngna, sacred then and now"
           subheader="Stewards of the land"
