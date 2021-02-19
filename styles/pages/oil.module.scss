@@ -1,4 +1,40 @@
 @import "../base/variables.scss";
 @import "../base/helpers.scss";
 
-.oil {}
+.oil {
+  background-color: $color--dark-blue;
+  color: $color--white;
+}
+
+.header {
+  padding-bottom: space(4);
+}
+
+.paragraph {
+  line-height: 1.5;
+  margin-bottom: space(2);
+}
+
+.imgOil {
+  max-width: 50%;
+  float: left;
+  margin: 0 space(2) space(2) 0;
+  margin-bottom: space(1);
+}
+
+.imgWater {
+  max-width: 50%;
+  float: right;
+  margin-right: 0 0 space(2) space(2);
+  margin-bottom: space(1);
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: space(8) space(2) space(4) space(2);
+
+  @media screen and (max-width: 1060px) and (min-width: 450px) {
+    padding: 0 space(4);
+  }
+}
