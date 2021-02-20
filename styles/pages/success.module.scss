@@ -9,20 +9,16 @@
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 1 0 auto;
   background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
-  padding: space(16) 0;
-
-  & + div {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
 }
 
 .container {
   text-align: center;
+  height: 100%;
 }
 
 .header {
