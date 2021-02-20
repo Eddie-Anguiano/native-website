@@ -75,14 +75,15 @@ export default function oil() {
           criminal.
         </p>
 
-        <h4>Additional Resources</h4>
+        {/* To be determined by client */}
+        {/* <h4>Additional Resources</h4>
         <ul className={styles.resources}>
           <li className={styles.resources__item}>resource1</li>
           <li className={styles.resources__item} resources-item>
             resource2
           </li>
           <li className={styles.resources__item}>resource3</li>
-        </ul>
+        </ul> */}
       </main>
 
       <Footer />

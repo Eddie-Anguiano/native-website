@@ -15,7 +15,11 @@
   max-width: 50%;
   flex-direction: column;
   margin: 0 space(2) space(2) 0;
-  margin-bottom: space(1);
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+    margin: 0 0 space(2) 0;
+  }
 }
 
 .figureRight {
@@ -23,6 +27,11 @@
   max-width: 50%;
   flex-direction: column;
   margin: 0 0 space(2) space(2);
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+    margin: 0 0 space(2) 0;
+  }
 }
 
 .caption {
