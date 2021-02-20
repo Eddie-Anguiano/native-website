@@ -22,14 +22,14 @@ export default function mobileNav() {
           <Link href="/">
             <li className={styles.item}>Home</li>
           </Link>
+          <Link href="/oil">
+            <li className={styles.item}>Drilling is killing</li>
+          </Link>
           <Link href="/ecosystem">
-            <li className={styles.item}>Ecosystem</li>
+            <li className={styles.item}>Conservation vs "restoration"</li>
           </Link>
           <Link href="/native">
-            <li className={styles.item}>Native Cultures</li>
-          </Link>
-          <Link href="/oil">
-            <li className={styles.item}>Big Oil</li>
+            <li className={styles.item}>Stewards of the land</li>
           </Link>
           <Link href="/lawsuit">
             <li className={styles.item}>Lawsuit</li>

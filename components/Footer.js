@@ -13,24 +13,24 @@ export default function Footer() {
                 Puvunga Wetlands Protectors &#169;
               </a>
             </Link>
-
-            <Link href="https://www.facebook.com/groups/ProtectLosCerritosWetlands/">
+            {/* To be determined by client */}
+            {/* <Link href="https://www.facebook.com/groups/ProtectLosCerritosWetlands/">
               <button className={styles.social}>
                 <img src="/icons/facebook.svg" alt="" />
               </button>
-            </Link>
+            </Link> */}
           </div>
           <div className={styles.linkSection}>
             <div className={styles.header}>Links</div>
             <ul className={styles.list}>
+              <Link href="/oil">
+                <li>Drilling is Killing!</li>
+              </Link>
               <Link href="/ecosystem">
-                <li>Ecosystem</li>
+                <li>Conservation vs "restoration"</li>
               </Link>
               <Link href="/native">
-                <li>Native Cultures</li>
-              </Link>
-              <Link href="/oil">
-                <li>Big Oil</li>
+                <li>Stewards of the land</li>
               </Link>
               <Link href="/lawsuit">
                 <li>Lawsuit</li>

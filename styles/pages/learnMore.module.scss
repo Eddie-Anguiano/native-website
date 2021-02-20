@@ -1,8 +1,13 @@
 @import "../base/variables.scss";
 @import "../base/helpers.scss";
 
+.learnMore {
+  background-color: $color--white;
+}
+
 .header {
   padding-bottom: space(4);
+  color: $color--black;
 }
 
 .figureLeft {
@@ -28,6 +33,7 @@
 .paragraph {
   line-height: 1.5;
   margin-bottom: space(2);
+  color: $color--black;
 }
 
 .imgOil {
