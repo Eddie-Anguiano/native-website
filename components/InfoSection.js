@@ -19,7 +19,7 @@ export default function InfoSection({
   // Intersection Observer for text
   const controlText = useAnimation();
   const [textRef, textInView] = useInView({
-    threshold: 0.7,
+    threshold: 0.5,
     triggerOnce: true,
   });
 

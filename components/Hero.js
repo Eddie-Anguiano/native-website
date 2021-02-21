@@ -38,7 +38,7 @@ export default function Hero() {
           <motion.p variants={fadeUpIn} className={styles.content}>
             Prevent the extraction of 200 million barrels of oil from beneath
             the Los Cerritos Wetlands! Preserve the Traditional Tribal Landscape
-            and Sacred Site of Puvungna.
+            and Sacred Site of Puvunga.
           </motion.p>
         </motion.div>
       </Wrapper>

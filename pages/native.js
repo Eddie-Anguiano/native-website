@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function native() {
   return (
-    <div>
+    <div className={styles.learnMore}>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Stewards of the land</h2>
