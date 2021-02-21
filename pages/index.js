@@ -85,18 +85,16 @@ export default function Home() {
             animate={controlQuote}
             variants={fadeUpIn}>
             <p className={styles.quote__text}>
-              <span className={styles.quote__charecter}>&ldquo; </span>We’re
-              saying that the Los Cerritos Wetlands constitutes a Tribal
+              We’re saying that the Los Cerritos Wetlands constitutes a Tribal
               Cultural Property. Puvungna was a community, a spiritual gathering
               place for many tribes, birthplace of Chingishnish, law giver and
               god.
-              <span className={styles.quote__charecter}>&rdquo;</span>
             </p>
             <cite className={styles.quote__cite}>
               &mdash; Chief Anthony Morales
             </cite>
             <div className={styles.quote__title}>
-              (Chair, Gabrieleno/TongvaSan Gabriel Band of Mission Indians)
+              Chair, Gabrieleno/Tongva San Gabriel Band of Mission Indians
             </div>
           </motion.blockquote>
         </Wrapper>
