@@ -1,41 +1,27 @@
 import { useEffect } from "react";
-import { parentStagger, fadeUpIn } from "../utils/animations";
+import { fadeUpIn } from "../utils/animations";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 //components
-import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/pages/Home.module.scss";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import IconSection from "../components/IconSection";
 import InfoSection from "../components/InfoSection";
+import TakeAction from "../components/TakeAction";
 import Wrapper from "../components/Wrapper";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  // Intersection Observer for text
-  const controlText = useAnimation();
-  const [textRef, textInView] = useInView({
-    threshold: 0.5,
-    triggerOnce: true,
-  });
-
-  // Text controller
-  useEffect(() => {
-    if (textInView) {
-      controlText.start("animate");
-    }
-  }, [controlText, textInView]);
-
   // Intersection Observer for quote
   const controlQuote = useAnimation();
   const [quoteRef, quoteInView] = useInView({
-    threshold: 0.5,
+    threshold: 1,
     triggerOnce: true,
   });
 
-  // Text controller
+  // quote controller
   useEffect(() => {
     if (quoteInView) {
       controlQuote.start("animate");
@@ -109,43 +95,7 @@ export default function Home() {
           url="/native"
         />
       </section>
-
-      <section className={styles.actionSection}>
-        <Wrapper>
-          <motion.div
-            ref={textRef}
-            animate={controlText}
-            initial="initial"
-            variants={parentStagger}
-            className={styles.actionSection__container}>
-            <motion.h2
-              variants={fadeUpIn}
-              className={styles.actionSection__header}>
-              By taking action you can make a difference!
-            </motion.h2>
-            <motion.p
-              variants={fadeUpIn}
-              className={styles.actionSection__content}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              sociis mi tincidunt sed. Mi laoreet morbi senectus eget tortor
-              congue aliquet cursus neque. Etiam pulvinar et integer eget purus.
-              Nisl aliquet ultricies sed pharetra turpis consectetur curabitur
-              ac scelerisque.
-            </motion.p>
-            <motion.div
-              variants={fadeUpIn}
-              className={styles.actionSection__buttonContainer}>
-              <Link href="/lawsuit">
-                <a className={styles.actionSection__learnButton}>Learn More</a>
-              </Link>
-              <Link href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4">
-                <a className={styles.actionSection__donateButton}>Donate</a>
-              </Link>
-            </motion.div>
-          </motion.div>
-        </Wrapper>
-      </section>
-
+      <TakeAction />
       <Footer />
     </div>
   );
