@@ -8,7 +8,7 @@ export default function ecosystem() {
     <div className={styles.learnMore}>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
-        <h2 className={styles.header}>Conservation vs "restoration"</h2>
+        <h2 className={styles.header}>Conservation vs. "Restoration"</h2>
         <p className={styles.paragraph}>
           <figure className={styles.figureLeft}>
             <img
@@ -16,7 +16,10 @@ export default function ecosystem() {
               src="/images/ecosystem/eco-bird.png"
               alt="oil fire"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              Endangered Belding’s Savannah Sparrow and Pickleweed, Los Cerritos
+              Wetlands
+            </figcaption>
           </figure>
           The proposed expansion of salt marshes across the Los Cerritos
           Wetlands ignores evidence that the area was never a full tidal salt
@@ -44,10 +47,12 @@ export default function ecosystem() {
           <figure className={styles.figureRight}>
             <img
               className={styles.imgWater}
-              src="/images/ecosystem/bulldozer.png"
+              src="/images/ecosystem/bulldozer.jpg"
               alt="oil in water"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
+            </figcaption>
           </figure>
           The ​LCWA is working to expand BOM’s 30 acre “restoration” across the
           entire ​Los Cerritos Wetlands. The{" "}

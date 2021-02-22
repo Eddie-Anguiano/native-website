@@ -70,7 +70,7 @@ export default function IconSection() {
           />
           <IconCard
             icon="/icons/native-icon.svg"
-            content="Protection of Tribal Cultural Landscape"
+            content="Protection of a Tribal Cultural Landscape"
           />
         </motion.div>
       </div>

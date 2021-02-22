@@ -38,9 +38,11 @@ export default function Header({ color }) {
               <Link href="/contact">
                 <a className={styles.nav__contact}>Contact</a>
               </Link>
-              <Link href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4">
-                <a className={styles.nav__donate}>Donate</a>
-              </Link>
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y"
+                className={styles.nav__donate}>
+                Donate
+              </a>
             </nav>
 
             <nav className={styles.hamburger} onClick={toggleHamburger}>

@@ -8,15 +8,17 @@ export default function native() {
     <div className={styles.learnMore}>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
-        <h2 className={styles.header}>Stewards of the land</h2>
+        <h2 className={styles.header}>Stewards of the Land</h2>
         <p className={styles.paragraph}>
           <figure className={styles.figureLeft}>
             <img
               className={styles.imgOil}
-              src="/images/native/native-painting.png"
+              src="/images/native/shadows.jpg"
               alt="oil fire"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              Shadows of Water Protectors on the Los Cerritos Wetlands
+            </figcaption>
           </figure>
           <strong>Puvungna​</strong> is “the place of emergence” where the world
           began, the place where Ouiot, the original “Capitan,” lived and died
@@ -50,10 +52,13 @@ export default function native() {
           <figure className={styles.figureRight}>
             <img
               className={styles.imgWater}
-              src="/images/native/native-boat.png"
+              src="/images/native/native-boat.jpg"
               alt="oil in water"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              Michele Castillo, Acjachemen, pilots tule boat in to Los Cerritos
+              Wetlands
+            </figcaption>
           </figure>
           California Native Americans did not freely cede the right to protect
           homelands, waters, children, languages, or spiritual practices to

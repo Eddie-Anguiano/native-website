@@ -27,13 +27,13 @@ export default function Footer() {
                 <li>Drilling is Killing!</li>
               </Link>
               <Link href="/ecosystem">
-                <li>Conservation vs "restoration"</li>
+                <li>Conservation vs. "Restoration"</li>
               </Link>
               <Link href="/native">
-                <li>Stewards of the land</li>
+                <li>Stewards of the Land</li>
               </Link>
               <Link href="/lawsuit">
-                <li>Lawsuit</li>
+                <li>Take Action</li>
               </Link>
               <Link href="/contact">
                 <li>Contact</li>

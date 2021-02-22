@@ -8,7 +8,7 @@ export default function oil() {
     <div className={styles.learnMore}>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
-        <h2 className={styles.header}>Drilling is killing!</h2>
+        <h2 className={styles.header}>Drilling is Killing!</h2>
         <p className={styles.paragraph}>
           <figure className={styles.figureLeft}>
             <img
@@ -16,7 +16,10 @@ export default function oil() {
               src="/images/big-oil/oil-fire.png"
               alt="oil fire"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              A natural gas flaring stack and 160ft drilling rig will be
+              installed
+            </figcaption>
           </figure>
           Because its existing oil wells on the Los Cerritos Wetlands are drying
           up and cannot legally be salvaged.​{" "}
@@ -56,7 +59,9 @@ export default function oil() {
               src="/images/big-oil/oil-water.png"
               alt="oil in water"
             />
-            <figcaption className={styles.caption}>caption</figcaption>
+            <figcaption className={styles.caption}>
+              Consequences of an oil spill in wetlands
+            </figcaption>
           </figure>
           <strong>The Los Cerritos Wetlands Authority</strong>​ and Beach OIl
           Minerals(Los Cerritos Wetlands LLC) have formed a public/private
