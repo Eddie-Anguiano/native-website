@@ -1,4 +1,42 @@
 @import "../base/variables.scss";
 @import "../base/helpers.scss";
+@import "./learnMore.module.scss";
 
-.lawsuit {}
+.lawsuit {
+  background-color: $color--white;
+  color: $color--black;
+}
+
+.main h4 {
+  padding-bottom: space(0.5);
+}
+
+.icon {
+  display: inline-block;
+  padding-right: space(2);
+}
+
+.subheader {
+  display: inline-block;
+  margin-bottom: space(1);
+  margin-top: space(4);
+}
+
+.list {
+  padding-bottom: space(2);
+  margin-left: space(4);
+}
+
+.unorderedList > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: space(4);
+}
+
+.item {
+  padding-bottom: space(2);
+}
+
+.sampleLetter {
+  margin-left: space(4);
+}
