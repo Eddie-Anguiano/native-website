@@ -10,17 +10,17 @@ export default function oil() {
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Drilling is Killing!</h2>
+        <figure className={styles.figureLeft}>
+          <img
+            className={styles.imgOil}
+            src="/images/big-oil/oil-fire.png"
+            alt="oil fire"
+          />
+          <figcaption className={styles.caption}>
+            A natural gas flare and 160ft drilling rig will be on site
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureLeft}>
-            <img
-              className={styles.imgOil}
-              src="/images/big-oil/oil-fire.png"
-              alt="oil fire"
-            />
-            <figcaption className={styles.caption}>
-              A natural gas flare and 160ft drilling rig will be on site
-            </figcaption>
-          </figure>
           Because its existing oil wells on the Los Cerritos Wetlands are drying
           up and cannot legally be salvaged,​ ​
           <strong>Beach Oil Minerals/Los Cerritos Wetlands, LLC</strong>​ ​seeks
@@ -58,17 +58,17 @@ export default function oil() {
           flood control barriers to protect oil operations will increase the
           human footprint at the expense of wetlands and wildlife.
         </p>
+        <figure className={styles.figureRight}>
+          <img
+            className={styles.imgWater}
+            src="/images/big-oil/oil-water.png"
+            alt="oil in water"
+          />
+          <figcaption className={styles.caption}>
+            Consequences of an oil spill in wetlands
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureRight}>
-            <img
-              className={styles.imgWater}
-              src="/images/big-oil/oil-water.png"
-              alt="oil in water"
-            />
-            <figcaption className={styles.caption}>
-              Consequences of an oil spill in wetlands
-            </figcaption>
-          </figure>
           <strong>The Los Cerritos Wetlands Authority</strong>​​ and Beach OIl
           Minerals/LCW LLC have formed a public/private partnership ​which ​sets
           a precedent for increasing fossil fuel production along the coast. The

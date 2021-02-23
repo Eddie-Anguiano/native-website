@@ -10,17 +10,17 @@ export default function ecosystem() {
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Conservation vs. "Restoration"</h2>
+        <figure className={styles.figureLeft}>
+          <img
+            className={styles.imgOil}
+            src="/images/ecosystem/eco-bird.png"
+            alt="oil fire"
+          />
+          <figcaption className={styles.caption}>
+            Endangered Belding’s Savannah Sparrow and Pickleweed
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureLeft}>
-            <img
-              className={styles.imgOil}
-              src="/images/ecosystem/eco-bird.png"
-              alt="oil fire"
-            />
-            <figcaption className={styles.caption}>
-              Endangered Belding’s Savannah Sparrow and Pickleweed
-            </figcaption>
-          </figure>
           The proposed expansion of salt marshes across the Los Cerritos
           Wetlands ignores evidence that the area was never a full tidal salt
           marsh and that added tidal influence is neither historic nor
@@ -48,17 +48,17 @@ export default function ecosystem() {
           cite="Julia Bogony"
           title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
         />
+        <figure className={styles.figureRight}>
+          <img
+            className={styles.imgWater}
+            src="/images/ecosystem/bulldozer.jpg"
+            alt="oil in water"
+          />
+          <figcaption className={styles.caption}>
+            Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureRight}>
-            <img
-              className={styles.imgWater}
-              src="/images/ecosystem/bulldozer.jpg"
-              alt="oil in water"
-            />
-            <figcaption className={styles.caption}>
-              Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
-            </figcaption>
-          </figure>
           <strong>The Los Cerritos Wetlands Authority</strong>​ is working to
           expand BOM’s thirty acre “restoration” across the entire ​Los Cerritos
           Wetlands.

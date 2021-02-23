@@ -10,17 +10,17 @@ export default function native() {
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Stewards of the Land</h2>
+        <figure className={styles.figureLeft}>
+          <img
+            className={styles.imgOil}
+            src="/images/native/shadows.jpg"
+            alt="oil fire"
+          />
+          <figcaption className={styles.caption}>
+            Water Protectors on the Los Cerritos Wetlands
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureLeft}>
-            <img
-              className={styles.imgOil}
-              src="/images/native/shadows.jpg"
-              alt="oil fire"
-            />
-            <figcaption className={styles.caption}>
-              Water Protectors on the Los Cerritos Wetlands
-            </figcaption>
-          </figure>
           <strong>Puvungna​</strong> is the place of emergence where the world
           began, where <strong>Ouiot</strong>, the original Capitan, lived and
           died and where his funeral was held. Until Ouiot was murdered, all
@@ -58,18 +58,18 @@ export default function native() {
           meetings, and social gatherings held at Puvungna unite a diverse and
           expanding tribal community and local residents as well.
         </p>
+        <figure className={styles.figureRight}>
+          <img
+            className={styles.imgWater}
+            src="/images/native/native-boat.jpg"
+            alt="oil in water"
+          />
+          <figcaption className={styles.caption}>
+            Michele Castillo, Acjachemen, pilots tule boat in to Los Cerritos
+            Wetlands
+          </figcaption>
+        </figure>
         <p className={styles.paragraph}>
-          <figure className={styles.figureRight}>
-            <img
-              className={styles.imgWater}
-              src="/images/native/native-boat.jpg"
-              alt="oil in water"
-            />
-            <figcaption className={styles.caption}>
-              Michele Castillo, Acjachemen, pilots tule boat in to Los Cerritos
-              Wetlands
-            </figcaption>
-          </figure>
           California Native Americans did not freely cede the right to protect
           homelands, waters, children, languages, or spiritual practices to
           Spain, Mexico, the California Republic, or the United States. ​It is
