@@ -41,6 +41,14 @@
   padding-bottom: space(2);
 }
 
+.resources {
+  &__item {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: space(4);
+  }
+}
+
 .sampleLetter {
   margin-left: space(4);
 }

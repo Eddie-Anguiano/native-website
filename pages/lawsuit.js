@@ -91,6 +91,49 @@ export default function lawsuit() {
           threats to the Los Cerritos Wetlands and Puvungna and the impacts of
           fossil fuel extraction to the region.
         </p>
+        <h4>Downloadable resources</h4>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            <a href="/data/drilling-down.pdf" download>
+              drilling-down.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/verified-petition.pdf" download>
+              verified-petition.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/lawsuit-opening-brief.pdf" download>
+              lawsuit-opening-brief.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/sierra-club-letter.pdf" download>
+              sierra-club-letter.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/Bermzerk.pptx" download>
+              Bermzerk.pptx
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/los-cerritos.ppt" download>
+              los-cerritos.ppt
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/marketplace-marsh.pptx" download>
+              marketplace-marsh.pptx
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/mitigation-bank.pptx" download>
+              mitigation-bank.pptx
+            </a>
+          </li>
+        </ul>
         <img
           src="/icons/users-black.svg"
           alt="heart icon"
@@ -130,6 +173,11 @@ export default function lawsuit() {
           <li>
             <a href="https://algalita.org">
               Algalita Marine Research and Education Foundation
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/StopFrackingLongBeach/">
+              Stop Fracking Long Beach
             </a>
           </li>
         </ul>
