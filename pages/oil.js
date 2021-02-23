@@ -18,7 +18,7 @@ export default function oil() {
               alt="oil fire"
             />
             <figcaption className={styles.caption}>
-              A natural gas flare and 160ft drilling rig will be on cite
+              A natural gas flare and 160ft drilling rig will be on site
             </figcaption>
           </figure>
           Because its existing oil wells on the Los Cerritos Wetlands are drying
@@ -88,6 +88,14 @@ export default function oil() {
           wetlands, along an earthquake fault in a tsunami zone subject to
           liquefaction, is criminal.
         </p>
+        <Quote
+          text="Now is a critical time for those of us who seek to reduce our society’s dependence on
+fossil fuels and transition to a green economy. We must work together to prevent further
+destruction by those private and public interests whose actions devalue our lives, our
+homes, and the natural world."
+          cite="Tahesha Knapp-Christensen"
+          title="Omaha, Water Protector"
+        />
 
         {/* To be determined by client */}
         {/* <h4>Additional Resources</h4>

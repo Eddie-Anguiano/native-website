@@ -26,9 +26,9 @@ export default function native() {
           died and where his funeral was held. Until Ouiot was murdered, all
           beings were immortal, now no one could escape death. Puvunga means
           “the gathering place,” and it is here that{" "}
-          <strong>Chinigchinich</strong>, Lawgiver and God, gave the
-          instructions which form the basis of spiritual teachings and
-          ceremonies that endure to this day. The
+          <strong>Chingishnish</strong>, Lawgiver and God, gave the instructions
+          which form the basis of spiritual teachings and ceremonies that endure
+          to this day. The
           <strong> Tongva, Acjachemen, Payomkawichum, Yuhaviatam,</strong> and
           <strong> Tataviam</strong> have shared connections to Ouiot and to
           Chinigchinich and to the spiritual traditions and practices, past and
@@ -51,7 +51,7 @@ export default function native() {
           cultural and burial sites and remaining open lands. Puvungna is listed
           with the{" "}
           <strong>California Native American Heritage Commission</strong> as a
-          <strong>Sacred Site</strong> and on the{" "}
+          <strong> Sacred Site</strong> and on the{" "}
           <strong>National Register of Historic Places</strong>. Tribal members
           have reburied Ancestors here and reintroduced traditional practices,
           including building and using ti’ats and tule boats. Ceremonies,

@@ -13,10 +13,13 @@
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
-  border-radius: 100px;
-  border: 2px solid white;
+  height: 65px;
+  width: auto;
+  cursor: pointer;
+
+  @media (max-width: 646px) {
+    height: 35px;
+  }
 }
 
 .nav {

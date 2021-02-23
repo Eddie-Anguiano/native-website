@@ -11,8 +11,7 @@
 .nav {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: space(9);
   position: fixed;
   right: 0;
   height: 100vh;
@@ -21,10 +20,26 @@
 }
 
 .item {
-  display: block;
-  padding: space(4);
+  padding: space(2);
   font-family: $font-family--primary;
   color: $color--white;
   text-decoration: none;
   font-size: space(2);
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: $color--blue;
+}
+
+.donate {
+  display: block;
+  padding: space(2);
+  font-family: $font-family--primary;
+  color: $color--white;
+  text-decoration: none;
+  font-size: space(2);
+  background: linear-gradient(
+    85.06deg,
+    lighten(#5e0b15, 6%) 0%,
+    lighten(#5e0b15, 10%) 100%
+  );
 }

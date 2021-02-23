@@ -37,6 +37,13 @@ export default function mobileNav() {
           <Link href="/contact">
             <li className={styles.item}>Contact</li>
           </Link>
+          <li>
+            <a
+              className={styles.donate}
+              href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y">
+              Donate
+            </a>
+          </li>
         </ul>
       </motion.div>
     </>

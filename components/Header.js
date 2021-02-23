@@ -31,7 +31,11 @@ export default function Header({ color }) {
         <Wrapper>
           <div className={styles.container}>
             <Link href="/">
-              <a className={styles.logo}></a>
+              <img
+                className={styles.logo}
+                src="/images/lightning-logo.png"
+                alt=""
+              />
             </Link>
 
             <nav className={styles.nav}>

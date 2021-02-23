@@ -43,6 +43,11 @@ export default function ecosystem() {
           and/or sprayed with herbicides. Existing habitat will also be replaced
           by new trails, a visitor center and parking lot.
         </p>
+        <Quote
+          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
+          cite="Julia Bogony"
+          title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
+        />
         <p className={styles.paragraph}>
           <figure className={styles.figureRight}>
             <img
@@ -54,10 +59,10 @@ export default function ecosystem() {
               Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
             </figcaption>
           </figure>
-          The <strong>Los Cerritos Wetlands Authority</strong>​ is working to
+          <strong>The Los Cerritos Wetlands Authority</strong>​ is working to
           expand BOM’s thirty acre “restoration” across the entire ​Los Cerritos
-          Wetlands. The{" "}
-          <strong>Los Cerritos Wetlands Restoration Project​</strong>​
+          Wetlands.
+          <strong> The Los Cerritos Wetlands Restoration Project​</strong>​
           accommodates the new oil pipeline across the wetlands and enhanced
           drilling beneath them. It will also allow the three other oil
           companies now operating on the wetlands to remain indefinitely. The
@@ -75,16 +80,17 @@ export default function ecosystem() {
           from the only freshwater marsh on the wetlands using a herbicide known
           to migrate and poison non-targeted plants.
         </p>
-        <Quote
-          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
-          cite="Julia Bogony"
-          title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
-        />
+
         <p className={styles.paragraph}>
           <strong>Puvunga Wetlands Protectors</strong> works to oppose these
           ongoing threats, and supports actions taken by other organizations and
           community members to do so as well.
         </p>
+        <Quote
+          text="They’re producing, they’re profitable - better for us!"
+          cite="Peter Zak"
+          title="Beach Oil Minerals"
+        />
 
         {/* to be determined later by client */}
         {/* <h4>Additional Resources</h4>
