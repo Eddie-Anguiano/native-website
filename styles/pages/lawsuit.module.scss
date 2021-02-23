@@ -12,14 +12,18 @@
 }
 
 .icon {
-  display: inline-block;
   padding-right: space(2);
+  margin-top: space(4);
 }
 
 .subheader {
-  display: inline-block;
+  display: inline;
   margin-bottom: space(1);
   margin-top: space(4);
+
+  & + p {
+    margin-top: space(1);
+  }
 }
 
 .list {
