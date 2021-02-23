@@ -16,10 +16,10 @@ export default function lawsuit() {
         />
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
-          <strong>
+          {/* <strong>
             We have a matching fund! All donations up to $5000 will be matched
             by Citizens About Responsible Planning!
-          </strong>{" "}
+          </strong>{" "} */}
           Our Paypal account allows donations to be tax deductible. Checks can
           also be sent directly to our attorney, Coast Law Group, LLP, 1140 S
           Coast Hwy 101, Encinitas, CA 92024 (write <em>for PWP Lawsuit</em> on
