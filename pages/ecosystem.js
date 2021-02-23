@@ -2,6 +2,7 @@ import styles from "../styles/pages/ecosystem.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Quote from "../components/Quote";
 
 export default function ecosystem() {
   return (
@@ -74,6 +75,11 @@ export default function ecosystem() {
           from the only freshwater marsh on the wetlands using a herbicide known
           to migrate and poison non-targeted plants.
         </p>
+        <Quote
+          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
+          cite="Julia Bogony"
+          title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
+        />
         <p className={styles.paragraph}>
           <strong>Puvunga Wetlands Protectors</strong> works to oppose these
           ongoing threats, and supports actions taken by other organizations and

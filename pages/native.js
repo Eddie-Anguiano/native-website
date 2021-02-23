@@ -2,6 +2,7 @@ import styles from "../styles/pages/native.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Quote from "../components/Quote";
 
 export default function native() {
   return (
@@ -33,6 +34,11 @@ export default function native() {
           Chinigchinich and to the spiritual traditions and practices, past and
           present, related to these first Gods.
         </p>
+        <Quote
+          text="This is a continuation of the genocide that is happening everywhere. Many of us are saying it, not just one or two, and we keep saying it. It is our creation spot. Somehow, someone has to acknowledge that this is sacred land, including the only ancient salt marsh left. We’re saying NO! This will harm people, we will not continue to exist."
+          cite="Rebecca Robles"
+          title="Acjachemen Elder and Activist"
+        />
         <p className={styles.paragraph}>
           Tribal peoples, colonizers, historians, ethnologists, archaeologists,
           anthropologists, and others have documented the history of Puvungna
