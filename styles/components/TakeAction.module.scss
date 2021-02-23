@@ -66,9 +66,12 @@
 
 .donateBtn {
   margin-left: space(1);
-  border: 4px solid $color--white;
-  background-color: $color--white;
-  color: #5b7187;
+  background: linear-gradient(
+    85.06deg,
+    lighten(#5e0b15, 6%) 0%,
+    lighten(#5e0b15, 10%) 100%
+  );
+  color: $color--white;
   text-decoration: none;
 }
 

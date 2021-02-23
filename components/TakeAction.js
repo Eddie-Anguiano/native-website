@@ -66,13 +66,12 @@ export default function TakeAction() {
             />
             <div className={styles.content}>
               <h3 className={styles.content__header}>
-                Contact Decision Makers and Influencers
+                Contact Decision Makers
               </h3>
               <p className={styles.text}>
-                Contact your local, state, and federal representatives and the
-                news media. Oil tax dollars are not worth the risk of losing our
-                wetlands and our quality of life. Erasing existing ecosystems is
-                not restoration.
+                Contact your local, state, and federal representatives. Oil tax
+                dollars are not worth the risk of losing our wetlands and our
+                quality of life. Erasing existing ecosystems is not restoration.
               </p>
             </div>
 
@@ -86,7 +85,7 @@ export default function TakeAction() {
                 Educate Yourself and Others
               </h3>
               <p className={styles.text}>
-                Why we need to protect the Los Cerritos Wetlands and learn the
+                Learn why we need to protect the Los Cerritos Wetlands and the
                 true cost of fossil fuel extraction, global warming, and sea
                 rise. Connect with indigenous peoples’ perspectives, histories,
                 and struggles.
@@ -114,9 +113,11 @@ export default function TakeAction() {
             <Link href="/lawsuit">
               <a className={styles.lrnBtn}>Learn More</a>
             </Link>
-            <Link href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4">
-              <a className={styles.donateBtn}>Donate</a>
-            </Link>
+            <a
+              href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4"
+              className={styles.donateBtn}>
+              Donate
+            </a>
           </motion.div>
         </motion.div>
       </Wrapper>

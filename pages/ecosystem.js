@@ -17,8 +17,7 @@ export default function ecosystem() {
               alt="oil fire"
             />
             <figcaption className={styles.caption}>
-              Endangered Belding’s Savannah Sparrow and Pickleweed, Los Cerritos
-              Wetlands
+              Endangered Belding’s Savannah Sparrow and Pickleweed
             </figcaption>
           </figure>
           The proposed expansion of salt marshes across the Los Cerritos
@@ -36,12 +35,12 @@ export default function ecosystem() {
           considering the scope and length of multiple proposed restorations,
           are not likely to survive.​ ​Funded by its​{" "}
           <strong>Upper Los Cerritos Wetlands Mitigation Bank</strong>,​ Beach
-          Oil Minerals “restoration” will expand an existing salt marsh across
-          seasonal brackish wetlands, by breaching the existing berm and
-          building a new one to protect its oil operations. The wetlands will be
-          scraped and reshaped to encourage tidal flow and non-native plants
-          will be removed and/or sprayed with herbicides. Existing habitat will
-          also be replaced by new trails, a visitor center and parking lot.
+          Oil Mineral's “restoration” will expand the existing salt marsh across
+          seasonal brackish wetlands, by breaching the berm and building a new
+          one to protect its oil operations. The wetlands will be scraped and
+          reshaped to encourage tidal flow and non-native plants will be removed
+          and/or sprayed with herbicides. Existing habitat will also be replaced
+          by new trails, a visitor center and parking lot.
         </p>
         <p className={styles.paragraph}>
           <figure className={styles.figureRight}>
@@ -54,10 +53,11 @@ export default function ecosystem() {
               Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
             </figcaption>
           </figure>
-          The ​LCWA is working to expand BOM’s 30 acre “restoration” across the
-          entire ​Los Cerritos Wetlands. The{" "}
+          The <strong>Los Cerritos Wetlands Authority</strong>​ is working to
+          expand BOM’s thirty acre “restoration” across the entire ​Los Cerritos
+          Wetlands. The{" "}
           <strong>Los Cerritos Wetlands Restoration Project​</strong>​
-          accommodates BOM’s oil pipeline across the wetlands and enhanced
+          accommodates the new oil pipeline across the wetlands and enhanced
           drilling beneath them. It will also allow the three other oil
           companies now operating on the wetlands to remain indefinitely. The
           construction of two visitors centers, walking and bike trails, and 18’
@@ -75,9 +75,9 @@ export default function ecosystem() {
           to migrate and poison non-targeted plants.
         </p>
         <p className={styles.paragraph}>
-          Puvunga Wetlands Protectors works to oppose these ongoing threats, and
-          supports actions taken by other organizations and community members to
-          do so as well.
+          <strong>Puvunga Wetlands Protectors</strong> works to oppose these
+          ongoing threats, and supports actions taken by other organizations and
+          community members to do so as well.
         </p>
 
         {/* to be determined later by client */}
