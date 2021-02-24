@@ -2,8 +2,6 @@
 @import "../base/helpers.scss";
 
 .TakeAction {
-  position: relative;
-  z-index: -2;
   padding: space(16) 0;
   background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
   color: $color--white;
@@ -26,7 +24,7 @@
   bottom: space(-16);
   left: 0;
   height: 55%;
-  z-index: -1;
+  z-index: 4;
 
   @media (max-width: 800px) {
     left: 50%;
@@ -45,6 +43,8 @@
 }
 
 .btnContainer {
+  position: relative;
+  z-index: 100;
   display: flex;
 
   &__desktop {
@@ -104,4 +104,10 @@
   &__header {
     margin-bottom: space(0.5);
   }
+}
+
+.left,
+.right {
+  position: relative;
+  z-index: 100;
 }
