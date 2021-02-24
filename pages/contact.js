@@ -7,6 +7,17 @@ import Wrapper from "../components/Wrapper";
 export default function contact() {
   return (
     <div className={styles.viewport}>
+      <Head>
+        <title>Contact</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta name="description" content="Contact us!"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
+      </Head>
       <Header />
       <section className={styles.contact}>
         <Wrapper>

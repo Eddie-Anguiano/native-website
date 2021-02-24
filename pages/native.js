@@ -7,6 +7,23 @@ import Quote from "../components/Quote";
 export default function native() {
   return (
     <div className={styles.learnMore}>
+      <Head>
+        <title>Stewards of the Land</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta
+          name="description"
+          content="The
+           Tongva, Acjachemen, Payomkawichum, Yuhaviatam, and
+           Tataviam have shared connections to Ouiot and to
+          Chinigchinich and to the spiritual traditions and practices, past and
+          present, related to these first Gods."></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
+      </Head>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Stewards of the Land</h2>

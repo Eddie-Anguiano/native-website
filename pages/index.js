@@ -31,8 +31,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta
+          name="description"
+          content="Puvunga Wetlands Protectors is a 501(c)(3) non-profit organization,
+          formed to defend the Puvungna/Los Cerritos Wetlands from expanding oil
+          and gas operations and to preserve the wetlands ecosystem and tribal
+          sites from destruction."></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
       </Head>
       <Header />
       <Hero />

@@ -10,6 +10,17 @@ import { IconContext } from "react-icons";
 export default function success() {
   return (
     <div className={styles.success}>
+      <Head>
+        <title>Message Sent!</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta name="description" content="Message sent successfully"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
+      </Head>
       <Header />
       <main className={styles.main}>
         <Wrapper>

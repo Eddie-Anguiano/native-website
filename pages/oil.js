@@ -7,6 +7,23 @@ import Quote from "../components/Quote";
 export default function oil() {
   return (
     <div className={styles.learnMore}>
+      <Head>
+        <title>Drilling is Killing!</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta
+          name="description"
+          content="Because its existing oil wells on the Los Cerritos Wetlands are drying
+          up and cannot legally be salvaged,​ ​
+          Beach Oil Minerals/Los Cerritos Wetlands, LLC ​seeks
+          to “consolidate” oil operations on lands bordering, but no longer
+          considered to be a part of, the Los Cerritos Wetlands."></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
+      </Head>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Drilling is Killing!</h2>

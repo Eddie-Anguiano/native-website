@@ -7,6 +7,22 @@ import Quote from "../components/Quote";
 export default function ecosystem() {
   return (
     <div className={styles.learnMore}>
+      <Head>
+        <title>Conservation vs. "Restoration"</title>
+        <link rel="icon" href="/images/favicon.ico" />
+
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta
+          name="description"
+          content="The proposed expansion of salt marshes across the Los Cerritos
+          Wetlands ignores evidence that the area was never a full tidal salt
+          marsh and that added tidal influence is neither historic nor
+          desirable, especially in light of projected sea level rise."></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"></meta>
+      </Head>
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Conservation vs. "Restoration"</h2>
