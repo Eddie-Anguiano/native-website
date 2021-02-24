@@ -43,11 +43,7 @@ export default function ecosystem() {
           and/or sprayed with herbicides. Existing habitat will also be replaced
           by new trails, a visitor center and parking lot.
         </p>
-        <Quote
-          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
-          cite="Julia Bogony"
-          title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
-        />
+
         <figure className={styles.figureRight}>
           <img
             className={styles.imgWater}
@@ -87,9 +83,9 @@ export default function ecosystem() {
           community members to do so as well.
         </p>
         <Quote
-          text="They’re producing, they’re profitable - better for us!"
-          cite="Peter Zak"
-          title="Beach Oil Minerals"
+          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
+          cite="Julia Bogony"
+          title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
         />
 
         {/* to be determined later by client */}

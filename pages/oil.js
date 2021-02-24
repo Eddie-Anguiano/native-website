@@ -37,11 +37,7 @@ export default function oil() {
           wetlands, methane gas will be burned off on site, and GHG emissions
           will increase by 70,000 tons a year.
         </p>
-        <Quote
-          text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."
-          cite="Gloria Arellanes"
-          title="Tongva Elder and Activist"
-        />
+
         <p className={styles.paragraph}>
           <strong>Beach Oil Minerals/LCW LLC</strong>​ ​presents themselves as
           benefactors who offer the last, best, chance to “save” and “restore”
@@ -89,12 +85,9 @@ export default function oil() {
           liquefaction, is criminal.
         </p>
         <Quote
-          text="Now is a critical time for those of us who seek to reduce our society’s dependence on
-fossil fuels and transition to a green economy. We must work together to prevent further
-destruction by those private and public interests whose actions devalue our lives, our
-homes, and the natural world."
-          cite="Tahesha Knapp-Christensen"
-          title="Omaha, Water Protector"
+          text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."
+          cite="Gloria Arellanes"
+          title="Tongva Elder and Activist"
         />
 
         {/* To be determined by client */}

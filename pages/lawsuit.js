@@ -2,6 +2,7 @@ import styles from "../styles/pages/lawsuit.module.scss";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Quote from "../components/Quote";
 
 export default function lawsuit() {
   return (
@@ -186,6 +187,14 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
+        <Quote
+          text="Now is a critical time for those of us who seek to reduce our society’s dependence on
+fossil fuels and transition to a green economy. We must work together to prevent further
+destruction by those private and public interests whose actions devalue our lives, our
+homes, and the natural world."
+          cite="Tahesha Knapp-Christensen"
+          title="Omaha, Water Protector"
+        />
       </main>
 
       <Footer />

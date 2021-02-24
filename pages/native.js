@@ -34,11 +34,15 @@ export default function native() {
           Chinigchinich and to the spiritual traditions and practices, past and
           present, related to these first Gods.
         </p>
-        <Quote
-          text="This is a continuation of the genocide that is happening everywhere. Many of us are saying it, not just one or two, and we keep saying it. It is our creation spot. Somehow, someone has to acknowledge that this is sacred land, including the only ancient salt marsh left. We’re saying NO! This will harm people, we will not continue to exist."
-          cite="Rebecca Robles"
-          title="Acjachemen Elder and Activist"
-        />
+        <figure className={styles.figureMiddle}>
+          <img
+            className={styles.imgOil}
+            src="/images/native/rainbow-water.jpg"
+            alt="oil fire"
+          />
+          <figcaption className={styles.caption}></figcaption>
+        </figure>
+
         <p className={styles.paragraph}>
           Tribal peoples, colonizers, historians, ethnologists, archaeologists,
           anthropologists, and others have documented the history of Puvungna
@@ -84,17 +88,11 @@ export default function native() {
           are most protective of <strong>Traditional Tribal Landscapes</strong>{" "}
           and <strong>Sacred Sites</strong>.
         </p>
-
-        {/* To be determined my client */}
-        {/* <h4>Additional Resources</h4> */}
-
-        {/* <ul className={styles.resources}>
-          <li className={styles.resources__item}>resource1</li>
-          <li className={styles.resources__item} resources-item>
-            resource2
-          </li>
-          <li className={styles.resources__item}>resource3</li>
-        </ul> */}
+        <Quote
+          text="This is a continuation of the genocide that is happening everywhere. Many of us are saying it, not just one or two, and we keep saying it. It is our creation spot. Somehow, someone has to acknowledge that this is sacred land, including the only ancient salt marsh left. We’re saying NO! This will harm people, we will not continue to exist."
+          cite="Rebecca Robles"
+          title="Acjachemen Elder and Activist"
+        />
       </main>
       <Footer />
     </div>
