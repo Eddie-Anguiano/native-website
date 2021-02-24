@@ -2,12 +2,15 @@
 @import "../base/helpers.scss";
 
 .TakeAction {
+  position: relative;
+  z-index: -2;
   padding: space(16) 0;
   background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
   color: $color--white;
 }
 
 .grid {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: space(8);
@@ -15,6 +18,20 @@
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
     gap: space(6);
+  }
+}
+
+.flowerImg {
+  position: absolute;
+  bottom: space(-16);
+  left: 0;
+  height: 55%;
+  z-index: -1;
+
+  @media (max-width: 800px) {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30%;
   }
 }
 
@@ -60,7 +77,8 @@
 .lrnBtn {
   border: 4px solid $color--white;
   margin-right: space(1);
-  color: $color--white;
+  background-color: $color--white;
+  color: $color--blue;
   text-decoration: none;
 }
 

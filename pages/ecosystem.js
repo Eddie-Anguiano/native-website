@@ -87,16 +87,6 @@ export default function ecosystem() {
           cite="Julia Bogony"
           title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
         />
-
-        {/* to be determined later by client */}
-        {/* <h4>Additional Resources</h4>
-        <ul className={styles.resources}>
-          <li className={styles.resources__item}>resource1</li>
-          <li className={styles.resources__item} resources-item>
-            resource2
-          </li>
-          <li className={styles.resources__item}>resource3</li>
-        </ul> */}
       </main>
       <Footer />
     </div>

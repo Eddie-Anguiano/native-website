@@ -30,6 +30,12 @@ export default function TakeAction() {
           initial="initial"
           variants={parentStagger}
           className={styles.grid}>
+          <img
+            className={styles.flowerImg}
+            src="/images/flower.svg"
+            alt="flower"
+          />
+
           <motion.div variants={fadeUpIn} className={styles.left}>
             <h2 className={styles.header}>
               By taking action you can make a difference!
