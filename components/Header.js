@@ -33,7 +33,7 @@ export default function Header({ color }) {
             <Link href="/">
               <img
                 className={styles.logo}
-                src="/images/lightning-logo.png"
+                src="/images/lightning-logo-green.png"
                 alt=""
               />
             </Link>

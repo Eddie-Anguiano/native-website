@@ -30,14 +30,11 @@ export default function lawsuit() {
         />
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
-          {/* <strong>
-            We have a matching fund! All donations up to $5000 will be matched
-            by Citizens About Responsible Planning!
-          </strong>{" "} */}
-          Our Paypal account allows donations to be tax deductible. Checks can
-          also be sent directly to our attorney, Coast Law Group, LLP, 1140 S
-          Coast Hwy 101, Encinitas, CA 92024 (write <em>for PWP Lawsuit</em> on
-          check).
+          We have a $5000 Matching Fund! Citizens About Resposible Pllanning
+          (CARP) will match all donations dollar for dollar. Our Paypal account
+          allows donations to be tax deductible. Checks can also be sent
+          directly to our attorney, Coast Law Group, LLP, 1140 S Coast Hwy 101,
+          Encinitas, CA 92024 (write <em>for PWP Lawsuit</em> on check).
         </p>
         <p className={styles.paragraph}>
           While PWP is suing the Coastal Commission, Beach Oil Minerals is also
@@ -200,13 +197,11 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
+
         <Quote
-          text="Now is a critical time for those of us who seek to reduce our society’s dependence on
-fossil fuels and transition to a green economy. We must work together to prevent further
-destruction by those private and public interests whose actions devalue our lives, our
-homes, and the natural world."
-          cite="Tahesha Knapp-Christensen"
-          title="Omaha, Water Protector"
+          text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."
+          cite="Gloria Arellanes"
+          title="Tongva Elder and Activist"
         />
       </main>
 

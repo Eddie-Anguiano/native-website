@@ -84,7 +84,7 @@ export default function Home() {
             variants={fadeUpIn}>
             <p className={styles.quote__text}>
               We’re saying that the Los Cerritos Wetlands constitutes a Tribal
-              Cultural Property. Puvungna was a community, a spiritual gathering
+              Cultural Property. Puvunga was a community, a spiritual gathering
               place for many tribes, birthplace of Chingishnish, law giver and
               god.
             </p>
@@ -100,7 +100,7 @@ export default function Home() {
         <InfoSection
           header="Puvunga and Motuucheyngna, Sacred Then and Now"
           subheader="Stewards of the Land"
-          content="For 10,000 years a ​vast wetlands sustained the coastal communities of ​Puvungna and Motuucheyngna​, central to the spiritual traditions of the Tongva, Acjachemen, and numerous other Southern California Tribes. ​The remaining 500 acre Los Cerritos Wetlands allow a connection to homelands, ancestors and culture. ​Drilling, digging, bulldozing and building on these wetlands is opposed by tribal culture keepers and violates​ tribal beliefs which understand all life to be related and deserving of respect. Relocating tribal burials and preserving tribal “artifacts” for research or exhibition will not “mitigate” this destruction. ​The connection of tribal peoples to Puvungna cannot be determined piecemeal, as it is timeless and inclusive of all manifestations of being. This relationship to place defines tribes as peoples who seek to live in balance through the gifts given by all relations."
+          content="For 10,000 years a ​vast wetlands sustained the coastal communities of ​Puvunga and Motuucheyngna​, central to the spiritual traditions of the Tongva, Acjachemen, and numerous other Southern California Tribes. ​The remaining 500 acre Los Cerritos Wetlands allow a connection to homelands, ancestors and culture. ​Drilling, digging, bulldozing and building on these wetlands is opposed by tribal culture keepers and violates​ tribal beliefs which understand all life to be related and deserving of respect. Relocating tribal burials and preserving tribal “artifacts” for research or exhibition will not “mitigate” this destruction. ​The connection of tribal peoples to Puvungna cannot be determined piecemeal, as it is timeless and inclusive of all manifestations of being. This relationship to place defines tribes as peoples who seek to live in balance through the gifts given by all relations."
           contentOrder="2"
           image="/images/salt-pan.jpg"
           alt="tongva portrait"

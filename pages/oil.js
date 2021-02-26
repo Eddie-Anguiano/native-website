@@ -102,9 +102,12 @@ export default function oil() {
           liquefaction, is criminal.
         </p>
         <Quote
-          text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."
-          cite="Gloria Arellanes"
-          title="Tongva Elder and Activist"
+          text="Now is a critical time for those of us who seek to reduce our society’s dependence on
+fossil fuels and transition to a green economy. We must work together to prevent further
+destruction by those private and public interests whose actions devalue our lives, our
+homes, and the natural world."
+          cite="Tahesha Knapp-Christensen"
+          title="Omaha, Water Protector"
         />
       </main>
 
