@@ -30,7 +30,7 @@ export default function lawsuit() {
         />
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
-          We have a $5000 Matching Fund! Citizens About Resposible Pllanning
+          We have a $5000 Matching Fund! Citizens About Resposible Planning
           (CARP) will match all donations dollar for dollar. Our Paypal account
           allows donations to be tax deductible. Checks can also be sent
           directly to our attorney, Coast Law Group, LLP, 1140 S Coast Hwy 101,
