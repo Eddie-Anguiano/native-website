@@ -12,8 +12,9 @@
 }
 
 .icon {
-  padding-right: space(2);
+  padding-right: space(1);
   margin-top: space(4);
+  transform: translateY(2px);
 }
 
 .subheader {
@@ -49,6 +50,19 @@
   }
 }
 
-.sampleLetter {
+.indent {
   margin-left: space(4);
+}
+
+.doubleIndent {
+  margin-left: space(8);
+}
+
+.events {
+  padding-top: space(1);
+  padding-bottom: space(1) !important;
+}
+
+.allies {
+  margin-top: space(2);
 }

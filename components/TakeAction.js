@@ -104,12 +104,13 @@ export default function TakeAction() {
               className={styles.icon}
             />
             <div className={styles.content}>
-              <h3 className={styles.content__header}>Connect with Allies</h3>
+              <h3 className={styles.content__header}>
+                Connect with Actions and Allies
+              </h3>
               <p className={styles.text}>
-                Join and support Protect the Long Beach/Los Cerritos Wetlands
-                Coalition, other organizations, and tribal nations working to
-                stop the fossil fuel industry from destroying communities,
-                indigenous cultures, and our Mother Earth.
+                Find events, actions, and allies that protect wetlands, empower
+                tribal peoples and stop the fossil fuel industry from destroying
+                our health, our communities, and Mother Earth.
               </p>
             </div>
           </motion.div>

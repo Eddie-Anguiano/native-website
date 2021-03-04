@@ -75,7 +75,7 @@ export default function lawsuit() {
           </li>
         </ol>
         <h4>Sample letter</h4>
-        <p className={`${styles.paragraph} ${styles.sampleLetter}`}>
+        <p className={`${styles.paragraph} ${styles.indent}`}>
           I/We support the lawsuit filed by Puvunga Wetlands Protectors against
           the California Coastal Commission for approving the Los Cerritos
           Wetlands Restoration and Oil Consolidation Project. ​Because ​the
@@ -151,6 +151,36 @@ export default function lawsuit() {
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Connect</h3>
+        <h4 className={styles.events}>Upcoming Events/Actions</h4>
+        <h4 className={styles.indent}>
+          3/11- See Us in Court! (attend hearing virtually)
+        </h4>
+        <h4 className={styles.indent}>1. Get a Court ID</h4>
+        <p className={`${styles.paragraph} ${styles.doubleIndent}`}>
+          <a href="https://my.lacourt.org/remoteaudio/welcome">
+            https://my.lacourt.org/remoteaudio/welcome
+          </a>
+        </p>
+        <h4 className={styles.indent}>2) Sign up to hear the trial hearing:</h4>
+        <div className={styles.doubleIndent}>
+          <strong>Case Type:</strong> Civil
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Case #:</strong> 19STCP00435
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Case Title:</strong> Puvunga Wetlands Protectors, a California
+          Non-Profit Public Benefit Organization vs. the California Coastal
+          Commission, a Public Agency, y all.
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Courthouse:</strong> Stanley Mosk Courthouse
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Date & Time of Hearing:</strong> 1:30pm, March 11, 2021
+        </div>
+
+        <h4 className={styles.allies}>Allies:</h4>
         <ul className={styles.unorderedList}>
           <li>
             <a href="https://www.facebook.com/groups/ProtectLosCerritosWetlands/">
