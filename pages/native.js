@@ -17,7 +17,7 @@ export default function native() {
           name="description"
           content="The
            Tongva, Acjachemen, Payomkawichum, Yuhaviatam, and
-           Tataviam have shared connections to Ouiot and to
+           Tataviam have shared connections to Wewyoot/Woyoot and to
           Chinigchinich and to the spiritual traditions and practices, past and
           present, related to these first Gods."></meta>
         <meta
@@ -39,17 +39,17 @@ export default function native() {
         </figure>
         <p className={styles.paragraph}>
           <strong>Puvunga​</strong> is the place of emergence where the world
-          began, where <strong>Ouiot</strong>, the original Capitan, lived and
-          died and where his funeral was held. Until Ouiot was murdered, all
-          beings were immortal, now no one could escape death. Puvunga means
-          “the gathering place” and it is here that{" "}
+          began, where <strong>Wewyoot/Woyoot</strong>, the original Capitan,
+          lived and died and where his funeral was held. Until Wewyoot/Woyoot
+          was murdered, all beings were immortal, now no one could escape death.
+          Puvunga means “the gathering place” and it is here that{" "}
           <strong>Chingishnish</strong>, Lawgiver and God, gave the instructions
           which form the basis of spiritual teachings and ceremonies that endure
           to this day. The
           <strong> Tongva, Acjachemen, Payomkawichum, Yuhaviatam,</strong> and
-          <strong> Tataviam</strong> have shared connections to Ouiot and to
-          Chinigchinich and to the spiritual traditions and practices, past and
-          present, related to these first Gods.
+          <strong> Tataviam</strong> have shared connections to Wewyoot/Woyoot
+          and to Chinigchinich and to the spiritual traditions and practices,
+          past and present, related to these first Gods.
         </p>
         <figure className={styles.figureMiddle}>
           <img
