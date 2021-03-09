@@ -61,7 +61,8 @@ export default function TakeAction() {
               <h3 className={styles.content__header}>Fund the Lawsuit</h3>
               <p className={styles.text}>
                 Support Puvunga Wetlands Protectors’ Lawsuit against the
-                California Coastal Commission
+                California Coastal Commission. Dollar for dollar matching fund
+                in progress!
               </p>
             </div>
 

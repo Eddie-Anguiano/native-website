@@ -24,13 +24,46 @@ export default function lawsuit() {
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
         <img
+          src="/icons/alert-triangle.svg"
+          alt="heart icon"
+          className={styles.icon}
+        />
+        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        <h4 className={`${styles.events} ${styles.indent}`}>
+          3/11- See Us in Court! (attend hearing virtually)
+        </h4>
+        <h4 className={styles.indent}>1. Get a Court ID</h4>
+        <p className={`${styles.paragraph} ${styles.doubleIndent}`}>
+          <a href="https://my.lacourt.org/remoteaudio/welcome">
+            https://my.lacourt.org/remoteaudio/welcome
+          </a>
+        </p>
+        <h4 className={styles.indent}>2. Sign up to hear the trial hearing:</h4>
+        <div className={styles.doubleIndent}>
+          <strong>Case Type:</strong> Civil
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Case #:</strong> 19STCP00435
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Case Title:</strong> Puvunga Wetlands Protectors, a California
+          Non-Profit Public Benefit Organization vs. the California Coastal
+          Commission, a Public Agency, y all.
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Courthouse:</strong> Stanley Mosk Courthouse
+        </div>
+        <div className={styles.doubleIndent}>
+          <strong>Date & Time of Hearing:</strong> 1:30pm, March 11, 2021
+        </div>
+        <img
           src="/icons/heart-black.svg"
           alt="heart icon"
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
-          We have a $5000 Matching Fund! Citizens About Resposible Planning
+          We have a $5000 Matching Fund! Citizens About Responsible Planning
           (CARP) will match all donations dollar for dollar. Our Paypal account
           allows donations to be tax deductible. Checks can also be sent
           directly to our attorney, Coast Law Group, LLP, 1140 S Coast Hwy 101,
@@ -110,16 +143,6 @@ export default function lawsuit() {
             </a>
           </li>
           <li className={styles.resources__item}>
-            <a href="/data/verified-petition.pdf" download>
-              verified-petition.pdf
-            </a>
-          </li>
-          <li className={styles.resources__item}>
-            <a href="/data/lawsuit-opening-brief.pdf" download>
-              lawsuit-opening-brief.pdf
-            </a>
-          </li>
-          <li className={styles.resources__item}>
             <a href="/data/sierra-club-letter.pdf" download>
               sierra-club-letter.pdf
             </a>
@@ -145,40 +168,35 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
+        <h4 className={styles.events}>Legal Arguments</h4>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            <a href="/data/verified-petition.pdf" download>
+              verified-petition.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/lawsuit-opening-brief.pdf" download>
+              lawsuit-opening-brief.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/respondent.pdf" download>
+              Respondent-Coastal-Commission's-Opposition-to-Petition.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/reply-brief.pdf" download>
+              Reply-Brief.pdf
+            </a>
+          </li>
+        </ul>
         <img
           src="/icons/users-black.svg"
           alt="heart icon"
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Connect</h3>
-        <h4 className={styles.events}>Upcoming Events/Actions</h4>
-        <h4 className={styles.indent}>
-          3/11- See Us in Court! (attend hearing virtually)
-        </h4>
-        <h4 className={styles.indent}>1. Get a Court ID</h4>
-        <p className={`${styles.paragraph} ${styles.doubleIndent}`}>
-          <a href="https://my.lacourt.org/remoteaudio/welcome">
-            https://my.lacourt.org/remoteaudio/welcome
-          </a>
-        </p>
-        <h4 className={styles.indent}>2) Sign up to hear the trial hearing:</h4>
-        <div className={styles.doubleIndent}>
-          <strong>Case Type:</strong> Civil
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Case #:</strong> 19STCP00435
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Case Title:</strong> Puvunga Wetlands Protectors, a California
-          Non-Profit Public Benefit Organization vs. the California Coastal
-          Commission, a Public Agency, y all.
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Courthouse:</strong> Stanley Mosk Courthouse
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Date & Time of Hearing:</strong> 1:30pm, March 11, 2021
-        </div>
 
         <h4 className={styles.allies}>Allies:</h4>
         <ul className={styles.unorderedList}>
