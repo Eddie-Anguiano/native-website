@@ -1,6 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { fadeUpIn } from "../utils/animations";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 //components
 import Head from "next/head";
@@ -12,8 +12,11 @@ import InfoSection from "../components/InfoSection";
 import TakeAction from "../components/TakeAction";
 import Wrapper from "../components/Wrapper";
 import Footer from "../components/Footer";
+import PopUp from "../components/PopUp";
 
 export default function Home() {
+  const [popUpIsOpen, setPopUpIsOpen] = useState(true);
+
   // Intersection Observer for quote
   const controlQuote = useAnimation();
   const [quoteRef, quoteInView] = useInView({
@@ -47,6 +50,10 @@ export default function Home() {
           content="width=device-width, initial-scale=1"></meta>
       </Head>
       <Header />
+      <AnimatePresence>
+        {popUpIsOpen && <PopUp setPopUpIsOpen={setPopUpIsOpen} />}
+      </AnimatePresence>
+
       <Hero />
 
       <section className={styles.iconSection}>

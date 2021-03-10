@@ -1,0 +1,53 @@
+@import "../base/variables.scss";
+@import "../base/helpers.scss";
+
+.PopUp {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 300px;
+  padding: space(4);
+  background-color: $color--light-gray;
+  border-radius: $border-radius--small;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.header {
+  margin-bottom: space(1);
+}
+
+.content {
+  margin-bottom: space(2);
+}
+
+.triangle {
+  @extend %center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: space(1.5);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $color--light-gray;
+  box-shadow: 0px 8px 12px -2px rgba(0, 0, 0, 0.25);
+
+  &__icon {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: space(1) space(2);
+  background: linear-gradient(56.55deg, #5b7187 0%, #7e99b4 100%);
+  border-radius: $border-radius--small;
+  color: $color--white;
+  cursor: pointer;
+}
