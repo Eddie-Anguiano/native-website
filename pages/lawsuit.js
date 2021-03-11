@@ -35,7 +35,7 @@ export default function lawsuit() {
         <h4 className={styles.indent}>1. Get a Court ID</h4>
         <p className={`${styles.paragraph} ${styles.doubleIndent}`}>
           <a href="https://my.lacourt.org/remoteaudio/welcome">
-            https://my.lacourt.org/remoteaudio/welcome
+            Court ID sign up
           </a>
         </p>
         <h4 className={styles.indent}>2. Sign up to hear the trial hearing:</h4>
