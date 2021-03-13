@@ -26,6 +26,7 @@
   color: $color--white;
 }
 
+// waiting for client approval
 // .email {
 //   font-family: $font-family--primary;
 //   font-weight: bold;
@@ -73,4 +74,10 @@
   font-family: $font-family--secondary;
   font-size: space(2);
   color: $color--white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.08);
+  }
 }

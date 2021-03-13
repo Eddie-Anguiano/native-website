@@ -16,9 +16,13 @@
   height: 65px;
   width: auto;
   cursor: pointer;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.08);
+  }
 
   @media (max-width: 646px) {
-    // height: 35px;
     height: 45px;
   }
 }
@@ -38,6 +42,11 @@
     font-weight: bold;
     color: $color--white;
     text-decoration: none;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.08);
+    }
   }
 
   &__donate {
@@ -53,6 +62,11 @@
     );
     color: $color--white;
     text-decoration: none;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.08);
+    }
   }
 }
 

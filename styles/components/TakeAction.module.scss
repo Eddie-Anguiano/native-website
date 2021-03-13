@@ -72,6 +72,11 @@
   height: 43px;
   width: 141px;
   border-radius: $border-radius--small;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.08);
+  }
 }
 
 .lrnBtn {

@@ -19,6 +19,11 @@
   margin-bottom: space(2);
   color: $color--white;
   text-decoration: none;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 .social {
@@ -43,4 +48,9 @@
   margin-left: space(2);
   cursor: pointer;
   color: $color--white;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.08);
+  }
 }

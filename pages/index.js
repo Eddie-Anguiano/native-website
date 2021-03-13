@@ -15,7 +15,7 @@ import Footer from "../components/Footer";
 import PopUp from "../components/PopUp";
 
 export default function Home() {
-  const [popUpIsOpen, setPopUpIsOpen] = useState(true);
+  const [popUpIsOpen, setPopUpIsOpen] = useState(false);
 
   // Intersection Observer for quote
   const controlQuote = useAnimation();
