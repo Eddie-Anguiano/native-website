@@ -23,7 +23,7 @@ export default function lawsuit() {
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
-        <img
+        {/* <img
           src="/icons/alert-triangle.svg"
           alt="heart icon"
           className={styles.icon}
@@ -55,7 +55,7 @@ export default function lawsuit() {
         </div>
         <div className={styles.doubleIndent}>
           <strong>Date & Time of Hearing:</strong> 1:30pm, March 11, 2021
-        </div>
+        </div> */}
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"
@@ -250,6 +250,38 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
+
+        <img
+          src="/icons/alert-triangle.svg"
+          alt="heart icon"
+          className={styles.icon}
+        />
+        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        <div className={styles.gridContainer}>
+          <div className={styles.gridItem}>
+            <img
+              className={styles.gridImg}
+              src="/images/lawsuit/community-gathering.jpeg"
+              alt="community gathering"
+            />
+          </div>
+
+          <div className={styles.gridItem}>
+            <img
+              className={styles.gridImg}
+              src="/images/lawsuit/pray-run.jpeg"
+              alt="pray run"
+            />
+          </div>
+
+          <div className={styles.gridItem}>
+            <img
+              className={styles.gridImg}
+              src="/images/lawsuit/puvu-run.jpeg"
+              alt="puvu run"
+            />
+          </div>
+        </div>
 
         <Quote
           text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."

@@ -54,15 +54,22 @@
   margin-left: space(4);
 }
 
-.doubleIndent {
-  margin-left: space(8);
-}
-
-.events {
-  padding-top: space(1);
-  padding-bottom: space(1) !important;
-}
-
 .allies {
   margin-top: space(2);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: space(4);
+  margin-top: space(2);
+}
+
+.gridItem {
+  width: 100%;
+  height: auto;
+}
+
+.gridImg {
+  width: 100%;
 }
