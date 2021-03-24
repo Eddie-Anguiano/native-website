@@ -269,14 +269,6 @@ export default function lawsuit() {
           <div className={styles.gridItem}>
             <img
               className={styles.gridImg}
-              src="/images/lawsuit/pray-run.jpeg"
-              alt="pray run"
-            />
-          </div>
-
-          <div className={styles.gridItem}>
-            <img
-              className={styles.gridImg}
               src="/images/lawsuit/puvu-run.jpeg"
               alt="puvu run"
             />
