@@ -101,6 +101,36 @@ export default function oil() {
           wetlands, along an earthquake fault in a tsunami zone subject to
           liquefaction, is criminal.
         </p>
+        <p className={styles.paragraph}>
+          <strong>Lawsuit Update</strong>
+          <br />
+          On March 11th, 2021, Los Angeles Superior Court Judge Strobel denied
+          our petition that the Coastal Commission be required to set aside its
+          approval of the Coastal Development Permit (CDP) for the Los Cerritos
+          Wetlands Restoration and Oil Consolidation Project. The ruling states
+          that, “The Court determines that substantial evidence supports the
+          Commission’s decision that the Project would promote important
+          policies of the Coast Act, including wetlands preservation and
+          restoration, and that the Commission’s weighing of the public benefits
+          and risks ...was not unreasonable, arbitrary, or capricious,” and
+          further notes that, “There was substantial evidence before the
+          Commission that denying the permit would be against the public
+          welfare.” Additionally, Judge Strobel found that we had not exhausted
+          all available remedies nor had we proven that the Coastal Commission’s
+          Executive Director lacked the authority to review and execute project
+          permits. This decision can be appealed. On March 19th, Beach Oil
+          Minerals was back in court asking Judge Strobel to grant a 2+ year
+          extension of their 3 year CDP which expires this coming December. Last
+          October, PWP successfully argued that both the Coastal Commission’s
+          right to grant one year extensions of CDP’s and the public’s right to
+          comment on them would be denied should the Superior Court intervene.
+          Judge Strobel agreed and denied the request. This second attempt will
+          be heard on April 13th and PWP will be there to oppose it. BOM has now
+          submitted a request for a CDP extension to the Coastal Commission,
+          ensuring that the project timeline will be extended as long as the
+          extension is under review. BOM argues that our lawsuit has prevented
+          them from attracting investors and securing the funds they need.
+        </p>
 
         <Quote
           text="Now is a critical time for those of us who seek to reduce our society’s dependence on
