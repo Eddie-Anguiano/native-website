@@ -23,39 +23,41 @@ export default function lawsuit() {
       <Header color="#3e4d5c" />
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
-        {/* <img
+        <img
           src="/icons/alert-triangle.svg"
           alt="heart icon"
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
-        <h4 className={`${styles.events} ${styles.indent}`}>
-          3/11- See Us in Court! (attend hearing virtually)
-        </h4>
-        <h4 className={styles.indent}>1. Get a Court ID</h4>
-        <p className={`${styles.paragraph} ${styles.doubleIndent}`}>
-          <a href="https://my.lacourt.org/remoteaudio/welcome">
-            Court ID sign up
-          </a>
+        <p className={styles.paragraph}>
+          <strong>Puvungna/Los Cerritos Wetlands Healing Walk and Rally</strong>
+          <br />
+          <strong>Saturday, April 24th from 9am - 4pm.</strong>
+          <br /> <strong>9am</strong> Meet at Motuuchenga (Heron Pointe Trail
+          and Seal Beach Blvd) in Seal Beach, 9am - 1pm Walk through Gum Grove
+          Park and the Los Cerritos Wetlands to Marketplace Marsh/Mall at 2nd
+          and PCH in Long Beach (@ 4 miles <br />
+          <strong>1pm - 2pm</strong>, lunch and speakers
+          <br /> <strong>2pm - 4pm</strong> Rally at 2nd and PCH <br />
+          <strong>Park</strong> at Heron Pointe Trail, or, if lot is full, at
+          Marketplace Mall, shuttle will be provided.
         </p>
-        <h4 className={styles.indent}>2. Sign up to hear the trial hearing:</h4>
-        <div className={styles.doubleIndent}>
-          <strong>Case Type:</strong> Civil
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Case #:</strong> 19STCP00435
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Case Title:</strong> Puvunga Wetlands Protectors, a California
-          Non-Profit Public Benefit Organization vs. the California Coastal
-          Commission, a Public Agency, y all.
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Courthouse:</strong> Stanley Mosk Courthouse
-        </div>
-        <div className={styles.doubleIndent}>
-          <strong>Date & Time of Hearing:</strong> 1:30pm, March 11, 2021
-        </div> */}
+        <p className={styles.paragraph}>
+          The Los Cerritos Wetlands, a tribal cultural landscape within the
+          Sacred Site of Puvungna, that have sustained generations, now bear the
+          scars of abuse. Plants, animals, and people continue to suffer as
+          Illegal toxic fumes from current wetlands drilling sites poison the
+          air. Bulldozers have been digging in the wetlands and have torn into a
+          tribal witness area at Gum Grove Park. Plans to drill for oil, build a
+          new gas plant, poison tules, and erase tribal culture and remaining
+          wildlife habitat in the name of “restoration” move forward. We hope
+          you will join us as we walk from Motuucheyngna through the wetlands to
+          heal the land and ourselves. Sponsored by Puvunga Wetlands Protectors
+          and the Los Cerritos Wetlands Task Force Supporters include: CCRPA,
+          ICAN Foundation, Long Beach Environmental Alliance, Climate Reality
+          Project, LA Bear Tracks Magazine.
+        </p>
+
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"
@@ -250,30 +252,6 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
-
-        <img
-          src="/icons/alert-triangle.svg"
-          alt="heart icon"
-          className={styles.icon}
-        />
-        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
-        <div className={styles.gridContainer}>
-          <div className={styles.gridItem}>
-            <img
-              className={styles.gridImg}
-              src="/images/lawsuit/community-gathering.jpeg"
-              alt="community gathering"
-            />
-          </div>
-
-          <div className={styles.gridItem}>
-            <img
-              className={styles.gridImg}
-              src="/images/lawsuit/puvu-run.jpeg"
-              alt="puvu run"
-            />
-          </div>
-        </div>
 
         <Quote
           text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."

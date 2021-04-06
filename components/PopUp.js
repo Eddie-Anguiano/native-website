@@ -29,10 +29,10 @@ export default function PopUp({ setPopUpIsOpen }) {
         />
       </div>
 
-      <h4 className={styles.header}>See Us in Court!</h4>
+      <h4 className={styles.header}>Join us!</h4>
       <p className={styles.content}>
-        Attend the hearing virtually. Click the link below for details on how to
-        sign up.
+        Puvungna/Los Cerritos Wetlands Healing Walk and Rally, 9am - 4pm
+        Saturday, April 24th
       </p>
       <Link href="/lawsuit">
         <div className={styles.btn}>Learn More</div>
