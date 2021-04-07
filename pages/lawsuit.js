@@ -42,6 +42,13 @@ export default function lawsuit() {
           <strong>Park</strong> at Heron Pointe Trail, or, if lot is full, at
           Marketplace Mall, shuttle will be provided.
         </p>
+        <figure className={styles.figureLeft}>
+          <img
+            className={styles.imgOil}
+            src="/images/lawsuit/bird.jpg"
+            alt="bird"
+          />
+        </figure>
         <p className={styles.paragraph}>
           The Los Cerritos Wetlands, a tribal cultural landscape within the
           Sacred Site of Puvungna, that have sustained generations, now bear the
