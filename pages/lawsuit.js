@@ -59,10 +59,15 @@ export default function lawsuit() {
           new gas plant, poison tules, and erase tribal culture and remaining
           wildlife habitat in the name of “restoration” move forward. We hope
           you will join us as we walk from Motuucheyngna through the wetlands to
-          heal the land and ourselves. Sponsored by Puvunga Wetlands Protectors
-          and the Los Cerritos Wetlands Task Force Supporters include: CCRPA,
-          ICAN Foundation, Long Beach Environmental Alliance, Climate Reality
-          Project, LA Bear Tracks Magazine.
+          heal the land and ourselves.
+        </p>
+        <p className={styles.paragraph}>
+          <strong>Sponsored by:</strong> Puvunga Wetlands Protectors and the Los
+          Cerritos Wetlands Task Force
+          <br />
+          <strong>Supporters include:</strong> CCRPA, ICAN Foundation, Long
+          Beach Environmental Alliance, Climate Reality Project, LA Bear Tracks
+          Magazine.
         </p>
 
         <img
