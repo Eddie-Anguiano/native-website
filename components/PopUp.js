@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function PopUp({ setPopUpIsOpen }) {
   useEffect(() => {
-    setTimeout(() => setPopUpIsOpen(false), 10000);
+    setTimeout(() => setPopUpIsOpen(false), 20000);
   }, []);
 
   return (
