@@ -107,49 +107,94 @@ export default function ecosystem() {
         </p>
         <Carousel showArrows="true">
           <div>
-            <img src="/images/Bermzerk/Bermzerk.001.jpeg" alt="slide 1" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.001.jpeg"
+              alt="slide 1"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.002.jpeg" alt="slide 2" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.002.jpeg"
+              alt="slide 2"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.003.jpeg" alt="slide 3" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.003.jpeg"
+              alt="slide 3"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.004.jpeg" alt="slide 4" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.004.jpeg"
+              alt="slide 4"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.005.jpeg" alt="slide 5" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.005.jpeg"
+              alt="slide 5"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.006.jpeg" alt="slide 6" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.006.jpeg"
+              alt="slide 6"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.007.jpeg" alt="slide 7" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.007.jpeg"
+              alt="slide 7"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.008.jpeg" alt="slide 8" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.008.jpeg"
+              alt="slide 8"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.009.jpeg" alt="slide 9" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.009.jpeg"
+              alt="slide 9"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.010.jpeg" alt="slide 10" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.010.jpeg"
+              alt="slide 10"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.011.jpeg" alt="slide 11" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.011.jpeg"
+              alt="slide 11"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.012.jpeg" alt="slide 12" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.012.jpeg"
+              alt="slide 12"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.013.jpeg" alt="slide 13" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.013.jpeg"
+              alt="slide 13"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.014.jpeg" alt="slide 14" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.014.jpeg"
+              alt="slide 14"
+            />
           </div>
           <div>
-            <img src="/images/Bermzerk/Bermzerk.015.jpeg" alt="slide 15" />
+            <img
+              src="/images/Bermzerk-slides/Bermzerk.015.jpeg"
+              alt="slide 15"
+            />
           </div>
         </Carousel>
 
