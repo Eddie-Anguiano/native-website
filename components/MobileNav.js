@@ -1,6 +1,8 @@
-import styles from "../styles/components/MobileNav.module.scss";
-import Link from "next/link";
+// Global Imports
 import { motion } from "framer-motion";
+import Link from "next/link";
+// Styles Imports
+import styles from "../styles/components/MobileNav.module.scss";
 
 export default function mobileNav() {
   return (
@@ -11,6 +13,7 @@ export default function mobileNav() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className={styles.MobileNav}></motion.div>
+
       <motion.div
         key="nav"
         initial={{ x: "100%" }}

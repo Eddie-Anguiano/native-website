@@ -1,7 +1,9 @@
-import { useEffect } from "react";
-import styles from "../styles/components/PopUp.module.scss";
-import Link from "next/link";
+// Global Imports
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect } from "react";
+// Styles Imports
+import styles from "../styles/components/PopUp.module.scss";
 
 export default function PopUp({ setPopUpIsOpen }) {
   // Sets duration of Pop up notification
@@ -22,6 +24,7 @@ export default function PopUp({ setPopUpIsOpen }) {
         src="/icons/x-square.svg"
         alt="close"
       />
+
       <div className={styles.triangle}>
         <img
           src="/icons/alert-triangle.svg"
@@ -31,10 +34,12 @@ export default function PopUp({ setPopUpIsOpen }) {
       </div>
 
       <h4 className={styles.header}>Join us!</h4>
+
       <p className={styles.content}>
         Puvungna/Los Cerritos Wetlands Healing Walk and Rally, 9am - 4pm,
         Saturday, April 24th
       </p>
+
       <Link href="/lawsuit">
         <div className={styles.btn}>Learn More</div>
       </Link>

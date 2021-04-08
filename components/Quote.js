@@ -1,3 +1,4 @@
+// Styles Import
 import styles from "../styles/components/Quote.module.scss";
 
 export default function Quote({ text, cite, title }) {

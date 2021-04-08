@@ -1,10 +1,13 @@
-import styles from "../styles/pages/ecosystem.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Quote from "../components/Quote";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+// Component Imports
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Quote from "../components/Quote";
+// Styles Imports
+import styles from "../styles/pages/ecosystem.module.scss";
 
 export default function ecosystem() {
   return (
@@ -25,7 +28,9 @@ export default function ecosystem() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header color="#3e4d5c" />
+
       <main className={styles.main}>
         <h2 className={styles.header}>Conservation vs. "Restoration"</h2>
         <figure className={styles.figureLeft}>

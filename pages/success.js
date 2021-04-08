@@ -1,11 +1,14 @@
-import styles from "../styles/pages/success.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Wrapper from "../components/Wrapper";
 import Link from "next/link";
 import { IoSend } from "react-icons/io5";
 import { IconContext } from "react-icons";
+// Component Imports
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Wrapper from "../components/Wrapper";
+// Styles Imports
+import styles from "../styles/pages/success.module.scss";
 
 export default function success() {
   return (
@@ -13,15 +16,15 @@ export default function success() {
       <Head>
         <title>Message Sent!</title>
         <link rel="icon" href="/images/favicon.ico" />
-
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-
         <meta name="description" content="Message sent successfully"></meta>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header />
+
       <main className={styles.main}>
         <Wrapper>
           <div className={styles.container}>
@@ -38,6 +41,7 @@ export default function success() {
           </div>
         </Wrapper>
       </main>
+
       <Footer />
     </div>
   );

@@ -1,8 +1,11 @@
-import styles from "../styles/pages/native.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
+// Component Imports
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Quote from "../components/Quote";
+// Styles Imports
+import styles from "../styles/pages/native.module.scss";
 
 export default function native() {
   return (
@@ -10,9 +13,7 @@ export default function native() {
       <Head>
         <title>Stewards of the Land</title>
         <link rel="icon" href="/images/favicon.ico" />
-
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-
         <meta
           name="description"
           content="The
@@ -24,7 +25,9 @@ export default function native() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header color="#3e4d5c" />
+
       <main className={styles.main}>
         <h2 className={styles.header}>Stewards of the Land</h2>
         <figure className={styles.figureLeft}>
@@ -113,6 +116,7 @@ export default function native() {
           title="Acjachemen Elder and Activist"
         />
       </main>
+
       <Footer />
     </div>
   );

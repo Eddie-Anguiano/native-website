@@ -1,8 +1,11 @@
-import styles from "../styles/pages/oil.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
+// Component Imports
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Quote from "../components/Quote";
+// Styles Imports
+import styles from "../styles/pages/oil.module.scss";
 
 export default function oil() {
   return (
@@ -10,9 +13,7 @@ export default function oil() {
       <Head>
         <title>Drilling is Killing!</title>
         <link rel="icon" href="/images/favicon.ico" />
-
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-
         <meta
           name="description"
           content="Because its existing oil wells on the Los Cerritos Wetlands are drying
@@ -24,7 +25,9 @@ export default function oil() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header color="#3e4d5c" />
+
       <main className={styles.main}>
         <h2 className={styles.header}>Drilling is Killing!</h2>
         <figure className={styles.figureLeft}>
@@ -134,9 +137,9 @@ export default function oil() {
 
         <Quote
           text="Now is a critical time for those of us who seek to reduce our society’s dependence on
-fossil fuels and transition to a green economy. We must work together to prevent further
-destruction by those private and public interests whose actions devalue our lives, our
-homes, and the natural world."
+          fossil fuels and transition to a green economy. We must work together to prevent further
+          destruction by those private and public interests whose actions devalue our lives, our
+          homes, and the natural world."
           cite="Tahesha Knapp-Christensen"
           title="Omaha, Water Protector"
         />

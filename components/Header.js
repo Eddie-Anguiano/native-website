@@ -1,19 +1,18 @@
 // Global Imports
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import Link from "next/link";
 // Utils Imports
 import {
   hamburgerTop,
   hamburgerMiddle,
   hamburgerBottom,
 } from "../utils/animations";
-
 // Component Imports
-import Link from "next/link";
-import Wrapper from "./Wrapper";
-import styles from "../styles/components/Header.module.scss";
 import MobileNav from "./MobileNav";
+import Wrapper from "./Wrapper";
+// Styles Imports
+import styles from "../styles/components/Header.module.scss";
 
 export default function Header({ color }) {
   const [mobileNavIsOpen, setmobileNavIsOpen] = useState(false);

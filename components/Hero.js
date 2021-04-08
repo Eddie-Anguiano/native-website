@@ -1,10 +1,15 @@
+// Global Imports
 import { useState, useEffect } from "react";
-import styles from "../styles/components/Hero.module.scss";
-import Wrapper from "./Wrapper";
 import { motion } from "framer-motion";
+// Component Imports
+import Wrapper from "./Wrapper";
+// Util Imports
 import { fadeUpIn, parentStaggerDelay } from "../utils/animations";
+// Styles Imports
+import styles from "../styles/components/Hero.module.scss";
 
 export default function Hero() {
+  // Background Paralax Effect
   const [offsetY, setOffset] = useState(0);
   const handleScroll = () => setOffset(window.pageYOffset);
 
@@ -21,10 +26,11 @@ export default function Hero() {
         className={styles.backgroundFull}
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}></div>
       <img
-        src="/images/background-part.png"
+        src="/images/home/background-part.png"
         alt=""
         className={styles.parallax}
       />
+
       <Wrapper>
         <motion.div
           initial="initial"

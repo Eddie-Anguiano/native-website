@@ -1,8 +1,11 @@
-import styles from "../styles/pages/contact.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
+// Component Imports
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Wrapper from "../components/Wrapper";
+// Styles Imports
+import styles from "../styles/pages/contact.module.scss";
 
 export default function contact() {
   return (
@@ -18,14 +21,15 @@ export default function contact() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header />
+
       <section className={styles.contact}>
         <Wrapper>
           <div className={styles.wrapper}>
             <div className={styles.info}>
               <div className={styles.socialContainer}>
                 <p className={styles.header}>Contact Us!</p>
-                {/* <div className={styles.email}>placeholder@gmail.com</div> */}
               </div>
             </div>
 

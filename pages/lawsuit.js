@@ -1,8 +1,11 @@
-import styles from "../styles/pages/lawsuit.module.scss";
+// Global Imports
 import Head from "next/head";
-import Header from "../components/Header";
+// Component Imports
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Quote from "../components/Quote";
+// Styles Imports
+import styles from "../styles/pages/lawsuit.module.scss";
 
 export default function lawsuit() {
   return (
@@ -20,7 +23,9 @@ export default function lawsuit() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
+
       <Header color="#3e4d5c" />
+
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
         <img
@@ -162,7 +167,7 @@ export default function lawsuit() {
             </a>
           </li>
           <li className={styles.resources__item}>
-            <a href="/data/Bermzerk.pptx" download>
+            <a href="/data/bermzerk.pptx" download>
               Bermzerk.pptx
             </a>
           </li>

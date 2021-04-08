@@ -1,10 +1,14 @@
-import { useEffect } from "react";
-import { parentStagger, fadeUpIn } from "../utils/animations";
+// Global Imports
 import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import styles from "../styles/components/TakeAction.module.scss";
-import Wrapper from "../components/Wrapper";
 import Link from "next/link";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+// Component Imports
+import Wrapper from "../components/Wrapper";
+// Utils Imports
+import { parentStagger, fadeUpIn } from "../utils/animations";
+// Styles Imports
+import styles from "../styles/components/TakeAction.module.scss";
 
 export default function TakeAction() {
   // Intersection Observer for text
@@ -32,7 +36,7 @@ export default function TakeAction() {
           className={styles.grid}>
           <img
             className={styles.flowerImg}
-            src="/images/flower.svg"
+            src="/images/home/flower.svg"
             alt="flower"
           />
 
@@ -71,6 +75,7 @@ export default function TakeAction() {
               alt="heart icon"
               className={styles.icon}
             />
+
             <div className={styles.content}>
               <h3 className={styles.content__header}>
                 Contact Decision Makers
@@ -87,6 +92,7 @@ export default function TakeAction() {
               alt="heart icon"
               className={styles.icon}
             />
+
             <div className={styles.content}>
               <h3 className={styles.content__header}>
                 Educate Yourself and Others
@@ -104,6 +110,7 @@ export default function TakeAction() {
               alt="users icon"
               className={styles.icon}
             />
+
             <div className={styles.content}>
               <h3 className={styles.content__header}>
                 Connect with Actions and Allies
@@ -115,6 +122,7 @@ export default function TakeAction() {
               </p>
             </div>
           </motion.div>
+
           <motion.div
             variants={fadeUpIn}
             className={`${styles.btnContainer} ${styles.btnContainer__mobile}`}>

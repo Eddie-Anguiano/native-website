@@ -1,11 +1,13 @@
+// Global Imports
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { fadeUpIn, parentStagger } from "../utils/animations";
 import { useInView } from "react-intersection-observer";
 // Components
 import Wrapper from "./Wrapper";
-import styles from "../styles/components/IconSection.module.scss";
 import IconCard from "./IconCard";
+// Styles Imports
+import styles from "../styles/components/IconSection.module.scss";
 
 export default function IconSection() {
   // Intersection Observer for text
@@ -40,6 +42,7 @@ export default function IconSection() {
     <Wrapper>
       <div className={styles.IconSection}>
         <h3 className={styles.subheader}>Who we are...</h3>
+
         <motion.p
           ref={textRef}
           animate={controlText}
@@ -53,7 +56,9 @@ export default function IconSection() {
           culture keepers working to preserve sacred sites and ensure the
           survival of all our relations.
         </motion.p>
+
         <h3>What we fight for...</h3>
+
         <motion.div
           ref={iconsRef}
           animate={controlIcons}

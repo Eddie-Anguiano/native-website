@@ -1,11 +1,14 @@
+// Global Imports
 import { useEffect } from "react";
-import { parentStagger, fadeUpIn, fadeLeftIn } from "../utils/animations";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 // Components
 import Link from "next/link";
 import styles from "../styles/components/InfoSection.module.scss";
 import Wrapper from "./Wrapper";
+// Utils Imports
+import { parentStagger, fadeUpIn, fadeLeftIn } from "../utils/animations";
+// Styles Imports
 
 export default function InfoSection({
   header,
@@ -69,6 +72,7 @@ export default function InfoSection({
             </motion.a>
           </Link>
         </motion.div>
+
         <motion.div
           ref={imageRef}
           animate={controlImage}
