@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function PopUp({ setPopUpIsOpen }) {
+  // Sets duration of Pop up notification
   useEffect(() => {
     setTimeout(() => setPopUpIsOpen(false), 20000);
   }, []);
@@ -31,7 +32,7 @@ export default function PopUp({ setPopUpIsOpen }) {
 
       <h4 className={styles.header}>Join us!</h4>
       <p className={styles.content}>
-        Puvungna/Los Cerritos Wetlands Healing Walk and Rally, 9am - 4pm
+        Puvungna/Los Cerritos Wetlands Healing Walk and Rally, 9am - 4pm,
         Saturday, April 24th
       </p>
       <Link href="/lawsuit">

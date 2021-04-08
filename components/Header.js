@@ -1,31 +1,34 @@
+// Global Imports
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
+// Utils Imports
 import {
   hamburgerTop,
   hamburgerMiddle,
   hamburgerBottom,
 } from "../utils/animations";
 
-// Components
+// Component Imports
 import Link from "next/link";
 import Wrapper from "./Wrapper";
 import styles from "../styles/components/Header.module.scss";
 import MobileNav from "./MobileNav";
 
 export default function Header({ color }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [mobileNavIsOpen, setmobileNavIsOpen] = useState(false);
 
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "unset";
-  }, [isOpen]);
+    document.body.style.overflow = mobileNavIsOpen ? "hidden" : "unset";
+  }, [mobileNavIsOpen]);
 
   function toggleHamburger() {
-    setIsOpen((prevState) => !prevState);
+    setmobileNavIsOpen((prevState) => !prevState);
   }
 
   return (
     <>
-      <AnimatePresence>{isOpen && <MobileNav />}</AnimatePresence>
+      <AnimatePresence>{mobileNavIsOpen && <MobileNav />}</AnimatePresence>
 
       <div className={styles.Header} style={{ backgroundColor: color }}>
         <Wrapper>
@@ -52,17 +55,17 @@ export default function Header({ color }) {
             <nav className={styles.hamburger} onClick={toggleHamburger}>
               <motion.div
                 transition={{ ease: "easeIn" }}
-                animate={isOpen ? "open" : ""}
+                animate={mobileNavIsOpen ? "open" : ""}
                 variants={hamburgerTop}
                 className={styles.line__top}></motion.div>
               <motion.div
                 transition={{ ease: "easeIn" }}
-                animate={isOpen ? "open" : ""}
+                animate={mobileNavIsOpen ? "open" : ""}
                 variants={hamburgerMiddle}
                 className={styles.line__middle}></motion.div>
               <motion.div
                 transition={{ ease: "easeIn" }}
-                animate={isOpen ? "open" : "closed"}
+                animate={mobileNavIsOpen ? "open" : "closed"}
                 variants={hamburgerBottom}
                 className={styles.line__bottom}></motion.div>
             </nav>
