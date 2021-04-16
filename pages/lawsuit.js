@@ -45,12 +45,12 @@ export default function lawsuit() {
           <strong>1pm - 2pm</strong>, lunch and speakers
           <br /> <strong>2pm - 4pm</strong> Rally at 2nd and PCH <br />
           <strong>Park</strong> at Heron Pointe Trail, or, if lot is full, at
-          Marketplace Mall, shuttle will be provided.
+          Marketplace Mall.
         </p>
         <figure className={styles.figureLeft}>
           <img
             className={styles.imgOil}
-            src="/images/lawsuit/bird.jpg"
+            src="/images/lawsuit/walk-poster.png"
             alt="bird"
           />
         </figure>
@@ -66,6 +66,32 @@ export default function lawsuit() {
           you will join us as we walk from Motuucheyngna through the wetlands to
           heal the land and ourselves.
         </p>
+        <br />
+        <br />
+        <figure className={styles.figureLeft}>
+          <img
+            className={styles.imgOil}
+            src="/images/lawsuit/music-poster.png"
+            alt="bird"
+          />
+        </figure>
+        <p className={styles.paragraph}>
+          <strong>
+            An evening of music for the Los Cerritos Wetlands. Saturday, April
+            24th from 7pm to 8pm.
+          </strong>{" "}
+          We will make and share music to heal the collective heart, so that we
+          may be inspired to continue to protect the Los Cerritos Wetlands,
+          knowing that they were and still are a part of Puvungna, sacred to the
+          Acjachemen and Tongva people. We are honored to hold space for all to
+          learn from Indigenous Culture Keepers and community members. Through
+          the turbulence and heartache caused by resisting big oil we find
+          strength in unity. As people have always done we gather, celebrate,
+          and resist through healing words and sounds. Host: Malila Hollow
+          <br />
+        </p>
+        <br />
+        <br />
         <p className={styles.paragraph}>
           <strong>Sponsored by:</strong> Puvunga Wetlands Protectors and the Los
           Cerritos Wetlands Task Force
@@ -106,8 +132,10 @@ export default function lawsuit() {
         />
         <h3 className={styles.subheader}>Contact Decision Makers</h3>
         <p className={styles.paragraph}>
-          The Coastal Commission must answer to both the Governor and the
-          Secretary of Natural Resources - let them know what you think!
+          Oil tax dollars are not worth the risk of losing our wetlands and our
+          quality of life. Erasing existing ecosystems is not restoration. The
+          Coastal Commission must answer to both the Governor and the Secretary
+          of Natural Resources - let them know what you think!
         </p>
         <ol className={styles.list}>
           <li className={styles.item}>

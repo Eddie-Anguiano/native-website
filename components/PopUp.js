@@ -33,11 +33,11 @@ export default function PopUp({ setPopUpIsOpen }) {
         />
       </div>
 
-      <h4 className={styles.header}>Join us!</h4>
+      <h4 className={styles.header}>Join us Saturday April 24th</h4>
 
       <p className={styles.content}>
-        Puvungna/Los Cerritos Wetlands Healing Walk and Rally, 9am - 4pm,
-        Saturday, April 24th
+        Puvungna/Los Cerritos Wetlands Healing Walk and Rally 9am - 4pm Virtual
+        Evening of Music for the Los Cerritos Wetlands 7pm - 8pm
       </p>
 
       <Link href="/lawsuit">

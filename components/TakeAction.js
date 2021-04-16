@@ -71,19 +71,17 @@ export default function TakeAction() {
             </div>
 
             <img
-              src="/icons/phone.svg"
+              src="/icons/zap.svg"
               alt="heart icon"
               className={styles.icon}
             />
 
             <div className={styles.content}>
-              <h3 className={styles.content__header}>
-                Contact Decision Makers
-              </h3>
+              <h3 className={styles.content__header}>Actions and Events</h3>
               <p className={styles.text}>
-                Contact your local, state, and federal representatives. Oil tax
-                dollars are not worth the risk of losing our wetlands and our
-                quality of life. Erasing existing ecosystems is not restoration.
+                Collaborative, community actions to benefit the Los Cerritos
+                Wetlands including rallys, music and spoken word performances,
+                and outreach campaigns.
               </p>
             </div>
 
@@ -112,13 +110,11 @@ export default function TakeAction() {
             />
 
             <div className={styles.content}>
-              <h3 className={styles.content__header}>
-                Connect with Actions and Allies
-              </h3>
+              <h3 className={styles.content__header}>Connect with Allies</h3>
               <p className={styles.text}>
-                Find events, actions, and allies that protect wetlands, empower
-                tribal peoples and stop the fossil fuel industry from destroying
-                our health, our communities, and Mother Earth.
+                Find allies that protect wetlands, empower tribal peoples and
+                stop the fossil fuel industry from destroying our health, our
+                communities, and Mother Earth.
               </p>
             </div>
           </motion.div>
