@@ -38,14 +38,11 @@ export default function lawsuit() {
           <strong>Puvungna/Los Cerritos Wetlands Healing Walk and Rally</strong>
           <br />
           <strong>Saturday, April 24th from 9am - 4pm.</strong>
-          <br /> <strong>9am</strong> Meet at Motuuchenga (Heron Pointe Trail
-          and Seal Beach Blvd) in Seal Beach, 9am - 1pm Walk through Gum Grove
-          Park and the Los Cerritos Wetlands to Marketplace Marsh/Mall at 2nd
-          and PCH in Long Beach (@ 4 miles <br />
+          <br /> <strong>9am</strong> Meet at Hellman Ranch Trail, Heron Pointe
+          and Seal Beach Blvd, Seal Beach <br />
           <strong>1pm - 2pm</strong>, lunch and speakers
           <br /> <strong>2pm - 4pm</strong> Rally at 2nd and PCH <br />
-          <strong>Park</strong> at Heron Pointe Trail, or, if lot is full, at
-          Marketplace Mall.
+          <strong>Park</strong> at Hellman Ranch Trail or on Adolfo Lopez Drive
         </p>
         <figure className={styles.figureLeft}>
           <img
@@ -77,8 +74,8 @@ export default function lawsuit() {
         </figure>
         <p className={styles.paragraph}>
           <strong>
-            An evening of music for the Los Cerritos Wetlands. Saturday, April
-            24th from 7pm to 8pm.
+            An Evening of Music for the Los Cerritos Wetlands, Saturday, April
+            24th from from 7pm to 8:30 pm.
           </strong>{" "}
           We will make and share music to heal the collective heart, so that we
           may be inspired to continue to protect the Los Cerritos Wetlands,
@@ -88,17 +85,27 @@ export default function lawsuit() {
           the turbulence and heartache caused by resisting big oil we find
           strength in unity. As people have always done we gather, celebrate,
           and resist through healing words and sounds. Host: Malila Hollow
+          {/* <br /> */}
           <br />
+          <strong>Register online event here: </strong>
+          <a href="https://act.sierraclub.org/events/details?formcampaignid=7013q000001lGWDAA2">
+            click to register
+          </a>
         </p>
-        <br />
+
         <br />
         <p className={styles.paragraph}>
           <strong>Sponsored by:</strong> Puvunga Wetlands Protectors and the Los
           Cerritos Wetlands Task Force
           <br />
-          <strong>Supporters include:</strong> CCRPA, ICAN Foundation, Long
-          Beach Environmental Alliance, Climate Reality Project, LA Bear Tracks
-          Magazine.
+          <strong>Supporters include:</strong> Friends of Puvungna, Citizens
+          About Responsible Planning, California Cultural Resources Protection
+          Alliance, ICAN Foundation, Idle No More SoCal, SoCal350 Action
+          Committee, Long Beach Environmental Alliance, Climate Reality Project
+          LA, Bear Tracks Magazine, SoCal350 Action Committee, Citizens for
+          Breathable Air, Poor People’s Campaign OC, OC Peace Coalition, Stop
+          Fracking Long Beach, Veterans for Peace Horace Coldman Chapter 110,
+          Grassroots Coalition.
         </p>
 
         <img
