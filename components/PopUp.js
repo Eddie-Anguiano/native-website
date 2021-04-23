@@ -37,7 +37,7 @@ export default function PopUp({ setPopUpIsOpen }) {
 
       <p className={styles.content}>
         Puvungna/Los Cerritos Wetlands Healing Walk and Rally 9am - 4pm Virtual
-        Evening of Music for the Los Cerritos Wetlands 7pm - 8pm
+        Evening of Music for the Los Cerritos Wetlands 7pm - 8:30pm
       </p>
 
       <Link href="/lawsuit">
