@@ -141,10 +141,16 @@ export default function oil() {
           <strong>
             the Judge ruled in our favor and refused to extend the permit.{" "}
           </strong>
-          BOM has now submitted a request for a CDP extension to the Coastal
-          Commission, we will oppose the extension and call on the community to
-          stand with us in demanding that the Commission do the same. Stay
-          tuned!
+          Having failed twice to persuade Judge Strobell to extend their
+          three-year Coastal Development Permit for the Los Cerritos Wetlands
+          Restoration and Oil Consolidation Project, on March 19th, Beach Oil
+          Minerals applied to the Coastal Commission for a one year extension of
+          the CDP which expires this December. BOM has blamed our lawsuit for
+          discouraging investors and delaying work on the project. They have
+          failed to meet any of the permits’ 26 Special Conditions. Extension
+          requests are routinely granted as they can only be denied if it can be
+          shown that changes have occurred that make the project in violation of
+          the Coastal Act. Expect a Coastal Commission vote in the fall.
         </p>
 
         <Quote

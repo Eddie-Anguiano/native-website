@@ -34,7 +34,18 @@ export default function lawsuit() {
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        <h4 className={styles.paragraph}>
+          Attend virtual Los Cerritos Wetlands Authority Board Meeting
+        </h4>
         <p className={styles.paragraph}>
+          Thursday, June 3rd at 12:30 pm
+          <br />
+          <a href="https://intoloscerritoswetlands.org/our-governing-board/next-meeting/">
+            Click Here{" "}
+          </a>
+          for agenda!
+        </p>
+        {/* <p className={styles.paragraph}>
           <strong>Puvungna/Los Cerritos Wetlands Healing Walk and Rally</strong>
           <br />
           <strong>Saturday, April 24th from 9am - 4pm.</strong>
@@ -85,7 +96,6 @@ export default function lawsuit() {
           the turbulence and heartache caused by resisting big oil we find
           strength in unity. As people have always done we gather, celebrate,
           and resist through healing words and sounds. Host: Malila Hollow
-          {/* <br /> */}
           <br />
           <strong>Register online event here: </strong>
           <a href="https://act.sierraclub.org/events/details?formcampaignid=7013q000001lGWDAA2">
@@ -106,7 +116,7 @@ export default function lawsuit() {
           Breathable Air, Poor People’s Campaign OC, OC Peace Coalition, Stop
           Fracking Long Beach, Veterans for Peace Horace Coldman Chapter 110,
           Grassroots Coalition.
-        </p>
+        </p> */}
 
         <img
           src="/icons/heart-black.svg"
@@ -119,18 +129,20 @@ export default function lawsuit() {
           (CARP) will match all donations dollar for dollar. Our Paypal account
           allows donations to be tax deductible. Checks can also be sent
           directly to our attorney, Coast Law Group, LLP, 1140 S Coast Hwy 101,
-          Encinitas, CA 92024 (write <em>for PWP Lawsuit</em> on check).
+          Encinitas, CA 92024 (write <em>for PWP Lawsuit</em> on check). Thanks
+          to your generous donations we have raised over $4000 which is being
+          matched by CARP dollar for dollar. We are very grateful for your
+          support.
         </p>
         <p className={styles.paragraph}>
           While PWP is suing the Coastal Commission, Beach Oil Minerals is also
-          a party to the lawsuit. Our attorney, Livia Borak Beaudin, succeeded
-          in defeating a motion by BOM to have our case dismissed for lack of
-          legal standing and also convinced the judge to rule against BOM’s
-          request to have the project’s permit deadline extended indefinitely.
-          These court battles, while successful, have added to the projected
-          $20,000 cost of the lawsuit. We plan to hold fundraisers (raffles,
-          performance/art events, and speakers). If you would like to help with
-          these or have ideas of your own, please contact us.
+          a party to the lawsuit. Our attorney, Livia Borak Beaudin of Coast Law
+          Group succeeded in defeating a motion by BOM to have our case
+          dismissed for lack of legal standing and has also twice convinced the
+          judge to rule against BOM’s requests to have the project’s permit
+          deadline extended indefinitely. Unfortunately, in her final ruling on
+          the merits of our case the Judge found for the Coastal Commission. The
+          decision may be appealed.
         </p>
         <img
           src="/icons/phone-black.svg"
@@ -139,44 +151,54 @@ export default function lawsuit() {
         />
         <h3 className={styles.subheader}>Contact Decision Makers</h3>
         <p className={styles.paragraph}>
-          Oil tax dollars are not worth the risk of losing our wetlands and our
-          quality of life. Erasing existing ecosystems is not restoration. The
-          Coastal Commission must answer to both the Governor and the Secretary
-          of Natural Resources - let them know what you think!
+          <strong>
+            Should BOM’s Coastal Permit Extension be Granted? Allow the public
+            to comment!{" "}
+          </strong>
+          Ask that the Coastal Commission hold a public hearing on CDP No.
+          9-18-0395, Beach Oil MInerals request for a one-year extension of
+          their Coastal Development Permit for the Los Cerritos Wetlands
+          Restoration and Oil Consolidation Project. Substantial changes in the
+          project itself, in our understanding of the impacts of the project,
+          and in the speed and severity of climate change and sea level rise,
+          must be considered before concluding that the project is currently in
+          compliance with the Coastal Act. See BOM’s permit extension request
+          under Documents.
         </p>
         <ol className={styles.list}>
           <li className={styles.item}>
-            <h4>1. Governor Gavin Newsom</h4>
-            <div>Phone: (916) 445-2841</div>
+            <h4>Email comments to Kate Hucklebridge</h4>
+            <div>kate.huckelbridge@coastal.ca.gov</div>
             <div>
-              Email: ​
-              <a href="https://govapps.gov.ca.gov/gov40mail/index.php">
-                Link to email form
-              </a>
+              <strong>Subject Line:</strong> Comment on CDP No. 9-18-0395 BOM
+              Request for a One Year Extension
             </div>
-          </li>
-          <li>
-            <h4>2. WadeCrowfoot, CA Secretary of Natural Resources</h4>
-            <div>Phone: (916) 653-5656</div>
-            <div>Email: secretary@resources.ca.gov</div>
           </li>
         </ol>
         <h4>Sample letter</h4>
         <p className={`${styles.paragraph} ${styles.indent}`}>
-          I/We support the lawsuit filed by Puvunga Wetlands Protectors against
-          the California Coastal Commission for approving the Los Cerritos
-          Wetlands Restoration and Oil Consolidation Project. ​Because ​the
-          project violated Coastal Act provisions protecting​ public health, the
-          environment, and tribal culture, the Commission misused an ​override
-          provision to expand fossil fuel extraction and destroy the Los
-          Cerritos Wetlands, a Traditional Tribal Landscape within the Sacred
-          Site of Puvungna. The Coastal Commission and the Los Cerritos Wetlands
-          Authority must reverse their approach to oil “consolidation,” and
-          “restoration,” which erases wetlands and tribal sites. I/we also
-          oppose the Upper Los Cerritos Wetlands Mitigation Bank, the Los
-          Cerritos Wetlands Restoration Plan PEIR, The Southern Los Cerritos
-          Wetlands Restoration Project, the Hellman Ranch Gas Plant, and
-          poisoning the tules in Marketplace Marsh!
+          I/We question granting a one year extension of the CDP for the Los
+          Cerritos Wetlands Restoration and Oil Consolidation Project and
+          request that a full public hearing be held to consider the multiple
+          changes in the project and the circumstances that have taken place
+          since 2018. Because the project could not not comply with Coastal Act
+          provisions protecting public health, the environment, and tribal
+          culture, the CDP expanding fossil fuel operations is dependent on BOM
+          providing an overriding public benefit. However, the so-called public
+          benefit of wetlands “restoration” will be increasingly irrelevant and
+          short-lived as sea level rise is predicted to turn a now-diverse
+          ecosystem into mudflats more rapidly than was estimated in 2018.
+          Additionally, dredging and flooding existing salt flats and seasonal
+          wetlands to create salt marshes will now require building giant berms
+          on three sides of the Synergy wetlands property. Thirty feet wide and
+          eighteen feet high, these berms will decrease wetlands size and
+          connectivity, especially as they may also serve as roads for vehicles
+          servicing oil operations.. The risk of climate change to coastal
+          communities and the planet as a whole confronts an entrenched but
+          increasingly toxic and irrelevant fossil fuel industry. A moratorium
+          on permitting new oil and gas drilling is under consideration at the
+          state level. The benefit and liability of increasing oil extraction
+          from 300 to 24,000 barrels daily must also be re-examined.
         </p>
         <img
           src="/icons/book-black.svg"
@@ -189,7 +211,7 @@ export default function lawsuit() {
           threats to the Los Cerritos Wetlands and Puvungna and the impacts of
           fossil fuel extraction to the region.
         </p>
-        <h4>Downloadable resources</h4>
+        <h4>Downloadable resources, videos, and images</h4>
         <ul className={styles.resources}>
           <li className={styles.resources__item}>
             <a href="/data/drilling-down.pdf" download>
@@ -221,8 +243,30 @@ export default function lawsuit() {
               mitigation-bank.pptx
             </a>
           </li>
+          <li className={styles.resources__item}>
+            <a href="https://www.youtube.com/watch?v=BH_g5RION1s">
+              An Evening of Music for the Los Cerritos Wetlands (YouTube video)
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="https://www.youtube.com/watch?v=6POiSsTp-S0">
+              The Gathering Place (YouTube video)
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/images/lawsuit/walk-poster.png" download>
+              Event Posters by Cassandra Rowden (Los Cerritos Wetlands Healing
+              Walk)
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/images/lawsuit/music-poster.png" download>
+              Event Posters by Cassandra Rowden (An Evening of Music for the Los
+              Cerritos Wetlands)
+            </a>
+          </li>
         </ul>
-        <h4 className={styles.events}>Legal Arguments</h4>
+        <h4 className={styles.events}>Legal Arguments in Lawsuit</h4>
         <ul className={styles.resources}>
           <li className={styles.resources__item}>
             <a href="/data/verified-petition.pdf" download>
@@ -242,6 +286,19 @@ export default function lawsuit() {
           <li className={styles.resources__item}>
             <a href="/data/reply-brief.pdf" download>
               Reply-Brief.pdf
+            </a>
+          </li>
+          <li className={styles.resources__item}>
+            <a href="/data/final-judgement.pdf" download>
+              PWP vs CCP Final Judgement
+            </a>
+          </li>
+        </ul>
+        <h4 className={styles.events}>Documents</h4>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            <a href="/data/bom-request.pdf" download>
+              BOM Request for Extension of CDP Permit
             </a>
           </li>
         </ul>
