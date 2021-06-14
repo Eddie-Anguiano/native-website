@@ -28,7 +28,7 @@ export default function lawsuit() {
 
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
-        <img
+        {/* <img
           src="/icons/alert-triangle.svg"
           alt="heart icon"
           className={styles.icon}
@@ -44,80 +44,7 @@ export default function lawsuit() {
             Click Here{" "}
           </a>
           for agenda!
-        </p>
-        {/* <p className={styles.paragraph}>
-          <strong>Puvungna/Los Cerritos Wetlands Healing Walk and Rally</strong>
-          <br />
-          <strong>Saturday, April 24th from 9am - 4pm.</strong>
-          <br /> <strong>9am</strong> Meet at Hellman Ranch Trail, Heron Pointe
-          and Seal Beach Blvd, Seal Beach <br />
-          <strong>1pm - 2pm</strong>, lunch and speakers
-          <br /> <strong>2pm - 4pm</strong> Rally at 2nd and PCH <br />
-          <strong>Park</strong> at Hellman Ranch Trail or on Adolfo Lopez Drive
-        </p>
-        <figure className={styles.figureLeft}>
-          <img
-            className={styles.imgOil}
-            src="/images/lawsuit/walk-poster.png"
-            alt="bird"
-          />
-        </figure>
-        <p className={styles.paragraph}>
-          The Los Cerritos Wetlands, a tribal cultural landscape within the
-          Sacred Site of Puvungna, that have sustained generations, now bear the
-          scars of abuse. Plants, animals, and people continue to suffer as
-          Illegal toxic fumes from current wetlands drilling sites poison the
-          air. Bulldozers have been digging in the wetlands and have torn into a
-          tribal witness area at Gum Grove Park. Plans to drill for oil, build a
-          new gas plant, poison tules, and erase tribal culture and remaining
-          wildlife habitat in the name of “restoration” move forward. We hope
-          you will join us as we walk from Motuucheyngna through the wetlands to
-          heal the land and ourselves.
-        </p>
-        <br />
-        <br />
-        <figure className={styles.figureLeft}>
-          <img
-            className={styles.imgOil}
-            src="/images/lawsuit/music-poster.png"
-            alt="bird"
-          />
-        </figure>
-        <p className={styles.paragraph}>
-          <strong>
-            An Evening of Music for the Los Cerritos Wetlands, Saturday, April
-            24th from from 7pm to 8:30 pm.
-          </strong>{" "}
-          We will make and share music to heal the collective heart, so that we
-          may be inspired to continue to protect the Los Cerritos Wetlands,
-          knowing that they were and still are a part of Puvungna, sacred to the
-          Acjachemen and Tongva people. We are honored to hold space for all to
-          learn from Indigenous Culture Keepers and community members. Through
-          the turbulence and heartache caused by resisting big oil we find
-          strength in unity. As people have always done we gather, celebrate,
-          and resist through healing words and sounds. Host: Malila Hollow
-          <br />
-          <strong>Register online event here: </strong>
-          <a href="https://act.sierraclub.org/events/details?formcampaignid=7013q000001lGWDAA2">
-            click to register
-          </a>
-        </p>
-
-        <br />
-        <p className={styles.paragraph}>
-          <strong>Sponsored by:</strong> Puvunga Wetlands Protectors and the Los
-          Cerritos Wetlands Task Force
-          <br />
-          <strong>Supporters include:</strong> Friends of Puvungna, Citizens
-          About Responsible Planning, California Cultural Resources Protection
-          Alliance, ICAN Foundation, Idle No More SoCal, SoCal350 Action
-          Committee, Long Beach Environmental Alliance, Climate Reality Project
-          LA, Bear Tracks Magazine, SoCal350 Action Committee, Citizens for
-          Breathable Air, Poor People’s Campaign OC, OC Peace Coalition, Stop
-          Fracking Long Beach, Veterans for Peace Horace Coldman Chapter 110,
-          Grassroots Coalition.
         </p> */}
-
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"
@@ -150,7 +77,77 @@ export default function lawsuit() {
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Contact Decision Makers</h3>
+        <h4 className={styles.allies}>
+          Public Comment Period on BOM’s Request for a Coastal Permit Extension
+          now open
+        </h4>
         <p className={styles.paragraph}>
+          Beach Oil Minerals has applied for an extension of its Coastal
+          Development Permit for the Los Cerritos Wetlands Restoration and Oil
+          Consolidation Project which expires this December. The Coastal
+          Commission’s permit extension process allows for the consideration of
+          <strong> "changed circumstances"</strong> that might affect the
+          consistency of BOM’s Project with the Coastal Act.{" "}
+          <strong>
+            The Commission must identify not only the changes, but also how
+            these changes could lead to a different conclusion.
+          </strong>
+        </p>
+        <p className={styles.paragraph}>
+          This review will likely focus on changes that might alter the
+          conclusions made in evaluating and allowing the use of the Coastal
+          Act’s <strong>Override Provision</strong> in approving the project in
+          2018. The Commission may consider the following:
+        </p>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            Additional state-level policy changes and directions on climate
+            change and CO2 emissions, and scientific info about this, that would
+            change the conclusions made three years ago.
+          </li>
+          <li className={styles.resources__item}>
+            Insights and concerns about tribal interests that were not available
+            or addressed at the time.
+          </li>
+          <li className={styles.resources__item}>
+            New evidence about the urgency of addressing climate change (IPCC
+            reports, Paris thresholds).
+          </li>
+          <li className={styles.resources__item}>
+            Increased understanding about the loss of wetlands from sea level
+            rise.
+          </li>
+          <li className={styles.resources__item}>
+            The urgency of pursuing alternative energy sources such as offshore
+            wind.
+          </li>
+          <li className={styles.resources__item}>
+            Changes in the environmental quality of the project site.
+          </li>
+          <li className={styles.resources__item}>
+            The degree to which the applicant has “diligently” pursued the
+            project.
+          </li>
+        </ul>
+        <h4 className={styles.allies}>Email comments to Kate Hucklebridge</h4>
+        <div>kate.huckelbridge@coastal.ca.gov</div>
+        <div>
+          <strong>Subject Line:</strong> Comment on CDP No. 9-18-0395 BOM
+          Request for a One Year Extension
+        </div>
+        <h4 className={styles.allies}>Sample email</h4>
+        <p className={`${styles.paragraph} ${styles.indent}`}>
+          I/We value the Coastal Commission’s role in evaluating all changed
+          circumstances when considering BOM’s request for a one-year extension
+          of its 3 year CDP, and support a full public hearing should three
+          Commissioners request it. We understand that you may focus on
+          investigating changes with respect to the use of the Override
+          Provision, including new data on the loss of wetlands due to sea level
+          rise. We welcome the Commission’s efforts to address the impacts of
+          climate change and CO2 emissions, environmental justice issues, and
+          the historic and ongoing marginalization of tribal voices.
+        </p>{" "}
+        {/* <p className={styles.paragraph}>
           <strong>
             Should BOM’s Coastal Permit Extension be Granted? Allow the public
             to comment!{" "}
@@ -199,7 +196,7 @@ export default function lawsuit() {
           on permitting new oil and gas drilling is under consideration at the
           state level. The benefit and liability of increasing oil extraction
           from 300 to 24,000 barrels daily must also be re-examined.
-        </p>
+        </p> */}
         <img
           src="/icons/book-black.svg"
           alt="heart icon"
@@ -308,7 +305,6 @@ export default function lawsuit() {
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Connect</h3>
-
         <h4 className={styles.allies}>Allies:</h4>
         <ul className={styles.unorderedList}>
           <li>
@@ -361,7 +357,6 @@ export default function lawsuit() {
             </a>
           </li>
         </ul>
-
         <Quote
           text="The Los Cerritos Wetlands is our church, this is where we pray, this is where we go to remind people of who we are. We constantly struggle to keep these parcels of land in a natural state. We get very few wins when it comes to land. Allow people to have these sacred sites. The Coastal Commission should not be afraid of developers and their money."
           cite="Gloria Arellanes"
