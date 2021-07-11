@@ -39,7 +39,7 @@ export default function lawsuit() {
         </h4>
         <p className={styles.paragraph}>
           <div>July 12, 2021 via zoom</div>
-          <a href="https://www.eventbrite.com/e/circle-of-life-protecting-local-sacred-sites-and-coastal-wetlands-tickets-161715682961" download>
+          <a href="https://www.eventbrite.com/e/circle-of-life-protecting-local-sacred-sites-and-coastal-wetlands-tickets-161715682961">
             { " "}Click here to register
             </a>
         </p>
@@ -67,14 +67,7 @@ export default function lawsuit() {
           support.
         </p>
         <p className={styles.paragraph}>
-          While PWP is suing the Coastal Commission, Beach Oil Minerals is also
-          a party to the lawsuit. Our attorney, Livia Borak Beaudin of Coast Law
-          Group succeeded in defeating a motion by BOM to have our case
-          dismissed for lack of legal standing and has also twice convinced the
-          judge to rule against BOM’s requests to have the project’s permit
-          deadline extended indefinitely. Unfortunately, in her final ruling on
-          the merits of our case the Judge found for the Coastal Commission. The
-          decision may be appealed.
+          While PWP sued the Coastal Commission, Beach Oil Minerals is also a party to the lawsuit. Our attorney, Livia Borak Beaudin of Coast Law Group succeeded in defeating a motion by BOM to have our case dismissed for lack of legal standing and also twice convinced the judge to rule against BOM’s requests to have the project’s permit deadline extended indefinitely. Unfortunately, in her final ruling on the merits of our case the Judge found for the Coastal Commission and dismissed the lawsuit. Until further notice, all donations will fund court costs and legal fees. PWP will continue to investigate and challenge wetlands restoration projects, plans for a new gas plant, and other threats to the Los Cerritos Wetlands.
         </p>
         <img
           src="/icons/phone-black.svg"

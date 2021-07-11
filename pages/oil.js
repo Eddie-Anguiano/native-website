@@ -111,46 +111,11 @@ export default function oil() {
           <strong>
             Los Angeles Superior Court Judge Strobel denied our petition
           </strong>{" "}
-          that the Coastal Commission be required to set aside its approval of
-          the Coastal Development Permit (CDP) for the Los Cerritos Wetlands
-          Restoration and Oil Consolidation Project. The ruling states that,
-          “The Court determines that substantial evidence supports the
-          Commission’s decision that the Project would promote important
-          policies of the Coast Act, including wetlands preservation and
-          restoration, and that the Commission’s weighing of the public benefits
-          and risks ...was not unreasonable, arbitrary, or capricious,” and
-          further notes that, “There was substantial evidence before the
-          Commission that denying the permit would be against the public
-          welfare.” Additionally, Judge Strobel found that we had not exhausted
-          all available remedies nor had we proven that the Coastal Commission’s
-          Executive Director lacked the authority to review and execute project
-          permits.{" "}
-          <strong>
-            This decision can be appealed. We would argue that the project
-            presents an unacceptable public risk, not a public benefit.{" "}
-          </strong>
-          Last October, Beach OIl Minerals asked Judge Strobell to grant a 2+
-          year extension of their Coastal Development Permit which expires this
-          coming December. PWP successfully argued that both the Coastal
-          Commission’s right to grant one year extensions of CDP’s and the
-          public’s right to comment on them would be denied should the Superior
-          Court intervene. Judge Strobel agreed and denied the request. On March
-          19th, Beach Oil Minerals was back in court asking Judge Strobel once
-          again to grant the CDP extension. PWP argued against this and once
-          again{" "}
-          <strong>
-            the Judge ruled in our favor and refused to extend the permit.{" "}
-          </strong>
-          Having failed twice to persuade Judge Strobell to extend their
-          three-year Coastal Development Permit for the Los Cerritos Wetlands
-          Restoration and Oil Consolidation Project, on March 19th, Beach Oil
-          Minerals applied to the Coastal Commission for a one year extension of
-          the CDP which expires this December. BOM has blamed our lawsuit for
-          discouraging investors and delaying work on the project. They have
-          failed to meet any of the permits’ 26 Special Conditions. Extension
-          requests are routinely granted as they can only be denied if it can be
-          shown that changes have occurred that make the project in violation of
-          the Coastal Act. Expect a Coastal Commission vote in the fall.
+          that the Coastal Commission be required to set aside its approval of the Coastal Development Permit (CDP) for the Los Cerritos Wetlands Restoration and Oil Consolidation Project. Ruling that, “The Court determines that substantial evidence supports the Commission’s decision that the Project would promote important policies of the Coast Act, including wetlands preservation and restoration, and that the Commission’s weighing of the public benefits and risks ...was not unreasonable, arbitrary, or capricious,” and further notes that, “There was substantial evidence before the Commission that denying the permit would be against the public welfare.” <strong>We would argue that the project presents an unacceptable public risk, not a public benefit.</strong><br /><br/>
+          <a href="https://www.courthousenews.com/judge-denies-attempt-to-block-california-oil-pr">
+            { " "}CourtHouse News Service article
+            </a><br/><br/>
+Last October and again in March, Beach OIl Minerals asked Judge Strobell to grant a 2+ year extension of their Coastal Development Permit which expires this coming December. PWP successfully argued that both the Coastal Commission’s right to grant extensions and the public’s right to comment on them would be denied should the Court intervene. Judge Strobel agreed and denied both requests. Blaming our lawsuit for discouraging investors and delaying work on the project and for their failure to meet any of the permits’ 26 Special Conditions, <strong>Beach Oil Minerals has now applied to the Coastal Commission for a one year extension of the CDP. Extension requests can be denied if changes have occurred that make the project now in violation of the Coastal Act.</strong> The Public Comment period on BOM’s extension request is now open. For details see Take Action, Contact Decision Makers.
         </p>
 
         <Quote
