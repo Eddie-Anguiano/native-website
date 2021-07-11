@@ -18,7 +18,7 @@ import { fadeUpIn } from "../utils/animations";
 import styles from "../styles/pages/Home.module.scss";
 
 export default function Home() {
-  const [popUpIsOpen, setPopUpIsOpen] = useState(false);
+  const [popUpIsOpen, setPopUpIsOpen] = useState(true);
 
   // Intersection Observer for quote
   const controlQuote = useAnimation();

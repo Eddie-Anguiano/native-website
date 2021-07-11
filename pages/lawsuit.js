@@ -28,23 +28,28 @@ export default function lawsuit() {
 
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
-        {/* <img
+        <img
           src="/icons/alert-triangle.svg"
           alt="heart icon"
           className={styles.icon}
         />
         <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
         <h4 className={styles.paragraph}>
-          Attend virtual Los Cerritos Wetlands Authority Board Meeting
+          Circle of Life - Protecting local sacred sites and costal wetlands.
         </h4>
         <p className={styles.paragraph}>
-          Thursday, June 3rd at 12:30 pm
-          <br />
-          <a href="https://intoloscerritoswetlands.org/our-governing-board/next-meeting/">
-            Click Here{" "}
-          </a>
-          for agenda!
-        </p> */}
+          <div>July 12, 2021 via zoom</div>
+          <a href="https://www.eventbrite.com/e/circle-of-life-protecting-local-sacred-sites-and-coastal-wetlands-tickets-161715682961" download>
+            { " "}Click here to register
+            </a>
+        </p>
+        <figure className={styles.figureMiddle}>
+          <img
+            className={styles.imgWater}
+            src="/images/lawsuit/circleOfLifePoster.jpg"
+            alt="circle of life poster"
+          />
+        </figure>
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"

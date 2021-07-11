@@ -33,11 +33,10 @@ export default function PopUp({ setPopUpIsOpen }) {
         />
       </div>
 
-      <h4 className={styles.header}>Join us Saturday April 24th</h4>
+      <h4 className={styles.header}>Circle of Life - Protecting local sacred sites and costal wetlands.</h4>
 
       <p className={styles.content}>
-        Puvungna/Los Cerritos Wetlands Healing Walk and Rally 9am - 4pm Virtual
-        Evening of Music for the Los Cerritos Wetlands 7pm - 8:30pm
+        Join us as we learn about and discuss these very real issues that are happening in our own backyard, and connect with others to come together and help protect local sacred sites and coastal wetlands- July 12, 2021 via zoom
       </p>
 
       <Link href="/lawsuit">
