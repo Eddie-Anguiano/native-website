@@ -33,7 +33,7 @@ export default function lawsuit() {
           alt="heart icon"
           className={styles.icon}
         />
-        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        {/* <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
         <h4 className={styles.paragraph}>
           Circle of Life - Protecting local sacred sites and costal wetlands.
         </h4>
@@ -54,7 +54,7 @@ export default function lawsuit() {
           src="/icons/heart-black.svg"
           alt="heart icon"
           className={styles.icon}
-        />
+        /> */}
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
           We have a $5000 Matching Fund! Citizens About Responsible Planning
@@ -67,7 +67,17 @@ export default function lawsuit() {
           support.
         </p>
         <p className={styles.paragraph}>
-          While PWP sued the Coastal Commission, Beach Oil Minerals is also a party to the lawsuit. Our attorney, Livia Borak Beaudin of Coast Law Group succeeded in defeating a motion by BOM to have our case dismissed for lack of legal standing and also twice convinced the judge to rule against BOM’s requests to have the project’s permit deadline extended indefinitely. Unfortunately, in her final ruling on the merits of our case the Judge found for the Coastal Commission and dismissed the lawsuit. Until further notice, all donations will fund court costs and legal fees. PWP will continue to investigate and challenge wetlands restoration projects, plans for a new gas plant, and other threats to the Los Cerritos Wetlands.
+          While PWP sued the Coastal Commission, Beach Oil Minerals is also a
+          party to the lawsuit. Our attorney, Livia Borak Beaudin of Coast Law
+          Group succeeded in defeating a motion by BOM to have our case
+          dismissed for lack of legal standing and also twice convinced the
+          judge to rule against BOM’s requests to have the project’s permit
+          deadline extended indefinitely. Unfortunately, in her final ruling on
+          the merits of our case the Judge found for the Coastal Commission and
+          dismissed the lawsuit. Until further notice, all donations will fund
+          court costs and legal fees. PWP will continue to investigate and
+          challenge wetlands restoration projects, plans for a new gas plant,
+          and other threats to the Los Cerritos Wetlands.
         </p>
         <img
           src="/icons/phone-black.svg"
