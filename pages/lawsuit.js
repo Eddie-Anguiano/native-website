@@ -33,15 +33,16 @@ export default function lawsuit() {
           alt="heart icon"
           className={styles.icon}
         />
-        {/* <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
-        <h4 className={styles.paragraph}>
+        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        {/* <h4 className={styles.paragraph}>
           Circle of Life - Protecting local sacred sites and costal wetlands.
         </h4>
         <p className={styles.paragraph}>
           <div>July 12, 2021 via zoom</div>
           <a href="https://www.eventbrite.com/e/circle-of-life-protecting-local-sacred-sites-and-coastal-wetlands-tickets-161715682961">
-            { " "}Click here to register
-            </a>
+            {" "}
+            Click here to register
+          </a>
         </p>
         <figure className={styles.figureMiddle}>
           <img
@@ -49,12 +50,51 @@ export default function lawsuit() {
             src="/images/lawsuit/circleOfLifePoster.jpg"
             alt="circle of life poster"
           />
+        </figure> */}
+        <h4>California Coastal Commission Meeting (Online)</h4>
+        <p className={styles.paragraph}>
+          <div>Wednesday, November 17th at 9am</div>
+          <a href="https://www.coastal.ca.gov/meetings/agenda/#/2021/5">
+            {" "}
+            Click here to view agenda
+          </a>
+        </p>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            <strong>
+              Informational Briefing on Public Trust Tidelands and Sea Level
+              Rise
+              <br />
+            </strong>
+            by Dr. Charles Lester, Former CCC Director, Agenda Item 6
+          </li>
+          <li className={styles.resources__item}>
+            <strong>
+              Critical Infrastructure at Risk; Sea Level Rise Planning Guidance
+              for California’s Coastal Zone,
+            </strong>
+            <br />
+            Agenda Item 7 - vote to approve will be taken Comments and questions
+            may be submitted in advance online or during the meeting by
+            submitting speaker request
+          </li>
+        </ul>
+        <h4>Orange County Oil Spill Town Hall (online and in person)</h4>
+        <p className={styles.paragraph}>
+          <div>Saturday, November 20th, 4-6pm</div>
+        </p>
+        <figure className={styles.figureMiddle}>
+          <img
+            className={styles.imgWater}
+            src="/images/lawsuit/oc-town-hall.jpg"
+            alt="OC Town Hall"
+          />
         </figure>
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"
           className={styles.icon}
-        /> */}
+        />
         <h3 className={styles.subheader}>Fund the Lawsuit</h3>
         <p className={styles.paragraph}>
           We have a $5000 Matching Fund! Citizens About Responsible Planning

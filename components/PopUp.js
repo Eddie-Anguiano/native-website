@@ -33,10 +33,10 @@ export default function PopUp({ setPopUpIsOpen }) {
         />
       </div>
 
-      <h4 className={styles.header}>Circle of Life - Protecting local sacred sites and costal wetlands.</h4>
+      <h4 className={styles.header}>Orange County Oil Spill Town Hall</h4>
 
       <p className={styles.content}>
-        Join us as we learn about and discuss these very real issues that are happening in our own backyard, and connect with others to come together and help protect local sacred sites and coastal wetlands- July 12, 2021 via zoom
+        Saturday, November 20th, 4-6pm (Online and in person)
       </p>
 
       <Link href="/lawsuit">
