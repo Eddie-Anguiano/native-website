@@ -1,9 +1,9 @@
 // Global Imports
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { useEffect } from "react";
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { useEffect } from 'react';
 // Styles Imports
-import styles from "../styles/components/PopUp.module.scss";
+import styles from '../styles/components/PopUp.module.scss';
 
 export default function PopUp({ setPopUpIsOpen }) {
   // Sets duration of Pop up notification
@@ -13,9 +13,9 @@ export default function PopUp({ setPopUpIsOpen }) {
 
   return (
     <motion.div
-      initial={{ y: "-200%", x: "-50%" }}
-      animate={{ y: "0%", x: "-50%" }}
-      exit={{ y: "-200%", x: "-50%" }}
+      initial={{ y: '-200%', x: '-50%' }}
+      animate={{ y: '0%', x: '-50%' }}
+      exit={{ y: '-200%', x: '-50%' }}
       transition={{ duration: 1 }}
       className={styles.PopUp}>
       <img
@@ -33,13 +33,14 @@ export default function PopUp({ setPopUpIsOpen }) {
         />
       </div>
 
-      <h4 className={styles.header}>Orange County Oil Spill Town Hall</h4>
+      {/* <h4 className={styles.header}>Orange County Oil Spill Town Hall</h4> */}
 
       <p className={styles.content}>
-        Saturday, November 20th, 4-6pm (Online and in person)
+        Find info on the Huntington Beach oil spill and other environmental
+        issues.
       </p>
 
-      <Link href="/lawsuit">
+      <Link href="https://angeles.sierraclub.org/">
         <div className={styles.btn}>Learn More</div>
       </Link>
     </motion.div>

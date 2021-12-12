@@ -1,11 +1,11 @@
 // Global Imports
-import Head from "next/head";
+import Head from 'next/head';
 // Component Imports
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Quote from "../components/Quote";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Quote from '../components/Quote';
 // Styles Imports
-import styles from "../styles/pages/lawsuit.module.scss";
+import styles from '../styles/pages/lawsuit.module.scss';
 
 export default function lawsuit() {
   return (
@@ -28,12 +28,12 @@ export default function lawsuit() {
 
       <main className={styles.main}>
         <h2 className={styles.header}>Take Action</h2>
-        <img
+        {/* <img
           src="/icons/alert-triangle.svg"
           alt="heart icon"
           className={styles.icon}
         />
-        <h3 className={styles.subheader}>Upcoming Events/Actions</h3>
+        <h3 className={styles.subheader}>Upcoming Events/Actions</h3> */}
         {/* <h4 className={styles.paragraph}>
           Circle of Life - Protecting local sacred sites and costal wetlands.
         </h4>
@@ -51,7 +51,7 @@ export default function lawsuit() {
             alt="circle of life poster"
           />
         </figure> */}
-        <h4>California Coastal Commission Meeting (Online)</h4>
+        {/* <h4>California Coastal Commission Meeting (Online)</h4>
         <p className={styles.paragraph}>
           <div>Wednesday, November 17th at 9am</div>
           <a href="https://www.coastal.ca.gov/meetings/agenda/#/2021/5">
@@ -89,7 +89,7 @@ export default function lawsuit() {
             src="/images/lawsuit/oc-town-hall.jpg"
             alt="OC Town Hall"
           />
-        </figure>
+        </figure> */}
         <img
           src="/icons/heart-black.svg"
           alt="heart icon"
@@ -135,7 +135,7 @@ export default function lawsuit() {
           Consolidation Project which expires this December. The Coastal
           Commission’s permit extension process allows for the consideration of
           <strong> "changed circumstances"</strong> that might affect the
-          consistency of BOM’s Project with the Coastal Act.{" "}
+          consistency of BOM’s Project with the Coastal Act.{' '}
           <strong>
             The Commission must identify not only the changes, but also how
             these changes could lead to a different conclusion.
@@ -194,7 +194,7 @@ export default function lawsuit() {
           rise. We welcome the Commission’s efforts to address the impacts of
           climate change and CO2 emissions, environmental justice issues, and
           the historic and ongoing marginalization of tribal voices.
-        </p>{" "}
+        </p>{' '}
         {/* <p className={styles.paragraph}>
           <strong>
             Should BOM’s Coastal Permit Extension be Granted? Allow the public
