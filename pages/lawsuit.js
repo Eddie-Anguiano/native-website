@@ -119,7 +119,7 @@ export default function lawsuit() {
           challenge wetlands restoration projects, plans for a new gas plant,
           and other threats to the Los Cerritos Wetlands.
         </p>
-        <img
+        {/* <img
           src="/icons/phone-black.svg"
           alt="heart icon"
           className={styles.icon}
@@ -194,7 +194,7 @@ export default function lawsuit() {
           rise. We welcome the Commission’s efforts to address the impacts of
           climate change and CO2 emissions, environmental justice issues, and
           the historic and ongoing marginalization of tribal voices.
-        </p>{' '}
+        </p>{' '} */}
         {/* <p className={styles.paragraph}>
           <strong>
             Should BOM’s Coastal Permit Extension be Granted? Allow the public
