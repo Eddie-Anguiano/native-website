@@ -1,13 +1,13 @@
 // Global Imports
-import { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { fadeUpIn, parentStagger } from "../utils/animations";
-import { useInView } from "react-intersection-observer";
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { fadeUpIn, parentStagger } from '../utils/animations';
+import { useInView } from 'react-intersection-observer';
 // Components
-import Wrapper from "./Wrapper";
-import IconCard from "./IconCard";
+import Wrapper from './Wrapper';
+import IconCard from './IconCard';
 // Styles Imports
-import styles from "../styles/components/IconSection.module.scss";
+import styles from '../styles/components/IconSection.module.scss';
 
 export default function IconSection() {
   // Intersection Observer for text
@@ -27,14 +27,14 @@ export default function IconSection() {
   // Icons controller
   useEffect(() => {
     if (iconsInView) {
-      controlIcons.start("animate");
+      controlIcons.start('animate');
     }
   }, [controlIcons, iconsInView]);
 
   // Text controller
   useEffect(() => {
     if (textInView) {
-      controlText.start("animate");
+      controlText.start('animate');
     }
   }, [controlText, textInView]);
 
@@ -66,16 +66,16 @@ export default function IconSection() {
           variants={parentStagger}
           className={styles.cards__container}>
           <IconCard
-            icon="/icons/oil-icon.svg"
-            content="An end to Los Cerritos Wetlands Oil Drilling"
-          />
-          <IconCard
             icon="/icons/bird-icon.svg"
             content="Preservation of local land, waters, and wildlife"
           />
           <IconCard
             icon="/icons/native-icon.svg"
             content="Protection of a Tribal Cultural Landscape"
+          />
+          <IconCard
+            icon="/icons/oil-icon.svg"
+            content="An end to Los Cerritos Wetlands Oil Drilling"
           />
         </motion.div>
       </div>

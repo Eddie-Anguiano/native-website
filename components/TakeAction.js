@@ -1,14 +1,14 @@
 // Global Imports
-import { motion, useAnimation } from "framer-motion";
-import Link from "next/link";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from 'framer-motion';
+import Link from 'next/link';
+import { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 // Component Imports
-import Wrapper from "../components/Wrapper";
+import Wrapper from '../components/Wrapper';
 // Utils Imports
-import { parentStagger, fadeUpIn } from "../utils/animations";
+import { parentStagger, fadeUpIn } from '../utils/animations';
 // Styles Imports
-import styles from "../styles/components/TakeAction.module.scss";
+import styles from '../styles/components/TakeAction.module.scss';
 
 export default function TakeAction() {
   // Intersection Observer for text
@@ -21,7 +21,7 @@ export default function TakeAction() {
   // Text controller
   useEffect(() => {
     if (textInView) {
-      controlText.start("animate");
+      controlText.start('animate');
     }
   }, [controlText, textInView]);
 
@@ -62,7 +62,11 @@ export default function TakeAction() {
               className={styles.icon}
             />
             <div className={styles.content}>
-              <h3 className={styles.content__header}>Fund the Lawsuit</h3>
+              <h3 className={styles.content__header}>
+                Fund PWP’s investigative and legal actions to protect the Los
+                Cerritos Wetlands, and support our community outreach and
+                educational events.
+              </h3>
               <p className={styles.text}>
                 Support Puvunga Wetlands Protectors’ Lawsuit against the
                 California Coastal Commission. Dollar for dollar matching fund

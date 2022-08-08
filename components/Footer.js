@@ -21,14 +21,14 @@ export default function Footer() {
           <div className={styles.linkSection}>
             <div className={styles.header}>Links</div>
             <ul className={styles.list}>
-              <Link href="/oil">
-                <li>Drilling is Killing!</li>
-              </Link>
               <Link href="/ecosystem">
                 <li>Conservation vs. "Restoration"</li>
               </Link>
               <Link href="/native">
                 <li>Stewards of the Land</li>
+              </Link>
+              <Link href="/oil">
+                <li>Drilling is Killing!</li>
               </Link>
               <Link href="/lawsuit">
                 <li>Take Action</li>

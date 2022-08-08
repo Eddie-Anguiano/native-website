@@ -95,8 +95,38 @@ export default function lawsuit() {
           alt="heart icon"
           className={styles.icon}
         />
-        <h3 className={styles.subheader}>Fund the Lawsuit</h3>
-        <p className={styles.paragraph}>
+        <h3 className={styles.subheader}>
+          Fund PWP’s work to preserve the wetlands, support tribal stewardship,
+          and educate the community
+        </h3>
+        <br />
+        <br/>
+        <ul className={styles.resources}>
+          <li className={styles.resources__item}>
+            We oppose the LCWA’s Los Cerritos Wetlands Restoration PEIR which
+            will erase and replace the existing wetlands without regard for the
+            existing ecosystem or tribal stewardship and is being implemented
+            bit by bit. PWP challenges funding and Coastal Development Permit
+            requests for specific projects under the PEIR, such as the Southern
+            Los Cerritos Wetlands Restoration Project and the drilling of
+            boreholes in the wetlands.
+          </li>
+          <li className={styles.resources__item}>
+            We protect local Coastal Birds and their habitat by revising local
+            tree trimming policies. We are working to end fireworks shows near
+            nesting sites which also pollute local waters and harm marine life.
+          </li>
+          <li className={styles.resources__item}>
+            We work with residents and allies to report and reduce toxic
+            emissions from existing oil and gas operations in the wetlands, the
+            City and the Port.
+          </li>
+          <li className={styles.resources__item}>
+            We investigate and report any desecration of Sacred Sites and host
+            prayer walks and clean ups on the wetlands.{' '}
+          </li>
+        </ul>
+        {/* <p className={styles.paragraph}>
           We have a $5000 Matching Fund! Citizens About Responsible Planning
           (CARP) will match all donations dollar for dollar. Our Paypal account
           allows donations to be tax deductible. Checks can also be sent
@@ -118,7 +148,7 @@ export default function lawsuit() {
           court costs and legal fees. PWP will continue to investigate and
           challenge wetlands restoration projects, plans for a new gas plant,
           and other threats to the Los Cerritos Wetlands.
-        </p>
+        </p> */}
         {/* <img
           src="/icons/phone-black.svg"
           alt="heart icon"

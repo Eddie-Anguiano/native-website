@@ -1,12 +1,12 @@
 // Global Imports
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 // Component Imports
-import Wrapper from "./Wrapper";
+import Wrapper from './Wrapper';
 // Util Imports
-import { fadeUpIn, parentStaggerDelay } from "../utils/animations";
+import { fadeUpIn, parentStaggerDelay } from '../utils/animations';
 // Styles Imports
-import styles from "../styles/components/Hero.module.scss";
+import styles from '../styles/components/Hero.module.scss';
 
 export default function Hero() {
   // Background Paralax Effect
@@ -14,9 +14,9 @@ export default function Hero() {
   const handleScroll = () => setOffset(window.pageYOffset);
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -42,9 +42,12 @@ export default function Hero() {
             Puvunga Wetlands Protectors
           </motion.h1>
           <motion.p variants={fadeUpIn} className={styles.content}>
-            Prevent the extraction of 200 million barrels of oil from beneath
-            the Los Cerritos Wetlands! Preserve the Traditional Tribal Landscape
-            and Sacred Site of Puvunga.
+            The Los Cerritos Wetlands are at risk due to fossil fuel extraction,
+            flawed restoration projects, and a failure to respect tribal
+            stewardship. We are here to protect and preserve this Traditional
+            Tribal Prevent the extraction of 200 million barrels of oil from
+            beneath the Los Cerritos Wetlands! Preserve the Traditional Tribal
+            Landscape and Sacred Site of Puvunga. Landscape and Sacred Site.
           </motion.p>
         </motion.div>
       </Wrapper>
