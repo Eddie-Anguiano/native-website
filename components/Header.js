@@ -11,6 +11,7 @@ import {
 // Component Imports
 import MobileNav from "./MobileNav";
 import Wrapper from "./Wrapper";
+import PayPalBtn from "./PayPalBtn";
 // Styles Imports
 import styles from "../styles/components/Header.module.scss";
 
@@ -44,11 +45,12 @@ export default function Header({ color }) {
               <Link href="/contact">
                 <a className={styles.nav__contact}>Contact</a>
               </Link>
-              <a
+              {/* <a
                 href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y"
                 className={styles.nav__donate}>
                 Donate
-              </a>
+              </a> */}
+              <PayPalBtn/>
             </nav>
 
             <nav className={styles.hamburger} onClick={toggleHamburger}>

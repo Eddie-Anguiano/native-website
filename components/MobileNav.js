@@ -1,6 +1,7 @@
 // Global Imports
 import { motion } from "framer-motion";
 import Link from "next/link";
+import PayPalBtn from "./PayPalBtn";
 // Styles Imports
 import styles from "../styles/components/MobileNav.module.scss";
 
@@ -40,13 +41,15 @@ export default function mobileNav() {
           <Link href="/contact">
             <li className={styles.item}>Contact</li>
           </Link>
-          <li>
+          {/* <li>
             <a
               className={styles.donate}
               href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y">
               Donate
             </a>
-          </li>
+          </li> */}
+          <div className={styles.item__paypal}><PayPalBtn/></div>
+          
         </ul>
       </motion.div>
     </>

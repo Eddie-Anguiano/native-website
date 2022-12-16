@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 // Component Imports
 import Wrapper from '../components/Wrapper';
+import PayPalBtn from './PayPalBtn';
 // Utils Imports
 import { parentStagger, fadeUpIn } from '../utils/animations';
 // Styles Imports
@@ -49,9 +50,10 @@ export default function TakeAction() {
               <Link href="/lawsuit">
                 <a className={styles.lrnBtn}>Learn More</a>
               </Link>
-              <Link href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4">
-                <a className={styles.donateBtn}>Donate</a>
-              </Link>
+              {/* <Link href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4"> */}
+                {/* <a className={styles.donateBtn}>Donate</a> */}
+                <PayPalBtn/>
+              {/* </Link> */}
             </div>
           </motion.div>
 
