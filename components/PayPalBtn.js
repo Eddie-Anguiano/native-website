@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import styles from '../styles/components/PayPal.module.scss';
 
 const PayPalBtn = () => {
+  return <div></div>
   const buttonRef = useRef(null);
   const buttonId = useMemo(() => `ID-${uuidv4()}`, []);
   useEffect(() => {

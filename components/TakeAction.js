@@ -131,11 +131,11 @@ export default function TakeAction() {
             <Link href="/lawsuit">
               <a className={styles.lrnBtn}>Learn More</a>
             </Link>
-            <a
+            {/* <a
               href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y&fbclid=IwAR2M_8o051cwf9nh2iD5KNRqECinzS_LuiyGY-P3ZOpDYJd-d98UbOWoWw4"
               className={styles.donateBtn}>
               Donate
-            </a>
+            </a> */}
           </motion.div>
         </motion.div>
       </Wrapper>

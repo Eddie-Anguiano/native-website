@@ -5,9 +5,9 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <script
+          {/* <script
             src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
-            charset="UTF-8"></script>
+            charset="UTF-8"></script> */}
         </Head>
         <body>
           <Main />
