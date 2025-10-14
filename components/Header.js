@@ -29,11 +29,10 @@ export default function Header({ color }) {
   return (
     <>
       <AnimatePresence>{mobileNavIsOpen && <MobileNav />}</AnimatePresence>
-
       <div className={styles.Header} style={{ backgroundColor: color }}>
         <Wrapper>
           <div className={styles.container}>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <img
                 className={styles.logo}
                 src="/images/lightning-logo-green.png"
@@ -42,8 +41,8 @@ export default function Header({ color }) {
             </Link>
 
             <nav className={styles.nav}>
-              <Link href="/contact">
-                <a className={styles.nav__contact}>Contact</a>
+              <Link href="/contact" className={styles.nav__contact}>
+                Contact
               </Link>
               {/* <a
                 href="https://www.paypal.com/donate/?hosted_button_id=7J9QBLZWT6M6Y"

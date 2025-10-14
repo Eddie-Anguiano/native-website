@@ -24,7 +24,6 @@ export default function PopUp({ setPopUpIsOpen }) {
         src="/icons/x-square.svg"
         alt="close"
       />
-
       <div className={styles.triangle}>
         <img
           src="/icons/alert-triangle.svg"
@@ -32,15 +31,12 @@ export default function PopUp({ setPopUpIsOpen }) {
           className={styles.triangle__icon}
         />
       </div>
-
       {/* <h4 className={styles.header}>Orange County Oil Spill Town Hall</h4> */}
-
       <p className={styles.content}>
         Find info on the Huntington Beach oil spill and other environmental
         issues.
       </p>
-
-      <Link href="https://angeles.sierraclub.org/">
+      <Link href="https://angeles.sierraclub.org/" legacyBehavior>
         <div className={styles.btn}>Learn More</div>
       </Link>
     </motion.div>

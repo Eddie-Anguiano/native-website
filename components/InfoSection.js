@@ -66,7 +66,7 @@ export default function InfoSection({
           <motion.div variants={fadeUpIn} className={styles.content}>
             {content}
           </motion.div>
-          <Link href={url}>
+          <Link href={url} legacyBehavior>
             <motion.a variants={fadeUpIn} className={styles.link}>
               Learn More
             </motion.a>

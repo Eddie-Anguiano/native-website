@@ -22,9 +22,7 @@ export default function success() {
           name="viewport"
           content="width=device-width, initial-scale=1"></meta>
       </Head>
-
       <Header />
-
       <main className={styles.main}>
         <Wrapper>
           <div className={styles.container}>
@@ -35,13 +33,12 @@ export default function success() {
                 <IoSend />
               </IconContext.Provider>
             </h2>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <button className={styles.homeBtn}>Home Page</button>
             </Link>
           </div>
         </Wrapper>
       </main>
-
       <Footer />
     </div>
   );

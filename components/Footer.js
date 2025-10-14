@@ -11,29 +11,29 @@ export default function Footer() {
       <Wrapper>
         <div className={styles.container}>
           <div>
-            <Link href="/">
-              <a className={styles.header}>
+            <Link href="/" className={styles.header}>
+              
                 Puvunga Wetlands Protectors &#169;
-              </a>
+              
             </Link>
           </div>
 
           <div className={styles.linkSection}>
             <div className={styles.header}>Links</div>
             <ul className={styles.list}>
-              <Link href="/ecosystem">
+              <Link href="/ecosystem" legacyBehavior>
                 <li>Conservation vs. "Restoration"</li>
               </Link>
-              <Link href="/native">
+              <Link href="/native" legacyBehavior>
                 <li>Stewards of the Land</li>
               </Link>
-              <Link href="/oil">
+              <Link href="/oil" legacyBehavior>
                 <li>Drilling is Killing!</li>
               </Link>
-              <Link href="/lawsuit">
+              <Link href="/lawsuit" legacyBehavior>
                 <li>Take Action</li>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact" legacyBehavior>
                 <li>Contact</li>
               </Link>
             </ul>

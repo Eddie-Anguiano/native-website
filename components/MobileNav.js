@@ -14,7 +14,6 @@ export default function mobileNav() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className={styles.MobileNav}></motion.div>
-
       <motion.div
         key="nav"
         initial={{ x: "100%" }}
@@ -23,22 +22,22 @@ export default function mobileNav() {
         transition={{ duration: 0.1, stiffness: 100, type: "tween" }}
         className={styles.nav}>
         <ul className={styles.list}>
-          <Link href="/">
+          <Link href="/" legacyBehavior>
             <li className={styles.item}>Home</li>
           </Link>
-          <Link href="/ecosystem">
+          <Link href="/ecosystem" legacyBehavior>
             <li className={styles.item}>Conservation vs "restoration"</li>
           </Link>
-          <Link href="/native">
+          <Link href="/native" legacyBehavior>
             <li className={styles.item}>Stewards of the land</li>
           </Link>
-          <Link href="/oil">
+          <Link href="/oil" legacyBehavior>
             <li className={styles.item}>Drilling is killing</li>
           </Link>
-          <Link href="/lawsuit">
+          <Link href="/lawsuit" legacyBehavior>
             <li className={styles.item}>Lawsuit</li>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact" legacyBehavior>
             <li className={styles.item}>Contact</li>
           </Link>
           {/* <li>
