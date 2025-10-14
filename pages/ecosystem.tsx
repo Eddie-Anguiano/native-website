@@ -2,14 +2,22 @@
 import Head from "next/head";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import type { NextPage } from 'next';
 // Component Imports
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Quote from "../components/Quote";
 // Styles Imports
 import styles from "../styles/pages/ecosystem.module.scss";
+import { cfGet, resolveIncludes } from "@/api/contentful";
+import { EntryCollection } from "contentful";
 
-export default function ecosystem() {
+interface EcosystemProps {
+  data: EntryCollection<any>;
+}
+
+const Ecosystem: NextPage<EcosystemProps> = ({ data }) => {
+  console.log('data', data)
   return (
     <div className={styles.learnMore}>
       <Head>
@@ -40,7 +48,7 @@ export default function ecosystem() {
             alt="oil fire"
           />
           <figcaption className={styles.caption}>
-            Endangered Belding’s Savannah Sparrow and Pickleweed
+            Endangered Belding's Savannah Sparrow and Pickleweed
           </figcaption>
         </figure>
         <p className={styles.paragraph}>
@@ -48,7 +56,7 @@ export default function ecosystem() {
           Wetlands ignores evidence that the area was never a full tidal salt
           marsh and that added tidal influence is neither historic nor
           desirable, especially in light of projected sea level rise.
-          “Restoration” plans fail to protect the complex wetlands ecosystem,
+          "Restoration" plans fail to protect the complex wetlands ecosystem,
           including the ancient salt marsh which will be exposed to pollution
           when the existing berm is breached. Every part of the Los Cerritos
           Wetlands is alive with insects, birds, animals, marine life and native
@@ -59,7 +67,7 @@ export default function ecosystem() {
           considering the scope and length of multiple proposed restorations,
           are not likely to survive.​ ​Funded by its​{" "}
           <strong>Upper Los Cerritos Wetlands Mitigation Bank</strong>,​ Beach
-          Oil Mineral's “restoration” will expand the existing salt marsh across
+          Oil Mineral's "restoration" will expand the existing salt marsh across
           seasonal brackish wetlands, by breaching the berm and building a new
           one to protect its oil operations. The wetlands will be scraped and
           reshaped to encourage tidal flow and non-native plants will be removed
@@ -74,18 +82,18 @@ export default function ecosystem() {
             alt="oil in water"
           />
           <figcaption className={styles.caption}>
-            Backhoe begins “restoration” of Los Cerritos Wetlands, 2021
+            Backhoe begins "restoration" of Los Cerritos Wetlands, 2021
           </figcaption>
         </figure>
         <p className={styles.paragraph}>
           <strong>The Los Cerritos Wetlands Authority</strong>​ is working to
-          expand BOM’s thirty acre “restoration” across the entire ​Los Cerritos
+          expand BOM's thirty acre "restoration" across the entire ​Los Cerritos
           Wetlands.
           <strong> The Los Cerritos Wetlands Restoration Project​</strong>​
           accommodates the new oil pipeline across the wetlands and enhanced
           drilling beneath them. It will also allow the three other oil
           companies now operating on the wetlands to remain indefinitely. The
-          construction of two visitors centers, walking and bike trails, and 18’
+          construction of two visitors centers, walking and bike trails, and 18'
           high berms and roads cutting across and bordering the wetlands on both
           the Long Beach and the Seal Beach side will reduce wetlands acreage.
           New salt marshes doubling as flood control basins will be subject to
@@ -105,7 +113,7 @@ export default function ecosystem() {
           ongoing threats, and supports actions taken by other organizations and
           community members to do so as well.
         </p>
-        <Carousel showArrows="true">
+        <Carousel showArrows={true}>
           <div>
             <img
               src="/images/Bermzerk-slides/Bermzerk.001.jpeg"
@@ -199,7 +207,7 @@ export default function ecosystem() {
         </Carousel>
 
         <Quote
-          text="They’re just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
+          text="They're just about tearing, tearing, tearing - constantly tearing up the land, constantly coming to us to take more, more, more minerals out of the earth."
           cite="Julia Bogony"
           title="Cultural Director, Tongva/Gabrieleno San Gabriel Band of Mission Indians "
         />
@@ -207,4 +215,25 @@ export default function ecosystem() {
       <Footer />
     </div>
   );
+};
+
+export async function getServerSideProps() {
+  const data = await cfGet<EntryCollection<any>>("/entries", {
+    searchParams: {
+      content_type: "blog",
+      include: 2,
+      order: "-sys.createdAt",
+      limit: 20,
+      locale: "en-US",
+    },
+  });
+  console.log('data', data)
+
+  // const posts = resolveIncludes(data.items, data.includes);
+
+  return {
+    props: { data },
+  };
 }
+
+export default Ecosystem;
