@@ -2,7 +2,7 @@
 import Head from "next/head";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 // Component Imports
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -78,10 +78,12 @@ const Ecosystem: NextPage<EcosystemProps> = ({ data }) => {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
           name="description"
-          content={post.fields.body.content[1].content[0].value}></meta>
+          content={post.fields.body.content[1].content[0].value}
+        ></meta>
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1"></meta>
+          content="width=device-width, initial-scale=1"
+        ></meta>
       </Head>
 
       <Header color="#3e4d5c" />
@@ -137,7 +139,7 @@ const Ecosystem: NextPage<EcosystemProps> = ({ data }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const data = await cfGet<EntryCollection<any>>("/entries", {
     searchParams: {
       content_type: "blog",
@@ -147,9 +149,6 @@ export async function getServerSideProps() {
       locale: "en-US",
     },
   });
-  console.log('data', data)
-
-  // const posts = resolveIncludes(data.items, data.includes);
 
   return {
     props: { data },
