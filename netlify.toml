@@ -1,27 +1,20 @@
 [build]
   command = "next build"
-  publish = ".next/standalone"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "18.17.0"
   SECRETS_SCAN_OMIT_KEYS = "CONTENTFUL_ENVIRONMENT,CONTENTFUL_SPACE_ID"
-  NEXT_USE_NETLIFY_EDGE = "true"
-  NEXT_FORCE_EDGE_IMAGES = "true"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
-[functions]
-  node_bundler = "esbuild"
-
-# Handle Next.js Image Optimization
-[[redirects]]
-  from = "/_next/image*"
-  to = "/.netlify/functions/next-image"
-  status = 200
-
-# Handle Next.js API routes
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/next-api/:splat"
-  status = 200
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
