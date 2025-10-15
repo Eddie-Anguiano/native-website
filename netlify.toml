@@ -1,7 +1,10 @@
 [build]
-  command = "next build"
+  command = "next build && next export"
   publish = "out"
 
 [build.environment]
   NEXT_TELEMETRY_DISABLED = "1"
   NODE_VERSION = "18.17.0"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
