@@ -7,6 +7,14 @@ const nextConfig = {
   },
   output: 'export', // Enable static exports
   trailingSlash: true, // Ensure consistent URL handling
+  env: {
+    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
+    CONTENTFUL_ENVIRONMENT: process.env.CONTENTFUL_ENVIRONMENT || 'master',
+  },
+  // Prevent environment variables from being exposed in the client-side bundle
+  experimental: {
+    outputStandalone: true,
+  }
 }
 
 module.exports = nextConfig
